@@ -12,9 +12,6 @@ public class Solution {
             x /= 10;
         }
 
-        if((result >= MIN) && (result <= MAX)) {
-            return (int)result;
-        }
-        return 0;
+        return ((result >= MIN) && (result <= MAX)) ? (int)result : 0;
     }
 }
