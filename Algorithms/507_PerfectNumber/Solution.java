@@ -1,14 +1,17 @@
 public class Solution {
     public boolean checkPerfectNumber(int num) {
 
-        int divisors = 0;
+      if(num <= 1) {
+          return false;
+      }
 
-        for (int j = num - 1; j >= 1; j--) {
-            if (num % j == 0) {
-                divisors += j;
-            }
-        }
+      int n = num;
 
-        return num == divisors;
+      while(n % 2 == 0) {
+          n /= 2;
+      }
+      int sum = n*(n+1)/2;
+
+      return sum == num;
     }
 }
