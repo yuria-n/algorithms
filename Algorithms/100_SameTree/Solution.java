@@ -20,11 +20,7 @@ public class Solution {
         if(p.val != q.val) {
             return false;
         }
-        if (this.isSameTree(p.left, q.left)) {
-            if (this.isSameTree(p.right, q.right)) {
-                return true;
-            }
-        }
-        return false;
+
+        return this.isSameTree(p.left, q.left) && this.isSameTree(p.right, q.right);
     }
 }
