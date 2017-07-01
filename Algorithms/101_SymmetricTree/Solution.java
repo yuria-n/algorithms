@@ -14,10 +14,7 @@ public class Solution {
             return true;
         }
 
-        TreeNode l = root.left;
-        TreeNode r = root.right;
-
-        return this.isSameNode(l, r);
+        return this.isSameNode(root.left, root.right);
     }
 
     private boolean isSameNode(TreeNode l, TreeNode r) {
