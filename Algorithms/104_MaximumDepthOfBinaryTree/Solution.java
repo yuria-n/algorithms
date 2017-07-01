@@ -10,18 +10,6 @@
 public class Solution {
     public int maxDepth(TreeNode root) {
 
-        return this.exist(root);
+        return root == null ? 0 : 1 + Math.max(this.maxDepth(root.left), this.maxDepth(root.right));
     }
-
-    private int exist(TreeNode node) {
-        int depth = 0;
-
-        if(node != null) {
-            depth++;
-            depth += Math.max(this.exist(node.left), this.exist(node.right));
-        }
-
-        return depth;
-    }
-
 }
