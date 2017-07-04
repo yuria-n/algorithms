@@ -13,7 +13,7 @@ public class Solution {
                 }
                 continue;
             }
-            lastWord += 1;
+            lastWord++;
         }
 
         return lastWord;
