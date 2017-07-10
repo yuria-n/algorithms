@@ -10,7 +10,7 @@ public class Solution {
         }
 
         ArrayList<Integer> result = new ArrayList<Integer>();
-        for(int i = 1; i <= length; i++) {
+        for(int i = 1; i <= l; i++) {
             if(!map.containsKey(i)) {
                 result.add(i);
             }
