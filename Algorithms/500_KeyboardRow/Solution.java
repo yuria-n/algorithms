@@ -15,35 +15,23 @@ public class Solution {
 
     public String[] findWords(String[] words) {
 
-        LinkedList<String> temporaryList = new LinkedList<>();
+        LinkedList<String> results = new LinkedList<>();
 
+        nextWord:
         for (int i = 0; i < words.length; i++) {
 
             String w = words[i];
-            int value = MAP.get(w.charAt(0));
+            int rowIndex = MAP.get(w.charAt(0));
 
             for (int j = 1; j < w.length(); j++) {
 
-                if (value == MAP.get(w.charAt(j))) {
-                    continue;
-                } else {
-                    value = -1;
-                    break;
+                if (rowIndex != MAP.get(w.charAt(j))) {
+                    continue nextWord;
                 }
             }
-
-            if (value != -1) {
-                temporaryList.add(w);
-            }
+            results.add(w);
         }
 
-        int l = temporaryList.size();
-        String[] results = new String[l];
-
-        for (int i = 0; i < l; i++) {
-            results[i] = temporaryList.get(i);
-        }
-
-        return results;
+        return results.toArray(new String[results.size()]);
     }
 }
