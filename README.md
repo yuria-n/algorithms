@@ -28,6 +28,7 @@
 | 344 | Reverse String                                | Java     |
 | 412 | Fizz Buzz                                     | Java     |
 | 448 | Find All Numbers Disappeared in an Array      | Java     |
-| 104 | Keyboard Row                                  | Java     |
-| 104 | Perfect Number                                | Java     |
-| 104 | Reshape The Matrix                            | Java     |
+| 500 | Keyboard Row                                  | Java     |
+| 507 | Perfect Number                                | Java     |
+| 556 | Reshape The Matrix                            | Java     |
+| 660 | Remove 9                                      | Java     |
