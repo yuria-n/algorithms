@@ -11,7 +11,7 @@
 | 020 | Valid Parentheses                             | Java     |
 | 028 | Implement strStr()                            | Java     |
 | 035 | Search Insert Position                        | Java     |
-| 053 | Maxmum Subarray                               | Java     |
+| 053 | Maximum Subarray                              | Java     |
 | 058 | Length of Last Word                           | Java     |
 | 066 | Plus One                                      | Java     |
 | 067 | Add Binary                                    | Java     |
