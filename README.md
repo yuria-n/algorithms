@@ -3,7 +3,7 @@
 ### Algorithms
 
 | #   | Title                                  　　　  | Language |
-| --- | --------------------------------------------- | -------- |
+| :-- | :-------------------------------------------- | :------- |
 | 001 | Two Sum                                       | Java     |
 | 007 | Reverse Integer                               | Java     |
 | 009 | Palindrome Number                             | Java     |
@@ -32,3 +32,15 @@
 | 507 | Perfect Number                                | Java     |
 | 556 | Reshape The Matrix                            | Java     |
 | 660 | Remove 9                                      | Java     |
+
+
+
+### Problems
+
+| #   | Title                                  　　　  | Language |
+| :-- | :-------------------------------------------- | :------- |
+| S1  | Computer Purchase                             | Java     |
+| S2  | Huffman Encoding                              | Java     |
+| S3  | Firehose                                      | Java     |
+| S4  | Animal Farm                                   | Java     |
+| S5  | Nutrient Tree                                 | Java     |
