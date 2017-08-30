@@ -1,4 +1,6 @@
 # Algorithms
+My daily algorithm challenges.
+
 
 ## LeetCode
 
