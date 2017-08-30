@@ -1,4 +1,6 @@
 # S2 HuffmanEncoding
+https://dmoj.ca/problem/ccc10s2[https://dmoj.ca/problem/ccc10s2]
+
 There is an ingenious text-compression algorithm called Huffman cording, designed by David Huffman in 1952.
 
 Write a program to read a Huffman code (i.e., set of characters and associated binary sequences) along with a binary sequence, and decode the binary sequence to its character representation.

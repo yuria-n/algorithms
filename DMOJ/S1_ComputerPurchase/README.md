@@ -1,4 +1,6 @@
 # S1 Computer Purchase
+https://dmoj.ca/problem/ccc10s1[https://dmoj.ca/problem/ccc10s1]
+
 Write a program to read a given list of computers and output the top two computers in order of preference, from highest preference to lowest preference. If there is a tie in the rankings, pick the computer(s) whose name(s) are lexicographically smallest.
 
 
