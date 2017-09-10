@@ -40,6 +40,7 @@ https://www.hackerrank.com/
 | #   | Title                                  　　　  | Language |
 | :-- | :-------------------------------------------- | :------- |
 | 001 | Solve Me First                                | Java     |
+| 002 | Simple Array Sum                              | Java     |
 
 
 
