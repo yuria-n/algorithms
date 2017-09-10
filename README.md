@@ -1,8 +1,7 @@
 # Algorithms
-My daily algorithm challenges.
-
 
 ## LeetCode
+https://leetcode.com/
 
 | #   | Title                                  　　　  | Language |
 | :-- | :-------------------------------------------- | :------- |
@@ -36,8 +35,16 @@ My daily algorithm challenges.
 | 660 | Remove 9                                      | Java     |
 
 
+## HackerRank
+https://www.hackerrank.com/
+| #   | Title                                  　　　  | Language |
+| :-- | :-------------------------------------------- | :------- |
+| 001 | Solve Me First                                | Java     |
+
+
 
 ## DMOJ
+https://dmoj.ca/
 
 | #   | Title                                  　　　  | Language |
 | :-- | :-------------------------------------------- | :------- |
