@@ -41,6 +41,7 @@ https://www.hackerrank.com/
 | :-- | :-------------------------------------------- | :------- |
 | 001 | Solve Me First                                | Java     |
 | 002 | Simple Array Sum                              | Java     |
+| 003 | Compare the Triplets                          | Java     |
 
 
 
