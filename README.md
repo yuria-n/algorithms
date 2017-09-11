@@ -47,6 +47,7 @@ https://www.hackerrank.com/
 | 005 | Diagonal Difference                           | Java     |
 | 006 | Plus Mins                                     | Java     |
 | 007 | Staircse                                      | Java     |
+| 008 | Mini-Max Sum                                  | Java     |
 
 
 ## DMOJ
