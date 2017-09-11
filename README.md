@@ -44,7 +44,7 @@ https://www.hackerrank.com/
 | 002 | Simple Array Sum                              | Java     |
 | 003 | Compare the Triplets                          | Java     |
 | 004 | A Very Big Sum                                | Java     |
-
+| 005 | Diagonal Difference                           | Java     |
 
 
 ## DMOJ
