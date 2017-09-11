@@ -45,6 +45,7 @@ https://www.hackerrank.com/
 | 003 | Compare the Triplets                          | Java     |
 | 004 | A Very Big Sum                                | Java     |
 | 005 | Diagonal Difference                           | Java     |
+| 006 | Plus Mins                                     | Java     |
 
 
 ## DMOJ
