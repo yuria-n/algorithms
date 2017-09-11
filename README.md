@@ -46,6 +46,7 @@ https://www.hackerrank.com/
 | 004 | A Very Big Sum                                | Java     |
 | 005 | Diagonal Difference                           | Java     |
 | 006 | Plus Mins                                     | Java     |
+| 007 | Staircse                                      | Java     |
 
 
 ## DMOJ
