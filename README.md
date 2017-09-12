@@ -48,6 +48,7 @@ https://www.hackerrank.com/
 | 006 | Plus Mins                                     | Java         |
 | 007 | Staircse                                      | Java         |
 | 008 | Mini-Max Sum                                  | Java         |
+| 009 | Birthday Cake Candles                         | Java         |
 
 
 ## DMOJ
