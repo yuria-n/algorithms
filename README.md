@@ -49,6 +49,7 @@ https://www.hackerrank.com/
 | 007 | Staircse                                      | Java         |
 | 008 | Mini-Max Sum                                  | Java         |
 | 009 | Birthday Cake Candles                         | Java         |
+| 010 | Time Conversion                               | Java         |
 
 
 ## DMOJ
