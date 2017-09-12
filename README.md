@@ -41,7 +41,7 @@ https://www.hackerrank.com/
 | #   | Title                                  　　　  | Language     |
 | :-- | :-------------------------------------------- | :----------- |
 | 001 | Solve Me First                                | Java, Python |
-| 002 | Simple Array Sum                              | Java         |
+| 002 | Simple Array Sum                              | Java, Python |
 | 003 | Compare the Triplets                          | Java         |
 | 004 | A Very Big Sum                                | Java         |
 | 005 | Diagonal Difference                           | Java         |
