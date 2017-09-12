@@ -38,16 +38,16 @@ https://leetcode.com/
 ## HackerRank
 https://www.hackerrank.com/
 
-| #   | Title                                  　　　  | Language |
-| :-- | :-------------------------------------------- | :------- |
-| 001 | Solve Me First                                | Java     |
-| 002 | Simple Array Sum                              | Java     |
-| 003 | Compare the Triplets                          | Java     |
-| 004 | A Very Big Sum                                | Java     |
-| 005 | Diagonal Difference                           | Java     |
-| 006 | Plus Mins                                     | Java     |
-| 007 | Staircse                                      | Java     |
-| 008 | Mini-Max Sum                                  | Java     |
+| #   | Title                                  　　　  | Language     |
+| :-- | :-------------------------------------------- | :----------- |
+| 001 | Solve Me First                                | Java, Python |
+| 002 | Simple Array Sum                              | Java         |
+| 003 | Compare the Triplets                          | Java         |
+| 004 | A Very Big Sum                                | Java         |
+| 005 | Diagonal Difference                           | Java         |
+| 006 | Plus Mins                                     | Java         |
+| 007 | Staircse                                      | Java         |
+| 008 | Mini-Max Sum                                  | Java         |
 
 
 ## DMOJ
