@@ -26,6 +26,7 @@ https://leetcode.com/
 | 167 | Two Sum II                                    | Java     |
 | 168 | Excel Sheet Column Title                      | Java     |
 | 169 | Majority Element                              | Java     |
+| 191 | Number of 1 Bits                              | Java     |
 | 344 | Reverse String                                | Java     |
 | 412 | Fizz Buzz                                     | Java     |
 | 448 | Find All Numbers Disappeared in an Array      | Java     |
