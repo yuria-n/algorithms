@@ -52,6 +52,7 @@ https://www.hackerrank.com/
 | 009 |          | Birthday Cake Candles              | Java         |
 | 010 |          | Time Conversion                    | Java         |
 | 201 | Strings  | Super Reduced String               | Java         |
+| 408 | Sorting  | Counting Sort 1                    | Java         |
 
 ## DMOJ
 https://dmoj.ca/
