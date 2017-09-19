@@ -27,6 +27,7 @@ https://leetcode.com/
 | 168 | Excel Sheet Column Title                      | Java     |
 | 169 | Majority Element                              | Java     |
 | 191 | Number of 1 Bits                              | Java     |
+| 242 | Valid Anagram                                 | Java     |
 | 344 | Reverse String                                | Java     |
 | 412 | Fizz Buzz                                     | Java     |
 | 448 | Find All Numbers Disappeared in an Array      | Java     |
@@ -47,7 +48,7 @@ https://www.hackerrank.com/
 | 004 |          | A Very Big Sum                     | Java         |
 | 005 |          | Diagonal Difference                | Java         |
 | 006 |          | Plus Mins                          | Java         |
-| 007 |          | Staircse                           | Java         |
+| 007 |          | Staircase                          | Java         |
 | 008 |          | Mini-Max Sum                       | Java         |
 | 009 |          | Birthday Cake Candles              | Java         |
 | 010 |          | Time Conversion                    | Java         |
