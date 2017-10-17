@@ -40,20 +40,22 @@ https://leetcode.com/
 ## HackerRank
 https://www.hackerrank.com/
 
-| #   | Category | Title                              | Language     |
-| :-- | :------- |:---------------------------------- | :----------- |
-| 001 | Warmup   | Solve Me First                     | Java, Python |
-| 002 |          | Simple Array Sum                   | Java, Python |
-| 003 |          | Compare the Triplets               | Java         |
-| 004 |          | A Very Big Sum                     | Java         |
-| 005 |          | Diagonal Difference                | Java         |
-| 006 |          | Plus Mins                          | Java         |
-| 007 |          | Staircase                          | Java         |
-| 008 |          | Mini-Max Sum                       | Java         |
-| 009 |          | Birthday Cake Candles              | Java         |
-| 010 |          | Time Conversion                    | Java         |
-| 201 | Strings  | Super Reduced String               | Java         |
-| 408 | Sorting  | Counting Sort 1                    | Java         |
+| #   | Category       | Title                              | Language     |
+| :-- | :------------- |:---------------------------------- | :----------- |
+| 001 | Warmup         | Solve Me First                     | Java, Python |
+| 002 |                | Simple Array Sum                   | Java, Python |
+| 003 |                | Compare the Triplets               | Java         |
+| 004 |                | A Very Big Sum                     | Java         |
+| 005 |                | Diagonal Difference                | Java         |
+| 006 |                | Plus Mins                          | Java         |
+| 007 |                | Staircase                          | Java         |
+| 008 |                | Mini-Max Sum                       | Java         |
+| 009 |                | Birthday Cake Candles              | Java         |
+| 010 |                | Time Conversion                    | Java         |
+| 101 | Implementation | Grading Students                   | Java         |
+| 201 | Strings        | Super Reduced String               | Java         |
+| 408 | Sorting        | Counting Sort 1                    | Java         |
+
 
 ## DMOJ
 https://dmoj.ca/
