@@ -5,30 +5,30 @@ import java.util.*;
 public class Solution {
 
     static String super_reduced_string(String s) {
-        ArrayList<String> list = new ArrayList<>();
+        LinkedList<Character> letters = new LinkedList<>();
+        int l = s.length();
 
-        for (int i = 0; i < s.length(); i++) {
-            String c2 = s.substring(i, i + 1);
-            int l = list.size();
-            if (l <= 0) {
-                list.add(c2);
-                continue;
-            }
+        if (l < 2) {
+            return s;
+        }
 
-            String c1 = list.get(l - 1);
-            if (!c2.equals(c1)) {
-                list.add(c2);
+        letters.add(s.charAt(0));
+        for (int i = 1; i < l; i++) {
+            char c = s.charAt(i);
+
+            if (!letters.isEmpty() && c == letters.getLast()) {
+                letters.removeLast();
             } else {
-                list.remove(c1);
+                letters.addLast(c);
             }
         }
 
-        if (list.size() == 0) {
+        if (letters.isEmpty()) {
             return "Empty String";
         }
 
         String result = "";
-        for (String c : list) {
+        for (Character c : letters) {
             result += c;
         }
 
