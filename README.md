@@ -6,7 +6,7 @@ https://leetcode.com/
 | #   | Title                                  　　　  | Language         |
 | :-- | :-------------------------------------------- | :--------------- |
 | 001 | Two Sum                                       | Java, Javascript |
-| 007 | Reverse Integer                               | Java             |
+| 007 | Reverse Integer                               | Java, Javascript |
 | 009 | Palindrome Number                             | Java             |
 | 014 | Longest Common Prefix                         | Java             |
 | 020 | Valid Parentheses                             | Java             |
