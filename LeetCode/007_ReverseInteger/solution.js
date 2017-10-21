@@ -14,5 +14,5 @@ var reverse = function(x) {
         x = parseInt(x / 10);
     }
 
-    return (result >= MIN_VALUE && result <= MAX_VALUE) ? result : 0;
+    return result < MIN_VALUE || result > MAX_VALUE ? 0 : result;
 };
