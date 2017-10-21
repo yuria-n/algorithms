@@ -3,23 +3,23 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
+const twoSum = function(nums, target) {
     let l = nums.length;
 
     if (l < 2) {
-        return undefined;
+        return;
     }
 
-    let map = new Map();
+    const map = new Map();
     for (i = 0; i < l; i++) {
         let n = nums[i];
         let d = target - n;
 
         if(map.has(n)) {
             return [map.get(n), i];
-        } else {
-            map.set(d, i);
         }
+
+        map.set(d, i);
     }
-    return undefined;
+    return;
 };
