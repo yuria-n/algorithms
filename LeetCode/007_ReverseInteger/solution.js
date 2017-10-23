@@ -6,7 +6,7 @@
  const MAX_VALUE = 2147483647;
  const MIN_VALUE = -2147483648;
 
-var reverse = function(x) {
+const reverse = function(x) {
     let result = 0;
 
     while (x != 0) {
