@@ -7,7 +7,7 @@ https://leetcode.com/
 | :-- | :-------------------------------------------- | :--------------- |
 | 001 | Two Sum                                       | Java, Javascript |
 | 007 | Reverse Integer                               | Java, Javascript |
-| 009 | Palindrome Number                             | Java             |
+| 009 | Palindrome Number                             | Java, Javascript |
 | 014 | Longest Common Prefix                         | Java             |
 | 020 | Valid Parentheses                             | Java             |
 | 028 | Implement strStr()                            | Java             |
