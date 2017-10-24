@@ -68,3 +68,10 @@ https://dmoj.ca/
 | S3  | Firehose                                      | Java     |
 | S4  | Animal Farm                                   | Java     |
 | S5  | Nutrient Tree                                 | Java     |
+
+
+## Others
+
+| #   | Title                                  　　　  | Language |
+| :-- | :-------------------------------------------- | :------- |
+| 002 | Web Development Fundamentals                  | HTML+CSS+Javascript |
