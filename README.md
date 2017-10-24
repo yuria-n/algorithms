@@ -72,6 +72,7 @@ https://dmoj.ca/
 
 ## Others
 
-| #   | Title                                  　　　  | Language |
-| :-- | :-------------------------------------------- | :------- |
-| 002 | Web Development Fundamentals                  | HTML+CSS+Javascript |
+| #   | Title                             | Language            |
+| :-- | :---------------------------------| :------------------ |
+| 001 | Regular Expressions               | (Javascript)        |
+| 002 | Web Development Fundamentals      | HTML+CSS+Javascript |
