@@ -76,3 +76,4 @@ https://dmoj.ca/
 | :-- | :---------------------------------| :------------------ |
 | 001 | Regular Expressions               | (Javascript)        |
 | 002 | Web Development Fundamentals      | HTML+CSS+Javascript |
+| 004 | String Permutation                | Java                |
