@@ -235,19 +235,22 @@ var l = “2” + “5”;
 
 #### Write a Javascript program/function that shows the numbers [1-10] in an alert box, one after another sleeping for 100, 200, ..., 900 msecs. That is, when the program starts, it should show “1”. Then it should sleep for 100 msec. and show “2”, sleep for 200 msec. and show “3” and so on, finally showing “10” before returning. You will use setTimeout function.
 ```HTML
-<button onclick ="clicked()">Start</button>
+<button onclick ="clicked()">Count Start</button>
 <script type="text/javascript">
+    const time = 100;
+    const clicked = function() {
+            delayedAlert(1);
+    }
+
     function delayedAlert(j) {
-        const time = j * 100;
         setTimeout(function() {
             alert(j);
+            console.log(j);
+            if (j < 10) {
+                const i = j + 1;
+                delayedAlert(i);
+            }
         }, time);
-    };
-    const clicked = function() {
-        for (let i = 1; i <= 10; i++) {
-            delayedAlert(i);
-        }
-    }
 </script>
 ```
 
