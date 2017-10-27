@@ -63,11 +63,9 @@ https://dmoj.ca/
 
 | #   | Title                                  　　　  | Language |
 | :-- | :-------------------------------------------- | :------- |
+| J4  | Big Bang Secrets                              | Java     |
 | S1  | Computer Purchase                             | Java     |
 | S2  | Huffman Encoding                              | Java     |
-| S3  | Firehose                                      | Java     |
-| S4  | Animal Farm                                   | Java     |
-| S5  | Nutrient Tree                                 | Java     |
 
 
 ## Others
