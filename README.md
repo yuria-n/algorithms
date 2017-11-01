@@ -33,6 +33,7 @@ https://leetcode.com/
 | 350 | Intersection of Two Arrays II                 | Java             |
 | 412 | Fizz Buzz                                     | Java             |
 | 448 | Find All Numbers Disappeared in an Array      | Java             |
+| 479 | Largest Palindrome Product                    | Java             |
 | 500 | Keyboard Row                                  | Java             |
 | 507 | Perfect Number                                | Java             |
 | 556 | Reshape The Matrix                            | Java             |
