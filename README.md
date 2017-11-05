@@ -37,6 +37,7 @@ https://leetcode.com/
 | 479 | Largest Palindrome Product                    | Java             |
 | 500 | Keyboard Row                                  | Java             |
 | 507 | Perfect Number                                | Java             |
+| 532 | K-diff Pairs in an Array                      | Java             |
 | 556 | Reshape The Matrix                            | Java             |
 | 660 | Remove 9                                      | Java             |
 | 680 | Valid Palindrome II                           | Java             |
