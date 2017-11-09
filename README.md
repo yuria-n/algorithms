@@ -36,6 +36,7 @@ https://leetcode.com/
 | 448 | Find All Numbers Disappeared in an Array      | Java             |
 | 479 | Largest Palindrome Product                    | Java             |
 | 500 | Keyboard Row                                  | Java             |
+| 504 | Base 7                                        | Java, Javascript |
 | 507 | Perfect Number                                | Java             |
 | 532 | K-diff Pairs in an Array                      | Java             |
 | 556 | Reshape The Matrix                            | Java             |
