@@ -24,7 +24,7 @@ https://leetcode.com/
 | 104 | Maximum Depth of Binary Tree                  | Java             |
 | 121 | Best Time to Buy and Sell Stock               | Java             |
 | 167 | Two Sum II                                    | Java             |
-| 168 | Excel Sheet Column Title                      | Java             |
+| 168 | Excel Sheet Column Title                      | Java, Javascript |
 | 169 | Majority Element                              | Java             |
 | 189 | Rotate Array                                  | Java             |
 | 190 | Reverse Bits                                  | Java             |
