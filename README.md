@@ -32,6 +32,7 @@ https://leetcode.com/
 | 242 | Valid Anagram                                 | Java             |
 | 344 | Reverse String                                | Java             |
 | 350 | Intersection of Two Arrays II                 | Java             |
+| 383 | Ransom Note                                   | Javascript       |
 | 412 | Fizz Buzz                                     | Java             |
 | 448 | Find All Numbers Disappeared in an Array      | Java             |
 | 479 | Largest Palindrome Product                    | Java             |
