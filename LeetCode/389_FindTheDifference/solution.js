@@ -4,17 +4,13 @@
  * @return {character}
  */
 const findTheDifference = function(s, t) {
-    const arr = Array(26).fill(0);
-    for (let i = 0; i < s.length; i++) {
-        const c = s[i];
-        arr[c.charCodeAt() - 97]++;
+    const l = s.length;
+    let sumS = 0;
+    let sumT = 0;
+    for (let i = 0; i < l; i++) {
+        sumS += s[i].charCodeAt();
+        sumT += t[i].charCodeAt();
     }
-
-    for (let i = 0; i < t.length; i++) {
-        const c = t[i];
-        if (!arr[c.charCodeAt() - 97]) {
-            return c;
-        }
-        arr[c.charCodeAt() - 97]--;
-    }
+    const diff = sumT + t[l].charCodeAt() - sumS;
+    return String.fromCharCode(diff);
 };
