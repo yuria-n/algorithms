@@ -11,7 +11,7 @@ https://leetcode.com/
 | 014 | Longest Common Prefix                         | Java, Javascript |
 | 020 | Valid Parentheses                             | Java, Javascript |
 | 028 | Implement strStr()                            | Java, Javascript |
-| 035 | Search Insert Position                        | Java             |
+| 035 | Search Insert Position                        | Java, Javascript |
 | 053 | Maximum Subarray                              | Java             |
 | 058 | Length of Last Word                           | Java             |
 | 066 | Plus One                                      | Java             |
