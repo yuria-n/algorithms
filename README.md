@@ -13,7 +13,7 @@ https://leetcode.com/
 | 028 | Implement strStr()                            | Java, Javascript |
 | 035 | Search Insert Position                        | Java, Javascript |
 | 053 | Maximum Subarray                              | Java             |
-| 058 | Length of Last Word                           | Java             |
+| 058 | Length of Last Word                           | Java, Javascript |
 | 066 | Plus One                                      | Java             |
 | 067 | Add Binary                                    | Java             |
 | 069 | Sqrt(x)                                       | Java             |
