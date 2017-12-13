@@ -15,7 +15,7 @@ https://leetcode.com/
 | 035 | Search Insert Position                   | Java, Javascript |
 | 053 | Maximum Subarray                         | Java, Javascript |
 | 058 | Length of Last Word                      | Java, Javascript |
-| 066 | Plus One                                 | Java             |
+| 066 | Plus One                                 | Java, Javascript |
 | 067 | Add Binary                               | Java             |
 | 069 | Sqrt(x)                                  | Java             |
 | 070 | ClimbingStairs                           | Java             |
