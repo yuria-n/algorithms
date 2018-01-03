@@ -25,6 +25,7 @@ https://leetcode.com/
 | 101 | Symmetric Tree                           | Java             |
 | 104 | Maximum Depth of Binary Tree             | Java             |
 | 121 | Best Time to Buy and Sell Stock          | Java             |
+| 125 | Valid Palindrome                         | Javascript       |
 | 167 | Two Sum II                               | Java             |
 | 168 | Excel Sheet Column Title                 | Java, Javascript |
 | 169 | Majority Element                         | Java             |
