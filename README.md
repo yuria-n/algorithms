@@ -17,7 +17,7 @@ https://leetcode.com/
 | 053 | Maximum Subarray                         | Java, Javascript |
 | 058 | Length of Last Word                      | Java, Javascript |
 | 066 | Plus One                                 | Java, Javascript |
-| 067 | Add Binary                               | Java             |
+| 067 | Add Binary                               | Java, Javascript |
 | 069 | Sqrt(x)                                  | Java             |
 | 070 | ClimbingStairs                           | Java             |
 | 088 | Merge Sorted Array                       | Java             |
