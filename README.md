@@ -49,6 +49,7 @@ https://leetcode.com/
 | 556 | Reshape The Matrix                       | Java             |
 | 660 | Remove 9                                 | Java             |
 | 680 | Valid Palindrome II                      | Java             |
+| 760 | Find Anagram Mappings                    | Javascript       |
 
 ## HackerRank
 
