@@ -1,0 +1,23 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Julia0709@github.com/Julia0709/Algorithms.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Julia0709/Algorithms/issues"
+  },
+  "homepage": "https://github.com/Julia0709/Algorithms#readme",
+  "devDependencies": {
+    "aigle": "^1.10.1",
+    "gulp": "^3.9.1",
+    "prompt": "^1.0.0",
+    "require-dir": "^0.3.2"
+  }
+}
