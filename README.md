@@ -39,6 +39,7 @@ https://leetcode.com/
 | 383 | Ransom Note                              | Javascript       |
 | 387 | First Unique Character in a String       | Javascript       |
 | 389 | Find the Difference                      | Javascript       |
+| 404 | 404. Sum of Left Leaves                  | Javascript       |
 | 412 | Fizz Buzz                                | Java             |
 | 448 | Find All Numbers Disappeared in an Array | Java             |
 | 479 | Largest Palindrome Product               | Java             |
