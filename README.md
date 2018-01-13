@@ -18,7 +18,7 @@ https://leetcode.com/
 | 058 | Length of Last Word                      | Java, Javascript |
 | 066 | Plus One                                 | Java, Javascript |
 | 067 | Add Binary                               | Java, Javascript |
-| 069 | Sqrt(x)                                  | Java             |
+| 069 | Sqrt(x)                                  | Java, Javascript |
 | 070 | ClimbingStairs                           | Java             |
 | 088 | Merge Sorted Array                       | Java             |
 | 100 | Same Tree                                | Java             |
