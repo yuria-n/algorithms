@@ -19,7 +19,7 @@ https://leetcode.com/
 | 066 | Plus One                                 | Java, Javascript |
 | 067 | Add Binary                               | Java, Javascript |
 | 069 | Sqrt(x)                                  | Java, Javascript |
-| 070 | ClimbingStairs                           | Java             |
+| 070 | ClimbingStairs                           | Java, Javascript |
 | 088 | Merge Sorted Array                       | Java             |
 | 100 | Same Tree                                | Java             |
 | 101 | Symmetric Tree                           | Java             |
