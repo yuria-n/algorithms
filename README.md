@@ -51,6 +51,7 @@ https://leetcode.com/
 | 660 | Remove 9                                 | Java             |
 | 680 | Valid Palindrome II                      | Java             |
 | 760 | Find Anagram Mappings                    | Javascript       |
+| 771 | Jewels and Stones                        | Javascript       |
 
 ## HackerRank
 
