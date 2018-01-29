@@ -4,12 +4,15 @@
  * @return {number}
  */
 const numJewelsInStones = function(J, S) {
+  const map = {};
+  for (let i = 0; i < J.length; i++) {
+    map[J[i]] = 1;
+  }
+
   let count = 0;
   for (let i = 0; i < S.length; i++) {
-    for (let j = 0; j < J.length; j++) {
-      if (S[i] === J[j]) {
-        count++;
-      }
+    if (map[S[i]]) {
+      count++;
     }
   }
   return count;
