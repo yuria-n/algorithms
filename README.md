@@ -52,6 +52,7 @@ https://leetcode.com/
 | 680 | Valid Palindrome II                      | Java             |
 | 760 | Find Anagram Mappings                    | Javascript       |
 | 771 | Jewels and Stones                        | Javascript       |
+| 796 | Rotate String                            | Javascript       |
 
 ## HackerRank
 
