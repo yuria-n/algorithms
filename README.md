@@ -33,6 +33,7 @@ https://leetcode.com/
 | 189 | Rotate Array                             | Java             |
 | 190 | Reverse Bits                             | Java             |
 | 191 | Number of 1 Bits                         | Java             |
+| 217 | Contains Duplicate                       | Javascript       |
 | 242 | Valid Anagram                            | Java             |
 | 344 | Reverse String                           | Java             |
 | 350 | Intersection of Two Arrays II            | Java             |
