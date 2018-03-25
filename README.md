@@ -59,6 +59,7 @@ https://leetcode.com/
 | 771 | Jewels and Stones                        | Javascript       |
 | 796 | Rotate String                            | Javascript       |
 | 804 | Unique Morse Code Words                  | Javascript       |
+| 806 | Number of Lines To Write String          | Javascript       |
 
 ## HackerRank
 
