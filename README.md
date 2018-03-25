@@ -58,6 +58,7 @@ https://leetcode.com/
 | 760 | Find Anagram Mappings                    | Javascript       |
 | 771 | Jewels and Stones                        | Javascript       |
 | 796 | Rotate String                            | Javascript       |
+| 804 | Unique Morse Code Words                  | Javascript       |
 
 ## HackerRank
 
