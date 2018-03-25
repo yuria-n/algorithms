@@ -20,6 +20,7 @@ https://leetcode.com/
 | 067 | Add Binary                               | Java, Javascript |
 | 069 | Sqrt(x)                                  | Java, Javascript |
 | 070 | ClimbingStairs                           | Java, Javascript |
+| 083 | Remove Duplicates from Sorted List       | Javascript       |
 | 088 | Merge Sorted Array                       | Java, Javascript |
 | 100 | Same Tree                                | Java             |
 | 101 | Symmetric Tree                           | Java             |
