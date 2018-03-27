@@ -36,6 +36,7 @@ https://leetcode.com/
 | 191 | Number of 1 Bits                         | Java             |
 | 217 | Contains Duplicate                       | Javascript       |
 | 242 | Valid Anagram                            | Java             |
+| 283 | Move Zeroes                              | Javascript       |
 | 344 | Reverse String                           | Java             |
 | 350 | Intersection of Two Arrays II            | Java             |
 | 383 | Ransom Note                              | Javascript       |
