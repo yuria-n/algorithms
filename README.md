@@ -59,6 +59,7 @@ https://leetcode.com/
 | 645 | Set Mismatch                             | Javascript       |
 | 660 | Remove 9                                 | Java             |
 | 680 | Valid Palindrome II                      | Java             |
+| 669 | Trim a Binary Search Tree                | Javascript       |
 | 720 | Longest Word in Dictionary               | Javascript       |
 | 733 | Flood Fill                               | Javascript       |
 | 744 | Find Smallest Letter Greater Than Target | Javascript       |
