@@ -4,7 +4,7 @@
 
 https://leetcode.com/
 
-| #   | Title 　　　                             | Language         |
+| #   | Title                                    | Language         |
 | :-- | :--------------------------------------- | :--------------- |
 | 001 | Two Sum                                  | Java, Javascript |
 | 007 | Reverse Integer                          | Java, Javascript |
@@ -54,6 +54,7 @@ https://leetcode.com/
 | 599 | Minimum Index Sum of Two Lists           | Javascript       |
 | 605 | Can Place Flowers                        | Javascript       |
 | 617 | Merge Two Binary Trees                   | Javascript       |
+| 637 | Average of Levels in Binary Tree         | Javascript       |
 | 645 | Set Mismatch                             | Javascript       |
 | 660 | Remove 9                                 | Java             |
 | 680 | Valid Palindrome II                      | Java             |
