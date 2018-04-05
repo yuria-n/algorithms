@@ -11,6 +11,7 @@ https://leetcode.com/
 | 009 | Palindrome Number                        | Java, Javascript |
 | 014 | Longest Common Prefix                    | Java, Javascript |
 | 020 | Valid Parentheses                        | Java, Javascript |
+| 021 | Merge Two Sorted Lists                   | Javascript       |
 | 026 | Remove Duplicates from Sorted Array      | Javascript       |
 | 028 | Implement strStr()                       | Java, Javascript |
 | 035 | Search Insert Position                   | Java, Javascript |
