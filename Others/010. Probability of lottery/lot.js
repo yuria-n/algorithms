@@ -5,24 +5,19 @@ const masterData = require('./masterData');
  * @return logCardId
  */
 function lot(lotId) {
-  const weights = {};
+  const {
+    lots
+  } = masterData.find(d => lotId === d.lotId);
 
-  const data = masterData.find(d => lotId === d.lotId);
-  const l = data.lots.length;
+  const sum = lots.map(lot => lot.weight).reduce((sum, w) => sum + w);
+  const n = Math.floor(Math.random() * sum);
 
-  let denominator = 0;
-  for (let i = 0; i < l; i++) {
-    const obj = data.lots[i];
-    denominator += obj.weight;
-    weights[obj.lotId] = denominator;
-  }
-
-  const number = Math.floor(Math.random() * Math.floor(denominator));
-
-  for (let i = 0; i < l; i++) {
-    const key = data.lots[i].lotId;
-    if (number < weights[key]) {
-      return !key.match('card') ? lot(key) : key;
+  let current = 0;
+  for (const l of lots) {
+    current += l.weight;
+    if (current >= n) {
+      const id = l.lotId;
+      return /card/.test(id) ? id : lot(id);
     }
   }
 }

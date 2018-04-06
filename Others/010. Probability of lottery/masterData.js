@@ -16,7 +16,7 @@ module.exports = [
       },
       {
         lotId: 'r_box',
-        weight: 20,
+        weight: 80,
       },
     ],
   },
