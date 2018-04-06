@@ -109,3 +109,4 @@ https://dmoj.ca/
 | 002 | Web Development Fundamentals | HTML+CSS+Javascript |
 | 004 | String Permutation           | Java                |
 | 005 | Primitive or Reference       | Javascript          |
+| 010 | Probability of lottery       | Javascript          |
