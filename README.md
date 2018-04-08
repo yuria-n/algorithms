@@ -75,28 +75,45 @@ https://leetcode.com/
 
 https://www.hackerrank.com/
 
-| #   | Category       | Title                 | Language     |
-| :-- | :------------- | :-------------------- | :----------- |
-| 001 | Warmup         | Solve Me First        | Java, Python |
-| 002 |                | Simple Array Sum      | Java, Python |
-| 003 |                | Compare the Triplets  | Java         |
-| 004 |                | A Very Big Sum        | Java         |
-| 005 |                | Diagonal Difference   | Java         |
-| 006 |                | Plus Mins             | Java         |
-| 007 |                | Staircase             | Java         |
-| 008 |                | Mini-Max Sum          | Java         |
-| 009 |                | Birthday Cake Candles | Java         |
-| 010 |                | Time Conversion       | Java         |
-| 101 | Implementation | Grading Students      | Java         |
-| 201 | Strings        | Super Reduced String  | Java         |
-| 202 |                | Camel Case            | Java         |
-| 408 | Sorting        | Counting Sort 1       | Java         |
+**001.Warmup**
+
+| #   | Title                 | Language                 |
+| :-- | :-------------------- | :----------------------- |
+| 001 | Solve Me First        | Java, Python, Javascript |
+| 002 | Simple Array Sum      | Java, Python, Javascript |
+| 003 | Compare the Triplets  | Java                     |
+| 004 | A Very Big Sum        | Java                     |
+| 005 | Diagonal Difference   | Java                     |
+| 006 | Plus Mins             | Java                     |
+| 007 | Staircase             | Java                     |
+| 008 | Mini-Max Sum          | Java                     |
+| 009 | Birthday Cake Candles | Java                     |
+| 010 | Time Conversion       | Java                     |
+
+**002.Implementation**
+
+| #   | Title            | Language |
+| :-- | :--------------- | :------- |
+| 001 | Grading Students | Java     |
+
+**003.Strings**
+
+| #   | Title                | Language |
+| :-- | :------------------- | :------- |
+| 001 | Super Reduced String | Java     |
+| 002 | Camel Case           | Java     |
+
+**004.Sorting**
+
+| #   | Title           | Language |
+| :-- | :-------------- | :------- |
+| 008 | Counting Sort 1 | Java     |
 
 ## DMOJ
 
 https://dmoj.ca/
 
-| #   | Title 　　　      | Language |
+| #   | Title             | Language |
 | :-- | :---------------- | :------- |
 | J4  | Big Bang Secrets  | Java     |
 | S1  | Computer Purchase | Java     |
