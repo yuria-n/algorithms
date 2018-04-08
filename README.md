@@ -29,6 +29,7 @@ https://leetcode.com/
 | 107 | Binary Tree Level Order Traversal II     | Javascript       |
 | 121 | Best Time to Buy and Sell Stock          | Java             |
 | 125 | Valid Palindrome                         | Javascript       |
+| 141 | Linked List Cycle                        | Javascript       |
 | 167 | Two Sum II                               | Java             |
 | 168 | Excel Sheet Column Title                 | Java, Javascript |
 | 169 | Majority Element                         | Java             |
