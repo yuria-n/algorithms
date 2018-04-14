@@ -41,6 +41,7 @@ https://leetcode.com/
 | 242 | Valid Anagram                            | Java             |
 | 283 | Move Zeroes                              | Javascript       |
 | 344 | Reverse String                           | Java             |
+| 345 | Reverse Vowels of a String               | Javascript       |
 | 350 | Intersection of Two Arrays II            | Java             |
 | 383 | Ransom Note                              | Javascript       |
 | 387 | First Unique Character in a String       | Javascript       |
