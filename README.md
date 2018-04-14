@@ -6,71 +6,71 @@ https://leetcode.com/
 
 | #   | Title                                    | Language         |
 | :-- | :--------------------------------------- | :--------------- |
-| 001 | Two Sum                                  | Java, Javascript |
-| 007 | Reverse Integer                          | Java, Javascript |
-| 009 | Palindrome Number                        | Java, Javascript |
-| 014 | Longest Common Prefix                    | Java, Javascript |
-| 020 | Valid Parentheses                        | Java, Javascript |
-| 021 | Merge Two Sorted Lists                   | Javascript       |
-| 026 | Remove Duplicates from Sorted Array      | Javascript       |
-| 028 | Implement strStr()                       | Java, Javascript |
-| 035 | Search Insert Position                   | Java, Javascript |
-| 053 | Maximum Subarray                         | Java, Javascript |
-| 058 | Length of Last Word                      | Java, Javascript |
-| 066 | Plus One                                 | Java, Javascript |
-| 067 | Add Binary                               | Java, Javascript |
-| 069 | Sqrt(x)                                  | Java, Javascript |
-| 070 | ClimbingStairs                           | Java, Javascript |
-| 083 | Remove Duplicates from Sorted List       | Javascript       |
-| 088 | Merge Sorted Array                       | Java, Javascript |
+| 001 | Two Sum                                  | Java, JavaScript |
+| 007 | Reverse Integer                          | Java, JavaScript |
+| 009 | Palindrome Number                        | Java, JavaScript |
+| 014 | Longest Common Prefix                    | Java, JavaScript |
+| 020 | Valid Parentheses                        | Java, JavaScript |
+| 021 | Merge Two Sorted Lists                   | JavaScript       |
+| 026 | Remove Duplicates from Sorted Array      | JavaScript       |
+| 028 | Implement strStr()                       | Java, JavaScript |
+| 035 | Search Insert Position                   | Java, JavaScript |
+| 053 | Maximum Subarray                         | Java, JavaScript |
+| 058 | Length of Last Word                      | Java, JavaScript |
+| 066 | Plus One                                 | Java, JavaScript |
+| 067 | Add Binary                               | Java, JavaScript |
+| 069 | Sqrt(x)                                  | Java, JavaScript |
+| 070 | ClimbingStairs                           | Java, JavaScript |
+| 083 | Remove Duplicates from Sorted List       | JavaScript       |
+| 088 | Merge Sorted Array                       | Java, JavaScript |
 | 100 | Same Tree                                | Java             |
 | 101 | Symmetric Tree                           | Java             |
 | 104 | Maximum Depth of Binary Tree             | Java             |
-| 107 | Binary Tree Level Order Traversal II     | Javascript       |
+| 107 | Binary Tree Level Order Traversal II     | JavaScript       |
 | 121 | Best Time to Buy and Sell Stock          | Java             |
-| 125 | Valid Palindrome                         | Javascript       |
-| 141 | Linked List Cycle                        | Javascript       |
+| 125 | Valid Palindrome                         | JavaScript       |
+| 141 | Linked List Cycle                        | JavaScript       |
 | 167 | Two Sum II                               | Java             |
-| 168 | Excel Sheet Column Title                 | Java, Javascript |
+| 168 | Excel Sheet Column Title                 | Java, JavaScript |
 | 169 | Majority Element                         | Java             |
-| 171 | Excel Sheet Column Number                | Javascript       |
+| 171 | Excel Sheet Column Number                | JavaScript       |
 | 189 | Rotate Array                             | Java             |
 | 190 | Reverse Bits                             | Java             |
 | 191 | Number of 1 Bits                         | Java             |
-| 217 | Contains Duplicate                       | Javascript       |
+| 217 | Contains Duplicate                       | JavaScript       |
 | 242 | Valid Anagram                            | Java             |
-| 283 | Move Zeroes                              | Javascript       |
+| 283 | Move Zeroes                              | JavaScript       |
 | 344 | Reverse String                           | Java             |
-| 345 | Reverse Vowels of a String               | Javascript       |
+| 345 | Reverse Vowels of a String               | JavaScript       |
 | 350 | Intersection of Two Arrays II            | Java             |
-| 383 | Ransom Note                              | Javascript       |
-| 387 | First Unique Character in a String       | Javascript       |
-| 389 | Find the Difference                      | Javascript       |
-| 404 | 404. Sum of Left Leaves                  | Javascript       |
+| 383 | Ransom Note                              | JavaScript       |
+| 387 | First Unique Character in a String       | JavaScript       |
+| 389 | Find the Difference                      | JavaScript       |
+| 404 | 404. Sum of Left Leaves                  | JavaScript       |
 | 412 | Fizz Buzz                                | Java             |
 | 448 | Find All Numbers Disappeared in an Array | Java             |
 | 479 | Largest Palindrome Product               | Java             |
 | 500 | Keyboard Row                             | Java             |
-| 504 | Base 7                                   | Java, Javascript |
+| 504 | Base 7                                   | Java, JavaScript |
 | 507 | Perfect Number                           | Java             |
 | 532 | K-diff Pairs in an Array                 | Java             |
 | 556 | Reshape The Matrix                       | Java             |
-| 599 | Minimum Index Sum of Two Lists           | Javascript       |
-| 605 | Can Place Flowers                        | Javascript       |
-| 617 | Merge Two Binary Trees                   | Javascript       |
-| 637 | Average of Levels in Binary Tree         | Javascript       |
-| 645 | Set Mismatch                             | Javascript       |
+| 599 | Minimum Index Sum of Two Lists           | JavaScript       |
+| 605 | Can Place Flowers                        | JavaScript       |
+| 617 | Merge Two Binary Trees                   | JavaScript       |
+| 637 | Average of Levels in Binary Tree         | JavaScript       |
+| 645 | Set Mismatch                             | JavaScript       |
 | 660 | Remove 9                                 | Java             |
 | 680 | Valid Palindrome II                      | Java             |
-| 669 | Trim a Binary Search Tree                | Javascript       |
-| 720 | Longest Word in Dictionary               | Javascript       |
-| 733 | Flood Fill                               | Javascript       |
-| 744 | Find Smallest Letter Greater Than Target | Javascript       |
-| 760 | Find Anagram Mappings                    | Javascript       |
-| 771 | Jewels and Stones                        | Javascript       |
-| 796 | Rotate String                            | Javascript       |
-| 804 | Unique Morse Code Words                  | Javascript       |
-| 806 | Number of Lines To Write String          | Javascript       |
+| 669 | Trim a Binary Search Tree                | JavaScript       |
+| 720 | Longest Word in Dictionary               | JavaScript       |
+| 733 | Flood Fill                               | JavaScript       |
+| 744 | Find Smallest Letter Greater Than Target | JavaScript       |
+| 760 | Find Anagram Mappings                    | JavaScript       |
+| 771 | Jewels and Stones                        | JavaScript       |
+| 796 | Rotate String                            | JavaScript       |
+| 804 | Unique Morse Code Words                  | JavaScript       |
+| 806 | Number of Lines To Write String          | JavaScript       |
 
 ## HackerRank
 
@@ -80,8 +80,8 @@ https://www.hackerrank.com/
 
 | #   | Title                 | Language                 |
 | :-- | :-------------------- | :----------------------- |
-| 001 | Solve Me First        | Java, Python, Javascript |
-| 002 | Simple Array Sum      | Java, Python, Javascript |
+| 001 | Solve Me First        | Java, Python, JavaScript |
+| 002 | Simple Array Sum      | Java, Python, JavaScript |
 | 003 | Compare the Triplets  | Java                     |
 | 004 | A Very Big Sum        | Java                     |
 | 005 | Diagonal Difference   | Java                     |
@@ -124,8 +124,8 @@ https://dmoj.ca/
 
 | #   | Title                        | Language            |
 | :-- | :--------------------------- | :------------------ |
-| 001 | Regular Expressions          | (Javascript)        |
-| 002 | Web Development Fundamentals | HTML+CSS+Javascript |
+| 001 | Regular Expressions          | (JavaScript)        |
+| 002 | Web Development Fundamentals | HTML+CSS+JavaScript |
 | 004 | String Permutation           | Java                |
-| 005 | Primitive or Reference       | Javascript          |
-| 010 | Probability of lottery       | Javascript          |
+| 005 | Primitive or Reference       | JavaScript          |
+| 010 | Probability of lottery       | JavaScript          |
