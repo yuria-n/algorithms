@@ -84,7 +84,7 @@ https://www.hackerrank.com/
 | 001 | Solve Me First        | Java, Python, JavaScript |
 | 002 | Simple Array Sum      | Java, Python, JavaScript |
 | 003 | Compare the Triplets  | Java, JavaScript         |
-| 004 | A Very Big Sum        | Java                     |
+| 004 | A Very Big Sum        | Java, JavaScript         |
 | 005 | Diagonal Difference   | Java                     |
 | 006 | Plus Mins             | Java                     |
 | 007 | Staircase             | Java                     |
