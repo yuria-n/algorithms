@@ -85,7 +85,7 @@ https://www.hackerrank.com/
 | 002 | Simple Array Sum      | Java, Python, JavaScript |
 | 003 | Compare the Triplets  | Java, JavaScript         |
 | 004 | A Very Big Sum        | Java, JavaScript         |
-| 005 | Diagonal Difference   | Java                     |
+| 005 | Diagonal Difference   | Java, JavaScript         |
 | 006 | Plus Mins             | Java                     |
 | 007 | Staircase             | Java                     |
 | 008 | Mini-Max Sum          | Java                     |
