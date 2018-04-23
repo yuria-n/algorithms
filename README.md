@@ -37,6 +37,7 @@ https://leetcode.com/
 | 189 | Rotate Array                             | Java             |
 | 190 | Reverse Bits                             | Java             |
 | 191 | Number of 1 Bits                         | Java             |
+| 203 | Remove Linked List Elements              | JavaScript       |
 | 217 | Contains Duplicate                       | JavaScript       |
 | 242 | Valid Anagram                            | Java             |
 | 283 | Move Zeroes                              | JavaScript       |
