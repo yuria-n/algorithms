@@ -13,6 +13,7 @@ https://leetcode.com/
 | 020 | Valid Parentheses                        | Java, JavaScript |
 | 021 | Merge Two Sorted Lists                   | JavaScript       |
 | 026 | Remove Duplicates from Sorted Array      | JavaScript       |
+| 027 | Remove Element                           | JavaScript       |
 | 028 | Implement strStr()                       | Java, JavaScript |
 | 035 | Search Insert Position                   | Java, JavaScript |
 | 053 | Maximum Subarray                         | Java, JavaScript |
