@@ -41,6 +41,7 @@ https://leetcode.com/
 | 203 | Remove Linked List Elements              | JavaScript       |
 | 217 | Contains Duplicate                       | JavaScript       |
 | 242 | Valid Anagram                            | Java             |
+| 268 | Missing Number                           | JavaScript       |
 | 283 | Move Zeroes                              | JavaScript       |
 | 344 | Reverse String                           | Java             |
 | 345 | Reverse Vowels of a String               | JavaScript       |
