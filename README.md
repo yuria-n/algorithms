@@ -26,7 +26,7 @@ https://leetcode.com/
 | 088 | Merge Sorted Array                       | Java, JavaScript |
 | 100 | Same Tree                                | Java             |
 | 101 | Symmetric Tree                           | Java             |
-| 104 | Maximum Depth of Binary Tree             | Java             |
+| 104 | Maximum Depth of Binary Tree             | Java, JavaScript |
 | 107 | Binary Tree Level Order Traversal II     | JavaScript       |
 | 121 | Best Time to Buy and Sell Stock          | Java             |
 | 125 | Valid Palindrome                         | JavaScript       |
