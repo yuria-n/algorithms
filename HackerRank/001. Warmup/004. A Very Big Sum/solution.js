@@ -33,6 +33,10 @@ function aVeryBigSum(n, arr) {
   return sum;
 }
 
+function aVeryBigSum2(n, arr) {
+  return arr.reduce((num, sum) => num + sum, 0);
+}
+
 // function main() {
 //   const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
