@@ -91,7 +91,7 @@ https://www.hackerrank.com/
 | 003 | Compare the Triplets  | Java, JavaScript         |
 | 004 | A Very Big Sum        | Java, JavaScript         |
 | 005 | Diagonal Difference   | Java, JavaScript         |
-| 006 | Plus Mins             | Java                     |
+| 006 | Plus Mins             | Java, JavaScript         |
 | 007 | Staircase             | Java                     |
 | 008 | Mini-Max Sum          | Java                     |
 | 009 | Birthday Cake Candles | Java                     |
