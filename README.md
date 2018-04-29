@@ -28,6 +28,7 @@ https://leetcode.com/
 | 101 | Symmetric Tree                           | Java             |
 | 104 | Maximum Depth of Binary Tree             | Java, JavaScript |
 | 107 | Binary Tree Level Order Traversal II     | JavaScript       |
+| 110 | Balanced Binary Tree                     | Javascrpt        |
 | 111 | Minimum Depth of Binary Tree             | JavaScript       |
 | 112 | Path Sum                                 | JavaScript       |
 | 121 | Best Time to Buy and Sell Stock          | Java             |
