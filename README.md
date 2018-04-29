@@ -104,6 +104,7 @@ https://www.hackerrank.com/
 | :-- | :--------------- | :--------------- |
 | 001 | Grading Students | Java, JavaScript |
 | 002 | Apple and Orange | JavaScript       |
+| 003 | Kangaroo         | JavaScript       |
 
 **003.Strings**
 
