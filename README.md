@@ -100,10 +100,10 @@ https://www.hackerrank.com/
 
 **002.Implementation**
 
-| #   | Title            | Language   |
-| :-- | :--------------- | :--------- |
-| 001 | Grading Students | Java       |
-| 002 | Apple and Orange | JavaScript |
+| #   | Title            | Language         |
+| :-- | :--------------- | :--------------- |
+| 001 | Grading Students | Java, JavaScript |
+| 002 | Apple and Orange | JavaScript       |
 
 **003.Strings**
 
