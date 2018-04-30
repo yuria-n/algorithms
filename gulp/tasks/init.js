@@ -16,8 +16,19 @@ gulp.task('init', init);
 async function init() {
   // create a new directory
   prompt.start();
-  const { name } = await prompt.getAsync(['name']);
-  const dirname = path.resolve(__dirname, '../../LeetCode', name);
+  console.log('0: Leetcode\n1: Hacker Rank\n2: Others\n');
+  const { mode, name } = await prompt.getAsync(['mode', 'name']);
+  const directory = (() => {
+    switch (+mode) {
+      case 0:
+        return '../../LeetCode';
+      case 1:
+        return '../../HackerRank';
+      default:
+        return '../../Others';
+    }
+  })();
+  const dirname = path.resolve(__dirname, directory, name);
   fs.mkdirSync(dirname);
   // create files in the directory
   const readmepath = path.resolve(dirname, 'README.md');

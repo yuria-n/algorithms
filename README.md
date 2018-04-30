@@ -1,5 +1,31 @@
 # Algorithms
 
+To make a new directory, enter
+
+```
+$ gulp init
+```
+
+**mode:**
+Choose a mode
+
+| N   | Directory   |
+| :-- | :---------- |
+| 0   | Leetcode    |
+| 1   | Hacker Rank |
+| 2   | Others      |
+
+```
+prompt: mode:  0
+```
+
+**name:**
+enter the question title (directory name)
+
+```
+prompt: name: [Qurestion title]
+```
+
 ## LeetCode
 
 https://leetcode.com/
@@ -138,3 +164,7 @@ https://dmoj.ca/
 | 004 | String Permutation           | Java                |
 | 005 | Primitive or Reference       | JavaScript          |
 | 010 | Probability of lottery       | JavaScript          |
+
+```
+
+```
