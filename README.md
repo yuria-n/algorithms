@@ -119,7 +119,7 @@ https://www.hackerrank.com/
 | 004 | A Very Big Sum        | Java, JavaScript         |
 | 005 | Diagonal Difference   | Java, JavaScript         |
 | 006 | Plus Mins             | Java, JavaScript         |
-| 007 | Staircase             | Java                     |
+| 007 | Staircase             | Java, JavaScript         |
 | 008 | Mini-Max Sum          | Java                     |
 | 009 | Birthday Cake Candles | Java                     |
 | 010 | Time Conversion       | Java                     |
