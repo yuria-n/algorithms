@@ -134,10 +134,10 @@ https://www.hackerrank.com/
 
 **003.Strings**
 
-| #   | Title                | Language |
-| :-- | :------------------- | :------- |
-| 001 | Super Reduced String | Java     |
-| 002 | Camel Case           | Java     |
+| #   | Title                | Language         |
+| :-- | :------------------- | :--------------- |
+| 001 | Super Reduced String | Java, JavaScript |
+| 002 | Camel Case           | Java             |
 
 **004.Sorting**
 
