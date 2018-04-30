@@ -120,7 +120,7 @@ https://www.hackerrank.com/
 | 005 | Diagonal Difference   | Java, JavaScript         |
 | 006 | Plus Mins             | Java, JavaScript         |
 | 007 | Staircase             | Java, JavaScript         |
-| 008 | Mini-Max Sum          | Java                     |
+| 008 | Mini-Max Sum          | Java, JavaScript         |
 | 009 | Birthday Cake Candles | Java                     |
 | 010 | Time Conversion       | Java                     |
 
