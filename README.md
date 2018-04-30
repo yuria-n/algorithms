@@ -121,7 +121,7 @@ https://www.hackerrank.com/
 | 006 | Plus Mins             | Java, JavaScript         |
 | 007 | Staircase             | Java, JavaScript         |
 | 008 | Mini-Max Sum          | Java, JavaScript         |
-| 009 | Birthday Cake Candles | Java                     |
+| 009 | Birthday Cake Candles | Java , JavaScript        |
 | 010 | Time Conversion       | Java                     |
 
 **002.Implementation**
