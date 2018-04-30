@@ -26,17 +26,14 @@ function readLine() {
 }
 
 function birthdayCakeCandles(n, ar) {
+  const map = {};
   let max = -Infinity;
-  ar.forEach(a => {
+  for (let i = 0; i < ar.length; i++) {
+    const a = ar[i];
     max = Math.max(a, max);
-  });
-
-  let result = 0;
-  ar.forEach(a => {
-    result += a === max ? 1 : 0;
-  });
-
-  return result;
+    map[a] = ++map[a] || 1;
+  }
+  return map[max];
 }
 
 function main() {
