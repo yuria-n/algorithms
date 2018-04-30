@@ -141,9 +141,10 @@ https://www.hackerrank.com/
 
 **004.Sorting**
 
-| #   | Title           | Language |
-| :-- | :-------------- | :------- |
-| 008 | Counting Sort 1 | Java     |
+| #   | Title                        | Language   |
+| :-- | :--------------------------- | :--------- |
+| 000 | Intro to Tutorial Challenges | JavaScript |
+| 008 | Counting Sort 1              | Java       |
 
 ## DMOJ
 
