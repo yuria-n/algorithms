@@ -152,6 +152,12 @@ https://www.hackerrank.com/
 | :--------------- | :--------- |
 | Ice Cream Parlor | JavaScript |
 
+**Tutorials**
+
+| Title                 | Language   |
+| :-------------------- | :--------- |
+| 10 Days of JavaScript | JavaScript |
+
 ## DMOJ
 
 https://dmoj.ca/
