@@ -146,6 +146,12 @@ https://www.hackerrank.com/
 | 000 | Intro to Tutorial Challenges | JavaScript |
 | 008 | Counting Sort 1              | Java       |
 
+**005.Search**
+
+| Title            | Language   |
+| :--------------- | :--------- |
+| Ice Cream Parlor | JavaScript |
+
 ## DMOJ
 
 https://dmoj.ca/

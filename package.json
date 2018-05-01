@@ -16,6 +16,7 @@
   "homepage": "https://github.com/Julia0709/Algorithms#readme",
   "devDependencies": {
     "aigle": "^1.10.1",
+    "eslint": "^4.19.1",
     "gulp": "^3.9.1",
     "prompt": "^1.0.0",
     "require-dir": "^0.3.2"
