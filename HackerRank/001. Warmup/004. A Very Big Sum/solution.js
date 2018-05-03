@@ -34,7 +34,7 @@ function aVeryBigSum(n, arr) {
 }
 
 function aVeryBigSum2(n, arr) {
-  return arr.reduce((num, sum) => num + sum, 0);
+  return arr.reduce((sum, num) => sum + num, 0);
 }
 
 // function main() {
