@@ -1,0 +1,13 @@
+#btns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto 12.5% auto;
+}
+
+.btn {
+  width: 30%;
+  height: 48px;
+  font-size: 24px;
+}
