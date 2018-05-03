@@ -109,7 +109,7 @@ https://leetcode.com/
 
 https://www.hackerrank.com/
 
-**001.Warmup**
+### 001.Warmup
 
 | #   | Title                 | Language                 |
 | :-- | :-------------------- | :----------------------- |
@@ -124,7 +124,7 @@ https://www.hackerrank.com/
 | 009 | Birthday Cake Candles | Java, JavaScript         |
 | 010 | Time Conversion       | Java, JavaScript         |
 
-**002.Implementation**
+### 002.Implementation
 
 | #   | Title            | Language         |
 | :-- | :--------------- | :--------------- |
@@ -132,31 +132,62 @@ https://www.hackerrank.com/
 | 002 | Apple and Orange | JavaScript       |
 | 003 | Kangaroo         | JavaScript       |
 
-**003.Strings**
+### 003.Strings
 
 | #   | Title                | Language         |
 | :-- | :------------------- | :--------------- |
 | 001 | Super Reduced String | Java, JavaScript |
 | 002 | Camel Case           | Java             |
 
-**004.Sorting**
+### 004.Sorting
 
 | #   | Title                        | Language   |
 | :-- | :--------------------------- | :--------- |
 | 000 | Intro to Tutorial Challenges | JavaScript |
 | 008 | Counting Sort 1              | Java       |
 
-**005.Search**
+### 005.Search
 
 | Title            | Language   |
 | :--------------- | :--------- |
 | Ice Cream Parlor | JavaScript |
 
-**Tutorials**
+### Tutorials
+
+**10 Days of JavaScript**
+
+| Title                                  | Language            |
+| :------------------------------------- | :------------------ |
+| Day 0: Data Types                      | JavaScript          |
+| Day 0: Hello, World!                   | JavaScript          |
+| Day 1: Arithmetic Operators            | JavaScript          |
+| Day 1: Functions                       | JavaScript          |
+| Day 1: Let and Const                   | JavaScript          |
+| Day 2: Conditional Statements: If-Else | JavaScript          |
+| Day 2: Conditional Statements: Switch  | JavaScript          |
+| Day 2: Loops                           | JavaScript          |
+| Day 3: Arrays                          | JavaScript          |
+| Day 3: Throw                           | JavaScript          |
+| Day 3: Try, Catch, and Finally         | JavaScript          |
+| Day 4: Classes                         | JavaScript          |
+| Day 4: Count Objects                   | JavaScript          |
+| Day 4: Create a Rectangle Object       | JavaScript          |
+| Day 5: Arrow Functions                 | JavaScript          |
+| Day 5: Inheritance                     | JavaScript          |
+| Day 5: Template Literals               | JavaScript          |
+| Day 6: Bitwise Operators               | JavaScript          |
+| Day 6: JavaScript Dates                | JavaScript          |
+| Day 7: Regular Expressions I           | JavaScript          |
+| Day 7: Regular Expressions II          | JavaScript          |
+| Day 7: Regular Expressions III         | JavaScript          |
+| Day 8: Buttons Container               | HTML+CSS+JavaScript |
+| Day 8: Create a Button                 | HTML+CSS+JavaScript |
+
+**Cracking the Coding Interview**
 
 | Title                 | Language   |
 | :-------------------- | :--------- |
-| 10 Days of JavaScript | JavaScript |
+| Arrays: Left Rotation | JavaScript |
 
 ## DMOJ
 
@@ -177,7 +208,3 @@ https://dmoj.ca/
 | 004 | String Permutation           | Java                |
 | 005 | Primitive or Reference       | JavaScript          |
 | 010 | Probability of lottery       | JavaScript          |
-
-```
-
-```
