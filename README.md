@@ -185,9 +185,10 @@ https://www.hackerrank.com/
 
 **Cracking the Coding Interview**
 
-| Title                 | Language   |
-| :-------------------- | :--------- |
-| Arrays: Left Rotation | JavaScript |
+| Title                    | Language   |
+| :----------------------- | :--------- |
+| Arrays: Left Rotation    | JavaScript |
+| Strings: Making Anagrams | JavaScript |
 
 ## DMOJ
 
