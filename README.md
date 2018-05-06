@@ -185,11 +185,12 @@ https://www.hackerrank.com/
 
 **Cracking the Coding Interview**
 
-| Title                    | Language   |
-| :----------------------- | :--------- |
-| Arrays: Left Rotation    | JavaScript |
-| Strings: Making Anagrams | JavaScript |
-| Hash Tables: Ransom Note | JavaScript |
+| Category        | Title                    | Language   |
+| :-------------- | :----------------------- | :--------- |
+| DATA STRUCTURES | Arrays: Left Rotation    | JavaScript |
+|                 | Strings: Making Anagrams | JavaScript |
+|                 | Hash Tables: Ransom Note | JavaScript |
+| ALGORITHMS      | Sorting: Bubble Sort     | JavaScript |
 
 ## DMOJ
 
