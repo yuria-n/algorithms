@@ -189,6 +189,7 @@ https://www.hackerrank.com/
 | :----------------------- | :--------- |
 | Arrays: Left Rotation    | JavaScript |
 | Strings: Making Anagrams | JavaScript |
+| Hash Tables: Ransom Note | JavaScript |
 
 ## DMOJ
 
