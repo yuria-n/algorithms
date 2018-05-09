@@ -67,6 +67,7 @@ https://leetcode.com/
 | 189 | Rotate Array                             | Java             |
 | 190 | Reverse Bits                             | Java             |
 | 191 | Number of 1 Bits                         | Java             |
+| 198 | House Robber                             | JavaScript       |
 | 202 | Happy Number                             | JavaScript       |
 | 203 | Remove Linked List Elements              | JavaScript       |
 | 217 | Contains Duplicate                       | JavaScript       |
