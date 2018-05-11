@@ -114,40 +114,40 @@ https://www.hackerrank.com/
 
 ### 001.Warmup
 
-| #   | Title                 | Language                 |
-| :-- | :-------------------- | :----------------------- |
-| 001 | Solve Me First        | Java, Python, JavaScript |
-| 002 | Simple Array Sum      | Java, Python, JavaScript |
-| 003 | Compare the Triplets  | Java, JavaScript         |
-| 004 | A Very Big Sum        | Java, JavaScript         |
-| 005 | Diagonal Difference   | Java, JavaScript         |
-| 006 | Plus Mins             | Java, JavaScript         |
-| 007 | Staircase             | Java, JavaScript         |
-| 008 | Mini-Max Sum          | Java, JavaScript         |
-| 009 | Birthday Cake Candles | Java, JavaScript         |
-| 010 | Time Conversion       | Java, JavaScript         |
+| Title                 | Language                 |
+| :-------------------- | :----------------------- |
+| A Very Big Sum        | Java, JavaScript         |
+| Birthday Cake Candles | Java, JavaScript         |
+| Compare the Triplets  | Java, JavaScript         |
+| Diagonal Difference   | Java, JavaScript         |
+| Mini-Max Sum          | Java, JavaScript         |
+| Plus Mins             | Java, JavaScript         |
+| Simple Array Sum      | Java, Python, JavaScript |
+| Solve Me First        | Java, Python, JavaScript |
+| Staircase             | Java, JavaScript         |
+| Time Conversion       | Java, JavaScript         |
 
 ### 002.Implementation
 
-| #   | Title            | Language         |
-| :-- | :--------------- | :--------------- |
-| 001 | Grading Students | Java, JavaScript |
-| 002 | Apple and Orange | JavaScript       |
-| 003 | Kangaroo         | JavaScript       |
+| Title            | Language         |
+| :--------------- | :--------------- |
+| Apple and Orange | JavaScript       |
+| Grading Students | Java, JavaScript |
+| Kangaroo         | JavaScript       |
 
 ### 003.Strings
 
-| #   | Title                | Language         |
-| :-- | :------------------- | :--------------- |
-| 001 | Super Reduced String | Java, JavaScript |
-| 002 | Camel Case           | Java             |
+| Title                | Language         |
+| :------------------- | :--------------- |
+| Camel Case           | Java             |
+| Super Reduced String | Java, JavaScript |
 
 ### 004.Sorting
 
-| #   | Title                        | Language   |
-| :-- | :--------------------------- | :--------- |
-| 000 | Intro to Tutorial Challenges | JavaScript |
-| 008 | Counting Sort 1              | Java       |
+| Title                        | Language   |
+| :--------------------------- | :--------- |
+| Counting Sort 1              | Java       |
+| Intro to Tutorial Challenges | JavaScript |
 
 ### 005.Search
 
