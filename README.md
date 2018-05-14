@@ -58,6 +58,7 @@ https://leetcode.com/
 | 110 | Balanced Binary Tree                       | Javascrpt        |
 | 111 | Minimum Depth of Binary Tree               | JavaScript       |
 | 112 | Path Sum                                   | JavaScript       |
+| 118 | Pascal's Triangle                          | JavaScript       |
 | 121 | Best Time to Buy and Sell Stock            | Java             |
 | 125 | Valid Palindrome                           | JavaScript       |
 | 141 | Linked List Cycle                          | JavaScript       |
