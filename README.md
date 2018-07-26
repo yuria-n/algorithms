@@ -109,6 +109,7 @@ https://leetcode.com/
 | 806 | Number of Lines To Write String            | JavaScript       |
 | 819 | Most Common Word                           | Javascript       |
 | 844 | Backspace String Compare                   | JavaScript       |
+| 849 | Maximize Distance to Closest Person        | JavaScript       |
 
 ## HackerRank
 
