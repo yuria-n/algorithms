@@ -72,6 +72,7 @@ https://leetcode.com/
 | 198 | House Robber                               | JavaScript       |
 | 202 | Happy Number                               | JavaScript       |
 | 203 | Remove Linked List Elements                | JavaScript       |
+| 204 | Count Primes                               | JavaScript       |
 | 217 | Contains Duplicate                         | JavaScript       |
 | 242 | Valid Anagram                              | Java             |
 | 268 | Missing Number                             | JavaScript       |
