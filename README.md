@@ -111,6 +111,7 @@ https://leetcode.com/
 | 819 | Most Common Word                           | Javascript       |
 | 844 | Backspace String Compare                   | JavaScript       |
 | 849 | Maximize Distance to Closest Person        | JavaScript       |
+| 929 | Unique Email Addresses                     | JavaScript       |
 
 ## HackerRank
 
