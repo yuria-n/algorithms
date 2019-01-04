@@ -77,7 +77,7 @@ https://leetcode.com/
 | 242 | Valid Anagram                              | Java             |
 | 268 | Missing Number                             | JavaScript       |
 | 283 | Move Zeroes                                | JavaScript       |
-| 344 | Reverse String                             | Java             |
+| 344 | Reverse String                             | Java, JavaScript |
 | 345 | Reverse Vowels of a String                 | JavaScript       |
 | 350 | Intersection of Two Arrays II              | Java             |
 | 383 | Ransom Note                                | JavaScript       |
