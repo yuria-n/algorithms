@@ -61,6 +61,7 @@ https://leetcode.com/
 | 118 | Pascal's Triangle                          | JavaScript       |
 | 121 | Best Time to Buy and Sell Stock            | Java             |
 | 125 | Valid Palindrome                           | JavaScript       |
+| 136 | Single Number                              | JavaScript       |
 | 141 | Linked List Cycle                          | JavaScript       |
 | 167 | Two Sum II                                 | Java             |
 | 168 | Excel Sheet Column Title                   | Java, JavaScript |
