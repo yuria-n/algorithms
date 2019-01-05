@@ -3,6 +3,14 @@
  * @return {number}
  */
 const singleNumber = function(nums) {
+  return nums.reduce((num, result) => num ^ result);
+};
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+const singleNumber2 = function(nums) {
   const map = {};
 
   nums.forEach((num) => {
