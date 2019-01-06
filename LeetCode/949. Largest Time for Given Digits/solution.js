@@ -49,9 +49,5 @@ const largestTimeFromDigits = function(A) {
   }
   const hh = Math.floor(result / 100);
   const mm = result - hh * 100;
-  return `${pad(hh)}:${pad(mm)}`;
+  return `${hh.toString().padStart(2, 0)}:${mm.toString().padStart(2, 0)}`;
 };
-
-function pad(n) {
-  return n >= 10 ? n : `0${n}`;
-}
