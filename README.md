@@ -113,6 +113,7 @@ https://leetcode.com/
 | 844 | Backspace String Compare                   | JavaScript       |
 | 849 | Maximize Distance to Closest Person        | JavaScript       |
 | 929 | Unique Email Addresses                     | JavaScript       |
+| 949 | Largest Time for Given Digits              | JavaScript       |
 
 ## HackerRank
 
