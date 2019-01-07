@@ -12,27 +12,30 @@
  * @return {ListNode}
  */
 const getIntersectionNode = function(headA, headB) {
-  const arrA = [];
-  while (headA) {
-    arrA.push(headA);
-    headA = headA.next;
-  }
-
-  const arrB = [];
+  const mapB = new Set();
   while (headB) {
-    arrB.push(headB);
+    mapB.add(headB);
     headB = headB.next;
   }
 
-  let result = null;
-  for (let i = 0; i < arrA.length; i++) {
-    const a = arrA[arrA.length - i - 1];
-    const b = arrB[arrB.length - i - 1];
-    if (a !== b) {
-      return result;
+  while (headA) {
+    if (mapB.has(headA)) {
+      return headA;
     }
-    result = a;
+    headA = headA.next;
   }
 
-  return result;
+  return null;
+};
+
+const getIntersectionNode2 = function(headA, headB) {
+  let a = headA;
+  let b = headB;
+
+  while (a !== b) {
+    a = !a ? headB : a.next;
+    b = !b ? headA : b.next;
+  }
+
+  return a;
 };
