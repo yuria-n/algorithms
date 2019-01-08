@@ -4,16 +4,21 @@
  * @return {number}
  */
 const numJewelsInStones = function(J, S) {
-  const map = {};
-  for (let i = 0; i < J.length; i++) {
-    map[J[i]] = 1;
+  const set = new Set();
+  for (const jewel of J) {
+    set.add(jewel);
   }
 
   let count = 0;
-  for (let i = 0; i < S.length; i++) {
-    if (map[S[i]]) {
+  for (const stone of S) {
+    if (set.has(stone)) {
       count++;
     }
   }
+
   return count;
+};
+
+const numJewelsInStones2 = function(J, S) {
+  return S.split('').filter((char) => J.indexOf(char) !== -1).length;
 };
