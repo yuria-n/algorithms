@@ -63,6 +63,7 @@ https://leetcode.com/
 | 125 | Valid Palindrome                           | JavaScript       |
 | 136 | Single Number                              | JavaScript       |
 | 141 | Linked List Cycle                          | JavaScript       |
+| 155 | Min Stack                                  | JavaScript       |
 | 160 | Intersection of Two Linked Lists           | JavaScript       |
 | 167 | Two Sum II                                 | Java             |
 | 168 | Excel Sheet Column Title                   | Java, JavaScript |
