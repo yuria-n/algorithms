@@ -5,22 +5,11 @@
  */
 const uncommonFromSentences = function(A, B) {
   const map = {};
+  count(A);
+  count(B);
+  return Object.keys(map).filter((w) => map[w] === 1);
 
-  A.split(' ').map((w) => {
-    map[w] = (map[w] && ++map[w]) || 1;
-  });
-
-  B.split(' ').map((w) => {
-    map[w] = (map[w] && ++map[w]) || 1;
-  });
-
-  const result = [];
-  const words = Object.keys(map);
-  words.map((w) => {
-    if (map[w] === 1) {
-      result.push(w);
-    }
-  });
-
-  return result;
+  function count(str) {
+    str.split(' ').forEach((w) => (map[w] = ++map[w] || 1));
+  }
 };
