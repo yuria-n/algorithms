@@ -117,6 +117,7 @@ https://leetcode.com/
 | 884 | Uncommon Words from Two Sentences          | JavaScript       |
 | 929 | Unique Email Addresses                     | JavaScript       |
 | 949 | Largest Time for Given Digits              | JavaScript       |
+| 965 | Univalued Binary Tree                      | JavaScript       |
 
 ## HackerRank
 
