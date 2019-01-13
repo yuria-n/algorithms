@@ -109,6 +109,7 @@ https://leetcode.com/
 | 744 | Find Smallest Letter Greater Than Target   | JavaScript       |
 | 760 | Find Anagram Mappings                      | JavaScript       |
 | 771 | Jewels and Stones                          | JavaScript       |
+| 783 | Minimum Distance Between BST Nodes         | JavaScript       |
 | 796 | Rotate String                              | JavaScript       |
 | 804 | Unique Morse Code Words                    | JavaScript       |
 | 806 | Number of Lines To Write String            | JavaScript       |
