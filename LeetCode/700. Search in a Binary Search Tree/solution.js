@@ -25,3 +25,15 @@ const searchBST = function(root, val) {
 
   return root;
 };
+
+const searchBST2 = function(root, val) {
+  while (root) {
+    if (root.val === val) {
+      return root;
+    }
+
+    root = root.val < val ? root.right : root.left;
+  }
+
+  return null;
+};
