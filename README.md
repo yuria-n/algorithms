@@ -120,6 +120,7 @@ https://leetcode.com/
 | 852 | Peak Index in a Mountain Array             | JavaScript       |
 | 876 | Middle of the Linked List                  | JavaScript       |
 | 884 | Uncommon Words from Two Sentences          | JavaScript       |
+| 905 | Sort Array By Parity                       | JavaScript       |
 | 929 | Unique Email Addresses                     | JavaScript       |
 | 949 | Largest Time for Given Digits              | JavaScript       |
 | 965 | Univalued Binary Tree                      | JavaScript       |
