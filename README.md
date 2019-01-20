@@ -76,6 +76,7 @@ https://leetcode.com/
 | 202 | Happy Number                               | JavaScript       |
 | 203 | Remove Linked List Elements                | JavaScript       |
 | 204 | Count Primes                               | JavaScript       |
+| 206 | Reverse Linked List                        | JavaScript       |
 | 217 | Contains Duplicate                         | JavaScript       |
 | 234 | Palindrome Linked List                     | JavaScript       |
 | 242 | Valid Anagram                              | Java             |
