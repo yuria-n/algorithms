@@ -119,6 +119,7 @@ https://leetcode.com/
 | 844 | Backspace String Compare                   | JavaScript       |
 | 849 | Maximize Distance to Closest Person        | JavaScript       |
 | 852 | Peak Index in a Mountain Array             | JavaScript       |
+| 860 | Lemonade Change                            | JavaScript       |
 | 876 | Middle of the Linked List                  | JavaScript       |
 | 884 | Uncommon Words from Two Sentences          | JavaScript       |
 | 905 | Sort Array By Parity                       | JavaScript       |
