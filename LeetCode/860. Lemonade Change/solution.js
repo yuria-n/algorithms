@@ -6,7 +6,6 @@ const lemonadeChange = function(bills) {
   const stock = {};
 
   for (const bill of bills) {
-    stock[bill] = ++stock[bill] || 1;
     switch (bill) {
       case 5:
         break;
@@ -28,6 +27,7 @@ const lemonadeChange = function(bills) {
         }
         return false;
     }
+    stock[bill] = ++stock[bill] || 1;
   }
 
   return true;
