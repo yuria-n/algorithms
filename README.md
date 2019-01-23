@@ -81,6 +81,7 @@ https://leetcode.com/
 | 217 | Contains Duplicate                         | JavaScript       |
 | 234 | Palindrome Linked List                     | JavaScript       |
 | 242 | Valid Anagram                              | Java             |
+| 257 | Binary Tree Paths                          | JavaScript       |
 | 268 | Missing Number                             | JavaScript       |
 | 283 | Move Zeroes                                | JavaScript       |
 | 344 | Reverse String                             | Java, JavaScript |
