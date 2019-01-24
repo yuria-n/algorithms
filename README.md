@@ -80,6 +80,7 @@ https://leetcode.com/
 | 206 | Reverse Linked List                        | JavaScript       |
 | 217 | Contains Duplicate                         | JavaScript       |
 | 234 | Palindrome Linked List                     | JavaScript       |
+| 237 | Delete Node in a Linked List               | JavaScript       |
 | 242 | Valid Anagram                              | Java             |
 | 257 | Binary Tree Paths                          | JavaScript       |
 | 268 | Missing Number                             | JavaScript       |
