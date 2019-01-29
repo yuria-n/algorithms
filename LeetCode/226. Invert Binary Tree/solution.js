@@ -10,20 +10,12 @@
  * @return {TreeNode}
  */
 const invertTree = function(root) {
-  let result = root;
-  invert(root);
-  return result;
+  if (root) {
+    [root.left, root.right] = [root.right, root.left];
 
-  function invert(node) {
-    if (!node) {
-      return;
-    }
-
-    const t = node.left;
-    node.left = node.right;
-    node.right = t;
-
-    invert(node.left);
-    invert(node.right);
+    invertTree(root.left);
+    invertTree(root.right);
   }
+
+  return root;
 };
