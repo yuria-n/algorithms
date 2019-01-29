@@ -83,6 +83,7 @@ https://leetcode.com/
 | 237 | Delete Node in a Linked List               | JavaScript       |
 | 242 | Valid Anagram                              | Java             |
 | 257 | Binary Tree Paths                          | JavaScript       |
+| 266 | Invert Binary Tree                         | JavaScript       |
 | 268 | Missing Number                             | JavaScript       |
 | 283 | Move Zeroes                                | JavaScript       |
 | 344 | Reverse String                             | Java, JavaScript |
