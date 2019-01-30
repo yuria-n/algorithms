@@ -52,6 +52,7 @@ https://leetcode.com/
 | 088 | Merge Sorted Array                         | Java, JavaScript |
 | 100 | Same Tree                                  | Java             |
 | 101 | Symmetric Tree                             | Java             |
+| 102 | Binary Tree Level Order Traversal          | JavaScript       |
 | 104 | Maximum Depth of Binary Tree               | Java, JavaScript |
 | 107 | Binary Tree Level Order Traversal II       | JavaScript       |
 | 108 | Convert Sorted Array to Binary Search Tree | JavaScript       |
