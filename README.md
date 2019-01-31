@@ -50,6 +50,7 @@ https://leetcode.com/
 | 070 | ClimbingStairs                             | Java, JavaScript |
 | 083 | Remove Duplicates from Sorted List         | JavaScript       |
 | 088 | Merge Sorted Array                         | Java, JavaScript |
+| 094 | Binary Tree Inorder Traversal              | JavaScript       |
 | 100 | Same Tree                                  | Java             |
 | 101 | Symmetric Tree                             | Java             |
 | 102 | Binary Tree Level Order Traversal          | JavaScript       |
