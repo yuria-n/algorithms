@@ -9,6 +9,8 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+
+// while loop 1
 const deleteDuplicates = function(head) {
   if (!head) {
     return head;
@@ -27,17 +29,20 @@ const deleteDuplicates = function(head) {
   return result;
 };
 
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode} head
- * @return {ListNode}
- */
+// while loop 2
+const deleteDuplicates1 = function(head) {
+  const result = head;
+  while (head) {
+    if (head.next && head.val === head.next.val) {
+      head.next = head.next.next;
+      continue;
+    }
+    head = head.next;
+  }
+  return result;
+};
+
+// recursion
 const deleteDuplicates2 = function(head) {
   const result = head;
   deleteDup(head);
