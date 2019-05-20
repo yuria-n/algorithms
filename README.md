@@ -115,6 +115,7 @@ https://leetcode.com/
 | 720 | Longest Word in Dictionary                 | JavaScript       |
 | 733 | Flood Fill                                 | JavaScript       |
 | 744 | Find Smallest Letter Greater Than Target   | JavaScript       |
+| 746 | Min Cost Climbing Stairs                   | JavaScript       |
 | 760 | Find Anagram Mappings                      | JavaScript       |
 | 771 | Jewels and Stones                          | JavaScript       |
 | 783 | Minimum Distance Between BST Nodes         | JavaScript       |
