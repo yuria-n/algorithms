@@ -9,30 +9,18 @@ const validMountainArray = function(A) {
     return false;
   }
 
-  let maxIndex = 0;
-  let maxVal = -Infinity;
-
-  for (let i = 0; i < l; i++) {
-    const val = A[i];
-    if (val <= maxVal) {
-      break;
-    }
-    maxIndex = i;
-    maxVal = val;
+  let i = 0;
+  while (i < l && A[i] < A[i + 1]) {
+    i++;
   }
 
-  if (maxIndex === 0 || maxIndex === l - 1) {
+  if (i === 0 || i === l - 1) {
     return false;
   }
 
-  let prevVal = -Infinity;
-  for (let j = l - 1; j >= maxIndex; j--) {
-    const val = A[j];
-    if (val <= prevVal) {
-      return false;
-    }
-    prevVal = val;
+  while (i < l && A[i] > A[i + 1]) {
+    i++;
   }
 
-  return true;
+  return i === l - 1;
 };
