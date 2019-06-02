@@ -141,18 +141,18 @@ https://www.hackerrank.com/
 
 ### 001.Warmup
 
-| Title | Language |
-| :-------------------- | :----------------------- |x`
-| A Very Big Sum | Java, JavaScript |
-| Birthday Cake Candles | Java, JavaScript |
-| Compare the Triplets | Java, JavaScript |
-| Diagonal Difference | Java, JavaScript |
-| Mini-Max Sum | Java, JavaScript |
-| Plus Mins | Java, JavaScript |
-| Simple Array Sum | Java, Python, JavaScript |
-| Solve Me First | Java, Python, JavaScript |
-| Staircase | Java, JavaScript |
-| Time Conversion | Java, JavaScript |
+| Title                 | Language                 |
+| :-------------------- | :----------------------- |
+| A Very Big Sum        | Java, JavaScript         |
+| Birthday Cake Candles | Java, JavaScript         |
+| Compare the Triplets  | Java, JavaScript         |
+| Diagonal Difference   | Java, JavaScript         |
+| Mini-Max Sum          | Java, JavaScript         |
+| Plus Mins             | Java, JavaScript         |
+| Simple Array Sum      | Java, Python, JavaScript |
+| Solve Me First        | Java, Python, JavaScript |
+| Staircase             | Java, JavaScript         |
+| Time Conversion       | Java, JavaScript         |
 
 ### 002.Implementation
 
