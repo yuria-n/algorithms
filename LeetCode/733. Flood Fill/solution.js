@@ -30,3 +30,20 @@ const floodFill = function(image, sr, sc, newColor) {
     changeColor(r, c + 1);
   }
 };
+
+const floodFill2 = function(image, sr, sc, newColor) {
+  const prevColor = image[sr][sc];
+  fill(sr, sc);
+  return image;
+
+  function fill(r, c) {
+    if (!image[r] || image[r][c] !== prevColor || image[r][c] === newColor) {
+      return;
+    }
+    image[r][c] = newColor;
+    fill(r - 1, c);
+    fill(r, c - 1);
+    fill(r + 1, c);
+    fill(r, c + 1);
+  }
+};
