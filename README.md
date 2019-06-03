@@ -113,6 +113,7 @@ https://leetcode.com/
 | 680 | Valid Palindrome II                        | Java             |
 | 669 | Trim a Binary Search Tree                  | JavaScript       |
 | 700 | Search in a Binary Search Tree             | JavaScript       |
+| 704 | Binary Search                              | JavaScript       |
 | 720 | Longest Word in Dictionary                 | JavaScript       |
 | 733 | Flood Fill                                 | JavaScript       |
 | 744 | Find Smallest Letter Greater Than Target   | JavaScript       |
