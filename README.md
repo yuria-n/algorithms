@@ -71,6 +71,7 @@ https://leetcode.com/
 | 168 | Excel Sheet Column Title                   | Java, JavaScript |
 | 169 | Majority Element                           | Java             |
 | 171 | Excel Sheet Column Number                  | JavaScript       |
+| 172 | Factorial Trailing Zeroes                  | JavaScript       |
 | 189 | Rotate Array                               | Java             |
 | 190 | Reverse Bits                               | Java             |
 | 191 | Number of 1 Bits                           | Java             |
