@@ -15,10 +15,10 @@
   },
   "homepage": "https://github.com/Julia0709/Algorithms#readme",
   "devDependencies": {
-    "aigle": "^1.10.1",
-    "eslint": "^4.19.1",
-    "gulp": "^3.9.1",
+    "aigle": "^1.14.0",
+    "eslint": "^5.16.0",
+    "gulp": "^4.0.2",
     "prompt": "^1.0.0",
-    "require-dir": "^0.3.2"
+    "require-dir": "^1.2.0"
   }
 }
