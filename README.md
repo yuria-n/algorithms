@@ -82,6 +82,7 @@ https://leetcode.com/
 | 205  | Isomorphic Strings                         | JavaScript       |
 | 206  | Reverse Linked List                        | JavaScript       |
 | 217  | Contains Duplicate                         | JavaScript       |
+| 232  | Implement Queue using Stacks               | JavaScript       |
 | 234  | Palindrome Linked List                     | JavaScript       |
 | 237  | Delete Node in a Linked List               | JavaScript       |
 | 242  | Valid Anagram                              | Java             |
