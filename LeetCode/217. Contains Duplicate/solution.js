@@ -29,3 +29,11 @@ const containsDuplicate2 = function(nums) {
 
   return false;
 };
+
+/**
+ * @param {number[]} nums
+ * @return {boolean}
+ */
+const containsDuplicate3 = function(nums) {
+  return new Set(nums).size !== nums.length;
+};
