@@ -32,25 +32,25 @@ https://leetcode.com/
 
 | #    | Title                                      | Language         |
 | :--- | :----------------------------------------- | :--------------- |
-| 001  | Two Sum                                    | Java, JavaScript |
-| 007  | Reverse Integer                            | Java, JavaScript |
-| 009  | Palindrome Number                          | Java, JavaScript |
-| 014  | Longest Common Prefix                      | Java, JavaScript |
-| 020  | Valid Parentheses                          | Java, JavaScript |
-| 021  | Merge Two Sorted Lists                     | JavaScript       |
-| 026  | Remove Duplicates from Sorted Array        | JavaScript       |
-| 027  | Remove Element                             | JavaScript       |
-| 028  | Implement strStr()                         | Java, JavaScript |
-| 035  | Search Insert Position                     | Java, JavaScript |
-| 053  | Maximum Subarray                           | Java, JavaScript |
-| 058  | Length of Last Word                        | Java, JavaScript |
-| 066  | Plus One                                   | Java, JavaScript |
-| 067  | Add Binary                                 | Java, JavaScript |
-| 069  | Sqrt(x)                                    | Java, JavaScript |
-| 070  | ClimbingStairs                             | Java, JavaScript |
-| 083  | Remove Duplicates from Sorted List         | JavaScript       |
-| 088  | Merge Sorted Array                         | Java, JavaScript |
-| 094  | Binary Tree Inorder Traversal              | JavaScript       |
+| 1    | Two Sum                                    | Java, JavaScript |
+| 7    | Reverse Integer                            | Java, JavaScript |
+| 9    | Palindrome Number                          | Java, JavaScript |
+| 14   | Longest Common Prefix                      | Java, JavaScript |
+| 20   | Valid Parentheses                          | Java, JavaScript |
+| 21   | Merge Two Sorted Lists                     | JavaScript       |
+| 26   | Remove Duplicates from Sorted Array        | JavaScript       |
+| 27   | Remove Element                             | JavaScript       |
+| 28   | Implement strStr()                         | Java, JavaScript |
+| 35   | Search Insert Position                     | Java, JavaScript |
+| 53   | Maximum Subarray                           | Java, JavaScript |
+| 58   | Length of Last Word                        | Java, JavaScript |
+| 66   | Plus One                                   | Java, JavaScript |
+| 67   | Add Binary                                 | Java, JavaScript |
+| 69   | Sqrt(x)                                    | Java, JavaScript |
+| 70   | ClimbingStairs                             | Java, JavaScript |
+| 83   | Remove Duplicates from Sorted List         | JavaScript       |
+| 88   | Merge Sorted Array                         | Java, JavaScript |
+| 94   | Binary Tree Inorder Traversal              | JavaScript       |
 | 100  | Same Tree                                  | Java             |
 | 101  | Symmetric Tree                             | Java             |
 | 102  | Binary Tree Level Order Traversal          | JavaScript       |
@@ -244,8 +244,8 @@ https://dmoj.ca/
 
 | #   | Title                        | Language            |
 | :-- | :--------------------------- | :------------------ |
-| 001 | Regular Expressions          | (JavaScript)        |
-| 002 | Web Development Fundamentals | HTML+CSS+JavaScript |
-| 004 | String Permutation           | Java                |
-| 005 | Primitive or Reference       | JavaScript          |
-| 010 | Probability of lottery       | JavaScript          |
+| 1   | Regular Expressions          | (JavaScript)        |
+| 2   | Web Development Fundamentals | HTML+CSS+JavaScript |
+| 4   | String Permutation           | Java                |
+| 5   | Primitive or Reference       | JavaScript          |
+| 10  | Probability of lottery       | JavaScript          |
