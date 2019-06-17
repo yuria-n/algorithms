@@ -62,6 +62,7 @@ https://leetcode.com/
 | 112  | Path Sum                                   | JavaScript       |
 | 118  | Pascal's Triangle                          | JavaScript       |
 | 121  | Best Time to Buy and Sell Stock            | Java             |
+| 122  | Best Time to Buy and Sell Stock II         | JavaScript       |
 | 125  | Valid Palindrome                           | JavaScript       |
 | 136  | Single Number                              | JavaScript       |
 | 141  | Linked List Cycle                          | JavaScript       |
