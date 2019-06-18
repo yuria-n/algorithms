@@ -9,6 +9,8 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+
+// Iteratively
 const reverseList = function(head) {
   let result = null;
 
@@ -20,4 +22,18 @@ const reverseList = function(head) {
   }
 
   return result;
+};
+
+// Recursively
+const reverseList2 = function(head) {
+  return helper(head, null);
+
+  function helper(node, result) {
+    if (!node) {
+      return result;
+    }
+    const next = node.next;
+    node.next = result;
+    return helper(next, node);
+  }
 };
