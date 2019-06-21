@@ -102,6 +102,7 @@ https://leetcode.com/
 | 412  | Fizz Buzz                                  | Java, JavaScript |
 | 448  | Find All Numbers Disappeared in an Array   | Java             |
 | 479  | Largest Palindrome Product                 | Java             |
+| 485  | Max Consecutive Ones                       | JavaScript       |
 | 500  | Keyboard Row                               | Java             |
 | 504  | Base 7                                     | Java, JavaScript |
 | 507  | Perfect Number                             | Java             |
