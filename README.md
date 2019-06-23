@@ -95,6 +95,7 @@ https://leetcode.com/
 | 342  | Power of Four                              | JavaScript       |
 | 345  | Reverse Vowels of a String                 | JavaScript       |
 | 350  | Intersection of Two Arrays II              | Java             |
+| 373  | Find K Pairs with Smallest Sums            | JavaScript       |
 | 383  | Ransom Note                                | JavaScript       |
 | 387  | First Unique Character in a String         | JavaScript       |
 | 389  | Find the Difference                        | JavaScript       |
