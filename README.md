@@ -113,6 +113,7 @@ https://leetcode.com/
 | 599  | Minimum Index Sum of Two Lists             | JavaScript       |
 | 605  | Can Place Flowers                          | JavaScript       |
 | 617  | Merge Two Binary Trees                     | JavaScript       |
+| 633  | Sum of Square Numbers                      | JavaScript       |
 | 637  | Average of Levels in Binary Tree           | JavaScript       |
 | 645  | Set Mismatch                               | JavaScript       |
 | 660  | Remove 9                                   | Java             |
