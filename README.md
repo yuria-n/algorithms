@@ -91,6 +91,7 @@ https://leetcode.com/
 | 257  | Binary Tree Paths                          | JavaScript       |
 | 266  | Invert Binary Tree                         | JavaScript       |
 | 268  | Missing Number                             | JavaScript       |
+| 278  | First Bad Version                          | JavaScript       |
 | 283  | Move Zeroes                                | JavaScript       |
 | 344  | Reverse String                             | Java, JavaScript |
 | 342  | Power of Four                              | JavaScript       |
