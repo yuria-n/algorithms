@@ -4,16 +4,23 @@
  * @return {number[]}
  */
 const intersection = function(nums1, nums2) {
-  const result = new Set();
-  for (let i = 0; i < nums1.length; i++) {
-    const n1 = nums1[i];
-    for (let j = 0; j < nums2.length; j++) {
-      const n2 = nums2[j];
-      if (!result.has(n1) && n1 === n2) {
-        result.add(n1);
-        break;
-      }
+  const result = [];
+  const set1 = new Set(nums1);
+  const set2 = new Set(nums2);
+  set1.forEach((n) => {
+    if (set2.has(n)) {
+      result.push(n);
     }
-  }
-  return Array.from(result);
+  });
+
+  return result;
+};
+
+const intersection = function(nums1, nums2) {
+  const set1 = new Set(nums1);
+  return [...new Set(nums2.filter((n) => set1.has(n)))];
+};
+
+const intersection = function(nums1, nums2) {
+  return [...new Set(nums1.filter((n) => nums2.includes(n)))];
 };
