@@ -149,6 +149,7 @@ https://leetcode.com/
 | 941  | Valid Mountain Array                       | JavaScript       |
 | 949  | Largest Time for Given Digits              | JavaScript       |
 | 965  | Univalued Binary Tree                      | JavaScript       |
+| 993  | Cousins in Binary Tree                     | JavaScript       |
 | 1046 | Last Stone Weight                          | JavaScript       |
 | 1078 | Occurrences After Bigram                   | JavaScript       |
 
