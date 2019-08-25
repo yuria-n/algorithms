@@ -61,7 +61,7 @@ https://leetcode.com/
 | 111  | Minimum Depth of Binary Tree               | JavaScript       |
 | 112  | Path Sum                                   | JavaScript       |
 | 118  | Pascal's Triangle                          | JavaScript       |
-| 121  | Best Time to Buy and Sell Stock            | Java             |
+| 121  | Best Time to Buy and Sell Stock            | JavaScript, Java |
 | 122  | Best Time to Buy and Sell Stock II         | JavaScript       |
 | 125  | Valid Palindrome                           | JavaScript       |
 | 136  | Single Number                              | JavaScript       |
