@@ -12,3 +12,13 @@ const maxSubArray = function(nums) {
   }
   return max;
 };
+
+const maxSubArray = function(nums) {
+  let max = -Infinity;
+  let cur = 0;
+  for (const n of nums) {
+    cur = Math.max(n, n + cur);
+    max = Math.max(max, cur);
+  }
+  return max;
+};
