@@ -17,3 +17,18 @@ const rotateString = function(A, B) {
   }
   return false;
 };
+
+const rotateString = function(A, B) {
+  const l = B.length;
+  for (let i = 0; i < l; i++) {
+    const rotated = B.substring(i, l) + B.substring(0, i);
+    if (A === rotated) {
+      return true;
+    }
+  }
+  return A === B;
+};
+
+const rotateString = function(A, B) {
+  return A.length === B.length && (A + A).indexOf(B) !== -1;
+};
