@@ -146,6 +146,7 @@ https://leetcode.com/
 | 905  | Sort Array By Parity                       | JavaScript       |
 | 922  | Sort Array By Parity II                    | JavaScript       |
 | 929  | Unique Email Addresses                     | JavaScript       |
+| 938  | Range Sum of BST                           | JavaScript       |
 | 941  | Valid Mountain Array                       | JavaScript       |
 | 949  | Largest Time for Given Digits              | JavaScript       |
 | 965  | Univalued Binary Tree                      | JavaScript       |
