@@ -113,6 +113,7 @@ https://leetcode.com/
 | 532  | K-diff Pairs in an Array                   | Java             |
 | 556  | Reshape The Matrix                         | Java             |
 | 557  | Reverse Words in a String III              | JavaScript       |
+| 560  | Subarray Sum Equals K                      | JavaScript       |
 | 599  | Minimum Index Sum of Two Lists             | JavaScript       |
 | 605  | Can Place Flowers                          | JavaScript       |
 | 617  | Merge Two Binary Trees                     | JavaScript       |
