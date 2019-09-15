@@ -8,14 +8,14 @@ Compute and return the square root of x.
 
 x is guaranteed to be a non-negative integer.
 
-Example 1:
+**Example 1:**
 
 ```
 Input: 4
 Output: 2
 ```
 
-Example 2:
+**Example 2:**
 
 ```
 Input: 8
