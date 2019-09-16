@@ -41,6 +41,7 @@ https://leetcode.com/
 | 26   | Remove Duplicates from Sorted Array        | JavaScript       |
 | 27   | Remove Element                             | JavaScript       |
 | 28   | Implement strStr()                         | Java, JavaScript |
+| 33   | Search in Rotated Sorted Array             | JavaScript       |
 | 35   | Search Insert Position                     | Java, JavaScript |
 | 53   | Maximum Subarray                           | Java, JavaScript |
 | 58   | Length of Last Word                        | Java, JavaScript |
