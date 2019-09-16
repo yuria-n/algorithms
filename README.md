@@ -67,6 +67,7 @@ https://leetcode.com/
 | 125  | Valid Palindrome                           | Easy       | JavaScript       |
 | 136  | Single Number                              | Easy       | JavaScript       |
 | 141  | Linked List Cycle                          | Easy       | JavaScript       |
+| 153  | Find Minimum in Rotated Sorted Array       | Medium     | JavaScript       |
 | 155  | Min Stack                                  | Easy       | JavaScript       |
 | 160  | Intersection of Two Linked Lists           | Easy       | JavaScript       |
 | 167  | Two Sum II                                 | Easy       | Java             |
