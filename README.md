@@ -30,131 +30,131 @@ prompt: name: [Qurestion title]
 
 https://leetcode.com/
 
-| #    | Title                                      | Language         |
-| :--- | :----------------------------------------- | :--------------- |
-| 1    | Two Sum                                    | Java, JavaScript |
-| 7    | Reverse Integer                            | Java, JavaScript |
-| 9    | Palindrome Number                          | Java, JavaScript |
-| 14   | Longest Common Prefix                      | Java, JavaScript |
-| 20   | Valid Parentheses                          | Java, JavaScript |
-| 21   | Merge Two Sorted Lists                     | JavaScript       |
-| 26   | Remove Duplicates from Sorted Array        | JavaScript       |
-| 27   | Remove Element                             | JavaScript       |
-| 28   | Implement strStr()                         | Java, JavaScript |
-| 33   | Search in Rotated Sorted Array             | JavaScript       |
-| 35   | Search Insert Position                     | Java, JavaScript |
-| 53   | Maximum Subarray                           | Java, JavaScript |
-| 58   | Length of Last Word                        | Java, JavaScript |
-| 66   | Plus One                                   | Java, JavaScript |
-| 67   | Add Binary                                 | Java, JavaScript |
-| 69   | Sqrt(x)                                    | Java, JavaScript |
-| 70   | ClimbingStairs                             | Java, JavaScript |
-| 83   | Remove Duplicates from Sorted List         | JavaScript       |
-| 88   | Merge Sorted Array                         | Java, JavaScript |
-| 94   | Binary Tree Inorder Traversal              | JavaScript       |
-| 100  | Same Tree                                  | Java             |
-| 101  | Symmetric Tree                             | Java             |
-| 102  | Binary Tree Level Order Traversal          | JavaScript       |
-| 104  | Maximum Depth of Binary Tree               | Java, JavaScript |
-| 107  | Binary Tree Level Order Traversal II       | JavaScript       |
-| 108  | Convert Sorted Array to Binary Search Tree | JavaScript       |
-| 110  | Balanced Binary Tree                       | Javascrpt        |
-| 111  | Minimum Depth of Binary Tree               | JavaScript       |
-| 112  | Path Sum                                   | JavaScript       |
-| 118  | Pascal's Triangle                          | JavaScript       |
-| 121  | Best Time to Buy and Sell Stock            | JavaScript, Java |
-| 122  | Best Time to Buy and Sell Stock II         | JavaScript       |
-| 125  | Valid Palindrome                           | JavaScript       |
-| 136  | Single Number                              | JavaScript       |
-| 141  | Linked List Cycle                          | JavaScript       |
-| 155  | Min Stack                                  | JavaScript       |
-| 160  | Intersection of Two Linked Lists           | JavaScript       |
-| 167  | Two Sum II                                 | Java             |
-| 168  | Excel Sheet Column Title                   | Java, JavaScript |
-| 169  | Majority Element                           | Java             |
-| 171  | Excel Sheet Column Number                  | JavaScript       |
-| 172  | Factorial Trailing Zeroes                  | JavaScript       |
-| 189  | Rotate Array                               | Java             |
-| 190  | Reverse Bits                               | Java             |
-| 191  | Number of 1 Bits                           | Java             |
-| 198  | House Robber                               | JavaScript       |
-| 202  | Happy Number                               | JavaScript       |
-| 203  | Remove Linked List Elements                | JavaScript       |
-| 204  | Count Primes                               | JavaScript       |
-| 205  | Isomorphic Strings                         | JavaScript       |
-| 206  | Reverse Linked List                        | JavaScript       |
-| 217  | Contains Duplicate                         | JavaScript       |
-| 222  | Count Complete Tree Nodes                  | JavaScript       |
-| 232  | Implement Queue using Stacks               | JavaScript       |
-| 234  | Palindrome Linked List                     | JavaScript       |
-| 237  | Delete Node in a Linked List               | JavaScript       |
-| 242  | Valid Anagram                              | Java             |
-| 257  | Binary Tree Paths                          | JavaScript       |
-| 266  | Invert Binary Tree                         | JavaScript       |
-| 268  | Missing Number                             | JavaScript       |
-| 278  | First Bad Version                          | JavaScript       |
-| 283  | Move Zeroes                                | JavaScript       |
-| 344  | Reverse String                             | Java, JavaScript |
-| 342  | Power of Four                              | JavaScript       |
-| 345  | Reverse Vowels of a String                 | JavaScript       |
-| 349  | Intersection of Two Arrays                 | JavaScript       |
-| 350  | Intersection of Two Arrays II              | Java             |
-| 373  | Find K Pairs with Smallest Sums            | JavaScript       |
-| 383  | Ransom Note                                | JavaScript       |
-| 387  | First Unique Character in a String         | JavaScript       |
-| 389  | Find the Difference                        | JavaScript       |
-| 404  | Sum of Left Leaves                         | JavaScript       |
-| 412  | Fizz Buzz                                  | Java, JavaScript |
-| 448  | Find All Numbers Disappeared in an Array   | Java             |
-| 479  | Largest Palindrome Product                 | Java             |
-| 485  | Max Consecutive Ones                       | JavaScript       |
-| 500  | Keyboard Row                               | Java             |
-| 504  | Base 7                                     | Java, JavaScript |
-| 507  | Perfect Number                             | Java             |
-| 532  | K-diff Pairs in an Array                   | Java             |
-| 556  | Reshape The Matrix                         | Java             |
-| 557  | Reverse Words in a String III              | JavaScript       |
-| 560  | Subarray Sum Equals K                      | JavaScript       |
-| 599  | Minimum Index Sum of Two Lists             | JavaScript       |
-| 605  | Can Place Flowers                          | JavaScript       |
-| 617  | Merge Two Binary Trees                     | JavaScript       |
-| 633  | Sum of Square Numbers                      | JavaScript       |
-| 637  | Average of Levels in Binary Tree           | JavaScript       |
-| 645  | Set Mismatch                               | JavaScript       |
-| 660  | Remove 9                                   | Java             |
-| 680  | Valid Palindrome II                        | Java             |
-| 669  | Trim a Binary Search Tree                  | JavaScript       |
-| 700  | Search in a Binary Search Tree             | JavaScript       |
-| 704  | Binary Search                              | JavaScript       |
-| 720  | Longest Word in Dictionary                 | JavaScript       |
-| 733  | Flood Fill                                 | JavaScript       |
-| 744  | Find Smallest Letter Greater Than Target   | JavaScript       |
-| 746  | Min Cost Climbing Stairs                   | JavaScript       |
-| 747  | Largest Number At Least Twice of Others    | JavaScript       |
-| 760  | Find Anagram Mappings                      | JavaScript       |
-| 771  | Jewels and Stones                          | JavaScript       |
-| 783  | Minimum Distance Between BST Nodes         | JavaScript       |
-| 796  | Rotate String                              | JavaScript       |
-| 804  | Unique Morse Code Words                    | JavaScript       |
-| 806  | Number of Lines To Write String            | JavaScript       |
-| 819  | Most Common Word                           | Javascript       |
-| 844  | Backspace String Compare                   | JavaScript       |
-| 849  | Maximize Distance to Closest Person        | JavaScript       |
-| 852  | Peak Index in a Mountain Array             | JavaScript       |
-| 860  | Lemonade Change                            | JavaScript       |
-| 876  | Middle of the Linked List                  | JavaScript       |
-| 884  | Uncommon Words from Two Sentences          | JavaScript       |
-| 897  | Increasing Order Search Tree               | JavaScript       |
-| 905  | Sort Array By Parity                       | JavaScript       |
-| 922  | Sort Array By Parity II                    | JavaScript       |
-| 929  | Unique Email Addresses                     | JavaScript       |
-| 938  | Range Sum of BST                           | JavaScript       |
-| 941  | Valid Mountain Array                       | JavaScript       |
-| 949  | Largest Time for Given Digits              | JavaScript       |
-| 965  | Univalued Binary Tree                      | JavaScript       |
-| 993  | Cousins in Binary Tree                     | JavaScript       |
-| 1046 | Last Stone Weight                          | JavaScript       |
-| 1078 | Occurrences After Bigram                   | JavaScript       |
+| #    | Title                                      | Difficulty | Language         |
+| :--- | :----------------------------------------- | ---------- | :--------------- |
+| 1    | Two Sum                                    | Easy       | JavaScript, Java |
+| 7    | Reverse Integer                            | Easy       | JavaScript, Java |
+| 9    | Palindrome Number                          | Easy       | JavaScript, Java |
+| 14   | Longest Common Prefix                      | Easy       | JavaScript, Java |
+| 20   | Valid Parentheses                          | Easy       | JavaScript, Java |
+| 21   | Merge Two Sorted Lists                     | Easy       | JavaScript       |
+| 26   | Remove Duplicates from Sorted Array        | Easy       | JavaScript       |
+| 27   | Remove Element                             | Easy       | JavaScript       |
+| 28   | Implement strStr()                         | Easy       | JavaScript, Java |
+| 33   | Search in Rotated Sorted Array             | Medium     | JavaScript       |
+| 35   | Search Insert Position                     | Easy       | JavaScript, Java |
+| 53   | Maximum Subarray                           | Easy       | JavaScript, Java |
+| 58   | Length of Last Word                        | Easy       | JavaScript, Java |
+| 66   | Plus One                                   | Easy       | JavaScript, Java |
+| 67   | Add Binary                                 | Easy       | JavaScript, Java |
+| 69   | Sqrt(x)                                    | Easy       | JavaScript, Java |
+| 70   | ClimbingStairs                             | Easy       | JavaScript, Java |
+| 83   | Remove Duplicates from Sorted List         | Easy       | JavaScript       |
+| 88   | Merge Sorted Array                         | Easy       | JavaScript, Java |
+| 94   | Binary Tree Inorder Traversal              | Medium     | JavaScript       |
+| 100  | Same Tree                                  | Easy       | Java             |
+| 101  | Symmetric Tree                             | Easy       | Java             |
+| 102  | Binary Tree Level Order Traversal          | Medium     | JavaScript       |
+| 104  | Maximum Depth of Binary Tree               | Easy       | JavaScript, Java |
+| 107  | Binary Tree Level Order Traversal II       | Easy       | JavaScript       |
+| 108  | Convert Sorted Array to Binary Search Tree | Easy       | JavaScript       |
+| 110  | Balanced Binary Tree                       | Easy       | Javascrpt        |
+| 111  | Minimum Depth of Binary Tree               | Easy       | JavaScript       |
+| 112  | Path Sum                                   | Easy       | JavaScript       |
+| 118  | Pascal's Triangle                          | Easy       | JavaScript       |
+| 121  | Best Time to Buy and Sell Stock            | Easy       | JavaScript, Java |
+| 122  | Best Time to Buy and Sell Stock II         | Easy       | JavaScript       |
+| 125  | Valid Palindrome                           | Easy       | JavaScript       |
+| 136  | Single Number                              | Easy       | JavaScript       |
+| 141  | Linked List Cycle                          | Easy       | JavaScript       |
+| 155  | Min Stack                                  | Easy       | JavaScript       |
+| 160  | Intersection of Two Linked Lists           | Easy       | JavaScript       |
+| 167  | Two Sum II                                 | Easy       | Java             |
+| 168  | Excel Sheet Column Title                   | Easy       | JavaScript, Java |
+| 169  | Majority Element                           | Easy       | Java             |
+| 171  | Excel Sheet Column Number                  | Easy       | JavaScript       |
+| 172  | Factorial Trailing Zeroes                  | Easy       | JavaScript       |
+| 189  | Rotate Array                               | Easy       | Java             |
+| 190  | Reverse Bits                               | Easy       | Java             |
+| 191  | Number of 1 Bits                           | Easy       | Java             |
+| 198  | House Robber                               | Easy       | JavaScript       |
+| 202  | Happy Number                               | Easy       | JavaScript       |
+| 203  | Remove Linked List Elements                | Easy       | JavaScript       |
+| 204  | Count Primes                               | Easy       | JavaScript       |
+| 205  | Isomorphic Strings                         | Easy       | JavaScript       |
+| 206  | Reverse Linked List                        | Easy       | JavaScript       |
+| 217  | Contains Duplicate                         | Easy       | JavaScript       |
+| 222  | Count Complete Tree Nodes                  | Medium     | JavaScript       |
+| 232  | Implement Queue using Stacks               | Easy       | JavaScript       |
+| 234  | Palindrome Linked List                     | Easy       | JavaScript       |
+| 237  | Delete Node in a Linked List               | Easy       | JavaScript       |
+| 242  | Valid Anagram                              | Easy       | Java             |
+| 257  | Binary Tree Paths                          | Easy       | JavaScript       |
+| 266  | Invert Binary Tree                         | Easy       | JavaScript       |
+| 268  | Missing Number                             | Easy       | JavaScript       |
+| 278  | First Bad Version                          | Easy       | JavaScript       |
+| 283  | Move Zeroes                                | Easy       | JavaScript       |
+| 344  | Reverse String                             | Easy       | JavaScript, Java |
+| 342  | Power of Four                              | Easy       | JavaScript       |
+| 345  | Reverse Vowels of a String                 | Easy       | JavaScript       |
+| 349  | Intersection of Two Arrays                 | Easy       | JavaScript       |
+| 350  | Intersection of Two Arrays II              | Easy       | Java             |
+| 373  | Find K Pairs with Smallest Sums            | Medium     | JavaScript       |
+| 383  | Ransom Note                                | Easy       | JavaScript       |
+| 387  | First Unique Character in a String         | Easy       | JavaScript       |
+| 389  | Find the Difference                        | Easy       | JavaScript       |
+| 404  | Sum of Left Leaves                         | Easy       | JavaScript       |
+| 412  | Fizz Buzz                                  | Easy       | JavaScript, Java |
+| 448  | Find All Numbers Disappeared in an Array   | Easy       | Java             |
+| 479  | Largest Palindrome Product                 | Hard       | Java             |
+| 485  | Max Consecutive Ones                       | Easy       | JavaScript       |
+| 500  | Keyboard Row                               | Easy       | Java             |
+| 504  | Base 7                                     | Easy       | JavaScript, Java |
+| 507  | Perfect Number                             | Easy       | Java             |
+| 532  | K-diff Pairs in an Array                   | Easy       | Java             |
+| 556  | Reshape The Matrix                         | Easy       | Java             |
+| 557  | Reverse Words in a String III              | Easy       | JavaScript       |
+| 560  | Subarray Sum Equals K                      | Medium     | JavaScript       |
+| 599  | Minimum Index Sum of Two Lists             | Easy       | JavaScript       |
+| 605  | Can Place Flowers                          | Easy       | JavaScript       |
+| 617  | Merge Two Binary Trees                     | Easy       | JavaScript       |
+| 633  | Sum of Square Numbers                      | Easy       | JavaScript       |
+| 637  | Average of Levels in Binary Tree           | Easy       | JavaScript       |
+| 645  | Set Mismatch                               | Easy       | JavaScript       |
+| 660  | Remove 9                                   | Hard       | Java             |
+| 680  | Valid Palindrome II                        | Easy       | Java             |
+| 669  | Trim a Binary Search Tree                  | Easy       | JavaScript       |
+| 700  | Search in a Binary Search Tree             | Easy       | JavaScript       |
+| 704  | Binary Search                              | Easy       | JavaScript       |
+| 720  | Longest Word in Dictionary                 | Easy       | JavaScript       |
+| 733  | Flood Fill                                 | Easy       | JavaScript       |
+| 744  | Find Smallest Letter Greater Than Target   | Easy       | JavaScript       |
+| 746  | Min Cost Climbing Stairs                   | Easy       | JavaScript       |
+| 747  | Largest Number At Least Twice of Others    | Easy       | JavaScript       |
+| 760  | Find Anagram Mappings                      | Easy       | JavaScript       |
+| 771  | Jewels and Stones                          | Easy       | JavaScript       |
+| 783  | Minimum Distance Between BST Nodes         | Easy       | JavaScript       |
+| 796  | Rotate String                              | Easy       | JavaScript       |
+| 804  | Unique Morse Code Words                    | Easy       | JavaScript       |
+| 806  | Number of Lines To Write String            | Easy       | JavaScript       |
+| 819  | Most Common Word                           | Easy       | Javascript       |
+| 844  | Backspace String Compare                   | Easy       | JavaScript       |
+| 849  | Maximize Distance to Closest Person        | Easy       | JavaScript       |
+| 852  | Peak Index in a Mountain Array             | Easy       | JavaScript       |
+| 860  | Lemonade Change                            | Easy       | JavaScript       |
+| 876  | Middle of the Linked List                  | Easy       | JavaScript       |
+| 884  | Uncommon Words from Two Sentences          | Easy       | JavaScript       |
+| 897  | Increasing Order Search Tree               | Easy       | JavaScript       |
+| 905  | Sort Array By Parity                       | Easy       | JavaScript       |
+| 922  | Sort Array By Parity II                    | Easy       | JavaScript       |
+| 929  | Unique Email Addresses                     | Easy       | JavaScript       |
+| 938  | Range Sum of BST                           | Easy       | JavaScript       |
+| 941  | Valid Mountain Array                       | Easy       | JavaScript       |
+| 949  | Largest Time for Given Digits              | Easy       | JavaScript       |
+| 965  | Univalued Binary Tree                      | Easy       | JavaScript       |
+| 993  | Cousins in Binary Tree                     | Easy       | JavaScript       |
+| 1046 | Last Stone Weight                          | Easy       | JavaScript       |
+| 1078 | Occurrences After Bigram                   | Easy       | JavaScript       |
 
 ## HackerRank
 
@@ -164,23 +164,23 @@ https://www.hackerrank.com/
 
 | Title                 | Language                 |
 | :-------------------- | :----------------------- |
-| A Very Big Sum        | Java, JavaScript         |
-| Birthday Cake Candles | Java, JavaScript         |
-| Compare the Triplets  | Java, JavaScript         |
-| Diagonal Difference   | Java, JavaScript         |
-| Mini-Max Sum          | Java, JavaScript         |
-| Plus Mins             | Java, JavaScript         |
+| A Very Big Sum        | JavaScript, Java         |
+| Birthday Cake Candles | JavaScript, Java         |
+| Compare the Triplets  | JavaScript, Java         |
+| Diagonal Difference   | JavaScript, Java         |
+| Mini-Max Sum          | JavaScript, Java         |
+| Plus Mins             | JavaScript, Java         |
 | Simple Array Sum      | Java, Python, JavaScript |
 | Solve Me First        | Java, Python, JavaScript |
-| Staircase             | Java, JavaScript         |
-| Time Conversion       | Java, JavaScript         |
+| Staircase             | JavaScript, Java         |
+| Time Conversion       | JavaScript, Java         |
 
 ### 002.Implementation
 
 | Title            | Language         |
 | :--------------- | :--------------- |
 | Apple and Orange | JavaScript       |
-| Grading Students | Java, JavaScript |
+| Grading Students | JavaScript, Java |
 | Kangaroo         | JavaScript       |
 
 ### 003.Strings
@@ -188,7 +188,7 @@ https://www.hackerrank.com/
 | Title                | Language         |
 | :------------------- | :--------------- |
 | Camel Case           | Java             |
-| Super Reduced String | Java, JavaScript |
+| Super Reduced String | JavaScript, Java |
 
 ### 004.Sorting
 
