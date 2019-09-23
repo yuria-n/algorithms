@@ -157,6 +157,7 @@ https://leetcode.com/
 | 993  | Cousins in Binary Tree                     | Easy       | JavaScript       |
 | 1046 | Last Stone Weight                          | Easy       | JavaScript       |
 | 1078 | Occurrences After Bigram                   | Easy       | JavaScript       |
+| 1201 | Ugly Number III                            | Medium     | JavaScript       |
 
 ## HackerRank
 
