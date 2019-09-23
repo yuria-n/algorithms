@@ -122,6 +122,7 @@ https://leetcode.com/
 | 633  | Sum of Square Numbers                      | Easy       | JavaScript       |
 | 637  | Average of Levels in Binary Tree           | Easy       | JavaScript       |
 | 645  | Set Mismatch                               | Easy       | JavaScript       |
+| 658  | Find K Closest Elements                    | Medium     | JavaScript       |
 | 660  | Remove 9                                   | Hard       | Java             |
 | 680  | Valid Palindrome II                        | Easy       | Java             |
 | 669  | Trim a Binary Search Tree                  | Easy       | JavaScript       |
