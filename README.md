@@ -72,7 +72,7 @@ https://leetcode.com/
 | 160  | Intersection of Two Linked Lists           | Easy       | JavaScript       |
 | 167  | Two Sum II                                 | Easy       | Java             |
 | 168  | Excel Sheet Column Title                   | Easy       | JavaScript, Java |
-| 169  | Majority Element                           | Easy       | Java             |
+| 169  | Majority Element                           | Easy       | JavaScript, Java |
 | 171  | Excel Sheet Column Number                  | Easy       | JavaScript       |
 | 172  | Factorial Trailing Zeroes                  | Easy       | JavaScript       |
 | 189  | Rotate Array                               | Easy       | Java             |
