@@ -27,3 +27,13 @@ const minDepth = function(root) {
     return Math.min(dfs(node.left, level), dfs(node.right, level));
   }
 };
+
+const minDepth = function(root) {
+  if (!root) {
+    return 0;
+  }
+  if (!root.right || !root.left) {
+    return Math.max(minDepth(root.left), minDepth(root.right)) + 1;
+  }
+  return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+};
