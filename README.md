@@ -126,6 +126,7 @@ https://leetcode.com/
 | 660  | Remove 9                                   | Hard       | Java             |
 | 680  | Valid Palindrome II                        | Easy       | Java             |
 | 669  | Trim a Binary Search Tree                  | Easy       | JavaScript       |
+| 695  | Max Area of Island                         | Medium     | JavaScript       |
 | 700  | Search in a Binary Search Tree             | Easy       | JavaScript       |
 | 704  | Binary Search                              | Easy       | JavaScript       |
 | 720  | Longest Word in Dictionary                 | Easy       | JavaScript       |
