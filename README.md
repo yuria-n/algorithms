@@ -140,6 +140,7 @@ https://leetcode.com/
 | 796  | Rotate String                              | Easy       | JavaScript       |
 | 804  | Unique Morse Code Words                    | Easy       | JavaScript       |
 | 806  | Number of Lines To Write String            | Easy       | JavaScript       |
+| 832  | Flipping an Image                          | Easy       | JavaScript       |
 | 819  | Most Common Word                           | Easy       | Javascript       |
 | 844  | Backspace String Compare                   | Easy       | JavaScript       |
 | 849  | Maximize Distance to Closest Person        | Easy       | JavaScript       |
