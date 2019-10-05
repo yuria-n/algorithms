@@ -21,3 +21,21 @@ const distanceBetweenBusStops = function(distance, start, destination) {
   }
   return Math.min(clockwise, antiClockwise);
 };
+
+const distanceBetweenBusStops = function(distance, start, destination) {
+  const min = Math.min(start, destination);
+  const max = Math.max(start, destination);
+
+  let clockwise = 0;
+  let antiClockwise = 0;
+  for (let i = 0; i < distance.length; i++) {
+    const n = distance[i];
+    if (i >= min && i < max) {
+      clockwise += n;
+    } else {
+      antiClockwise += n;
+    }
+  }
+
+  return Math.min(clockwise, antiClockwise);
+};
