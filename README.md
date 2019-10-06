@@ -161,6 +161,7 @@ https://leetcode.com/
 | 1078 | Occurrences After Bigram                   | Easy       | JavaScript       |
 | 1184 | Distance Between Bus Stops                 | Easy       | JavaScript       |
 | 1201 | Ugly Number III                            | Medium     | JavaScript       |
+| 1217 | Play with Chips                            | Easy       | JavaScript       |
 
 ## HackerRank
 
