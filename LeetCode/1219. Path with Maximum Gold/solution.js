@@ -10,25 +10,24 @@ const getMaximumGold = function(grid) {
       if (!row[j]) {
         continue;
       }
-      max = Math.max(max, helper([i, j], 0));
+      max = Math.max(max, helper(i, j));
     }
   }
   return max;
 
-  function helper([i, j], sum) {
+  function helper(i, j) {
     if (!grid[i] || !grid[i][j]) {
-      return sum;
+      return 0;
     }
-    const num = grid[i][j];
-    sum += num;
+    const current = grid[i][j];
     grid[i][j] = 0;
     const max = Math.max(
-      helper([i - 1, j], sum),
-      helper([i, j - 1], sum),
-      helper([i, j + 1], sum),
-      helper([i + 1, j], sum),
+      helper(i - 1, j),
+      helper(i, j - 1),
+      helper(i, j + 1),
+      helper(i + 1, j),
     );
-    grid[i][j] = num;
-    return max;
+    grid[i][j] = current;
+    return current + max;
   }
 };
