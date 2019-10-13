@@ -163,6 +163,7 @@ https://leetcode.com/
 | 1201 | Ugly Number III                            | Medium     | JavaScript       |
 | 1217 | Play with Chips                            | Easy       | JavaScript       |
 | 1219 | Path with Maximum Gold                     | Easy       | JavaScript       |
+| 1221 | Split a String in Balanced Strings         | Easy       | JavaScript       |
 
 ## HackerRank
 
