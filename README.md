@@ -164,6 +164,7 @@ https://leetcode.com/
 | 1217 | Play with Chips                            | Easy       | JavaScript       |
 | 1219 | Path with Maximum Gold                     | Easy       | JavaScript       |
 | 1221 | Split a String in Balanced Strings         | Easy       | JavaScript       |
+| 1232 | Check If It Is a Straight Line             | Easy       | JavaScript       |
 
 ## HackerRank
 
