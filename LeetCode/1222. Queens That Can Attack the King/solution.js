@@ -3,8 +3,8 @@
  * @param {number[]} king
  * @return {number[][]}
  */
+const directions = [-1, 0, 1];
 const queensAttacktheKing = function(queens, king) {
-  // create a map
   const queenMap = {};
   queens.forEach(([qx, qy]) => {
     const set = queenMap[qx] || new Set();
@@ -13,14 +13,14 @@ const queensAttacktheKing = function(queens, king) {
 
   const result = [];
   const [kx, ky] = king;
-  findQueen(kx, ky, -1, 0);
-  findQueen(kx, ky, 1, 0);
-  findQueen(kx, ky, 0, -1);
-  findQueen(kx, ky, 0, 1);
-  findQueen(kx, ky, -1, -1);
-  findQueen(kx, ky, 1, 1);
-  findQueen(kx, ky, 1, -1);
-  findQueen(kx, ky, -1, 1);
+  for (const i of directions) {
+    for (const j of directions) {
+      if (!i && !j) {
+        continue;
+      }
+      findQueen(kx, ky, i, j);
+    }
+  }
   return result;
 
   function findQueen(x, y, dx, dy) {
