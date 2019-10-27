@@ -104,6 +104,7 @@ https://leetcode.com/
 | 383  | Ransom Note                                | Easy       | JavaScript       |
 | 387  | First Unique Character in a String         | Easy       | JavaScript       |
 | 389  | Find the Difference                        | Easy       | JavaScript       |
+| 392  | Is Subsequence                             | Easy       | JavaScript       |
 | 404  | Sum of Left Leaves                         | Easy       | JavaScript       |
 | 412  | Fizz Buzz                                  | Easy       | JavaScript, Java |
 | 448  | Find All Numbers Disappeared in an Array   | Easy       | Java             |
