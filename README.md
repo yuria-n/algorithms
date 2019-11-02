@@ -51,6 +51,7 @@ https://leetcode.com/
 | 70   | ClimbingStairs                             | Easy       | JavaScript, Java |
 | 83   | Remove Duplicates from Sorted List         | Easy       | JavaScript       |
 | 88   | Merge Sorted Array                         | Easy       | JavaScript, Java |
+| 89   | Gray Code                                  | Medium     | JavaScript       |
 | 94   | Binary Tree Inorder Traversal              | Medium     | JavaScript       |
 | 100  | Same Tree                                  | Easy       | Java             |
 | 101  | Symmetric Tree                             | Easy       | Java             |
