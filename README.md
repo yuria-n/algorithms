@@ -45,6 +45,7 @@ https://leetcode.com/
 | 35   | Search Insert Position                        | Easy       | JavaScript, Java |
 | 53   | Maximum Subarray                              | Easy       | JavaScript, Java |
 | 58   | Length of Last Word                           | Easy       | JavaScript, Java |
+| 62   | Unique Paths                                  | Medium     | JavaScript       |
 | 66   | Plus One                                      | Easy       | JavaScript, Java |
 | 67   | Add Binary                                    | Easy       | JavaScript, Java |
 | 69   | Sqrt(x)                                       | Easy       | JavaScript, Java |
