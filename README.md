@@ -172,6 +172,7 @@ https://leetcode.com/
 | 1232 | Check If It Is a Straight Line                | Easy       | JavaScript       |
 | 1238 | Circular Permutation in Binary Representation | Medium     | JavaScript       |
 | 1247 | Minimum Swaps to Make Strings Equal           | Easy       | JavaScript       |
+| 1252 | Cells with Odd Values in a Matrix             | Easy       | JavaScript       |
 
 ## HackerRank
 
