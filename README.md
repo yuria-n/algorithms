@@ -173,6 +173,7 @@ https://leetcode.com/
 | 1238 | Circular Permutation in Binary Representation | Medium     | JavaScript       |
 | 1247 | Minimum Swaps to Make Strings Equal           | Easy       | JavaScript       |
 | 1252 | Cells with Odd Values in a Matrix             | Easy       | JavaScript       |
+| 1253 | Reconstruct a 2-Row Binary Matrix             | Medium     | JavaScript       |
 
 ## HackerRank
 
