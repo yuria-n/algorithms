@@ -159,6 +159,7 @@ https://leetcode.com/
 | 941  | Valid Mountain Array                          | Easy       | JavaScript       |
 | 949  | Largest Time for Given Digits                 | Easy       | JavaScript       |
 | 965  | Univalued Binary Tree                         | Easy       | JavaScript       |
+| 983  | Minimum Cost For Tickets                      | Medium     | JavaScript       |
 | 993  | Cousins in Binary Tree                        | Easy       | JavaScript       |
 | 1046 | Last Stone Weight                             | Easy       | JavaScript       |
 | 1078 | Occurrences After Bigram                      | Easy       | JavaScript       |
