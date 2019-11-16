@@ -37,15 +37,9 @@ const hasPathSum2 = function(root, sum) {
 };
 
 const hasPathSum3 = function(root, sum) {
-  if (!root) {
-    return false;
-  }
-
-  const { left, right, val } = root;
+  if (!root) return false;
+  const { val, left, right } = root;
   sum -= val;
-  if (!left && !right && sum === 0) {
-    return true;
-  }
-
+  if (!left && !right && !sum) return true;
   return hasPathSum(left, sum) || hasPathSum(right, sum);
 };
