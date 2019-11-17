@@ -81,10 +81,7 @@ https://leetcode.com/
 | 190  | Reverse Bits                                  | Easy       | Java             |
 | 191  | Number of 1 Bits                              | Easy       | Java             |
 | 198  | House Robber                                  | Easy       | JavaScript       |
-| 202  | Happy Number                                  | Easy       | JavaScript       |
-| 203  | Remove Linked List Elements                   | Easy       | JavaScript       |
-| 204  | Count Primes                                  | Easy       | JavaScript       |
-| 205  | Isomorphic Strings                            | Easy       | JavaScript       |
+| 200  | Number of Islands                             | Medium     | JavaScript       |
 | 206  | Reverse Linked List                           | Easy       | JavaScript       |
 | 217  | Contains Duplicate                            | Easy       | JavaScript       |
 | 222  | Count Complete Tree Nodes                     | Medium     | JavaScript       |
