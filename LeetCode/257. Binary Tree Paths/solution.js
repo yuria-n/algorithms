@@ -29,3 +29,24 @@ const binaryTreePaths = function(root) {
     }
   }
 };
+
+const binaryTreePaths2 = function(root) {
+  const result = [];
+  helper(root, '');
+  return result;
+
+  function helper(node, cur) {
+    if (!node) {
+      return;
+    }
+    const { val, left, right } = node;
+    cur += val;
+    if (!left && !right && cur) {
+      result.push(cur);
+      return;
+    }
+    cur += '->';
+    helper(left, cur);
+    helper(right, cur);
+  }
+};
