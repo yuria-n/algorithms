@@ -47,3 +47,29 @@ const floodFill2 = function(image, sr, sc, newColor) {
     fill(r, c + 1);
   }
 };
+
+const floodFill3 = function(image, sr, sc, newColor) {
+  const oldColor = image[sr][sc];
+  if (oldColor === newColor) {
+    return image;
+  }
+  helper(sr, sc);
+  return image;
+
+  function helper(r, c) {
+    if (
+      r < 0 ||
+      c < 0 ||
+      r >= image.length ||
+      c >= image[0].length ||
+      image[r][c] !== oldColor
+    ) {
+      return;
+    }
+    image[r][c] = newColor;
+    helper(r - 1, c);
+    helper(r + 1, c);
+    helper(r, c - 1);
+    helper(r, c + 1);
+  }
+};
