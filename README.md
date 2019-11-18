@@ -171,6 +171,7 @@ https://leetcode.com/
 | 1247 | Minimum Swaps to Make Strings Equal           | Easy       | JavaScript       |
 | 1252 | Cells with Odd Values in a Matrix             | Easy       | JavaScript       |
 | 1253 | Reconstruct a 2-Row Binary Matrix             | Medium     | JavaScript       |
+| 1260 | Shift 2D Grid                                 | Easy       | JavaScript       |
 
 ## HackerRank
 
