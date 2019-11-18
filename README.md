@@ -172,6 +172,7 @@ https://leetcode.com/
 | 1252 | Cells with Odd Values in a Matrix             | Easy       | JavaScript       |
 | 1253 | Reconstruct a 2-Row Binary Matrix             | Medium     | JavaScript       |
 | 1260 | Shift 2D Grid                                 | Easy       | JavaScript       |
+| 1261 | Find Elements in a Contaminated Binary Tree   | Medium     | JavaScript       |
 
 ## HackerRank
 
