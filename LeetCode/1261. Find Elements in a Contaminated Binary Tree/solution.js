@@ -21,16 +21,15 @@ class FindElements {
         return;
       }
       const { val, left, right } = node;
+      set.add(val);
       if (left) {
         left.val = 2 * val + 1;
-        set.add(left.val);
+        dfs(left);
       }
       if (right) {
         right.val = 2 * val + 2;
-        set.add(right.val);
+        dfs(right);
       }
-      dfs(left);
-      dfs(right);
     }
   }
 
