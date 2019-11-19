@@ -158,6 +158,7 @@ https://leetcode.com/
 | 965  | Univalued Binary Tree                         | Easy       | JavaScript       |
 | 983  | Minimum Cost For Tickets                      | Medium     | JavaScript       |
 | 993  | Cousins in Binary Tree                        | Easy       | JavaScript       |
+| 1037 | Valid Boomerang                               | Easy       | JavaScript       |
 | 1046 | Last Stone Weight                             | Easy       | JavaScript       |
 | 1078 | Occurrences After Bigram                      | Easy       | JavaScript       |
 | 1184 | Distance Between Bus Stops                    | Easy       | JavaScript       |
