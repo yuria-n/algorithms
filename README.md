@@ -35,6 +35,7 @@ https://leetcode.com/
 | 1    | Two Sum                                       | Easy       | JavaScript, Java |
 | 7    | Reverse Integer                               | Easy       | JavaScript, Java |
 | 9    | Palindrome Number                             | Easy       | JavaScript, Java |
+| 13   | Roman to Integer                              | Easy       | JavaScript, Java |
 | 14   | Longest Common Prefix                         | Easy       | JavaScript, Java |
 | 20   | Valid Parentheses                             | Easy       | JavaScript, Java |
 | 21   | Merge Two Sorted Lists                        | Easy       | JavaScript       |
