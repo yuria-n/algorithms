@@ -68,6 +68,7 @@ https://leetcode.com/
 | 121  | Best Time to Buy and Sell Stock               | Easy       | JavaScript, Java |
 | 122  | Best Time to Buy and Sell Stock II            | Easy       | JavaScript       |
 | 125  | Valid Palindrome                              | Easy       | JavaScript       |
+| 129  | Sum Root to Leaf Numbers                      | Medium     | JavaScript       |
 | 136  | Single Number                                 | Easy       | JavaScript       |
 | 141  | Linked List Cycle                             | Easy       | JavaScript       |
 | 142  | Linked List Cycle II                          | Medium     | JavaScript       |
