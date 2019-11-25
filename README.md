@@ -109,6 +109,7 @@ https://leetcode.com/
 | 392  | Is Subsequence                                | Easy       | JavaScript       |
 | 404  | Sum of Left Leaves                            | Easy       | JavaScript       |
 | 412  | Fizz Buzz                                     | Easy       | JavaScript, Java |
+| 443  | String Compression                            | Easy       | JavaScript       |
 | 448  | Find All Numbers Disappeared in an Array      | Easy       | Java             |
 | 479  | Largest Palindrome Product                    | Hard       | Java             |
 | 485  | Max Consecutive Ones                          | Easy       | JavaScript       |
