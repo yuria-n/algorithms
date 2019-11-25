@@ -180,6 +180,7 @@ https://leetcode.com/
 | 1260 | Shift 2D Grid                                 | Easy       | JavaScript       |
 | 1261 | Find Elements in a Contaminated Binary Tree   | Medium     | JavaScript       |
 | 1266 | Minimum Time Visiting All Points              | Easy       | JavaScript       |
+| 1267 | Count Servers that Communicate                | Medium     | JavaScript       |
 
 ## HackerRank
 
