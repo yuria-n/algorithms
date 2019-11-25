@@ -179,6 +179,7 @@ https://leetcode.com/
 | 1253 | Reconstruct a 2-Row Binary Matrix             | Medium     | JavaScript       |
 | 1260 | Shift 2D Grid                                 | Easy       | JavaScript       |
 | 1261 | Find Elements in a Contaminated Binary Tree   | Medium     | JavaScript       |
+| 1266 | Minimum Time Visiting All Points              | Easy       | JavaScript       |
 
 ## HackerRank
 
