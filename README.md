@@ -151,6 +151,7 @@ https://leetcode.com/
 | 849  | Maximize Distance to Closest Person           | Easy       | JavaScript       |
 | 852  | Peak Index in a Mountain Array                | Easy       | JavaScript       |
 | 860  | Lemonade Change                               | Easy       | JavaScript       |
+| 872  | eaf-Similar Trees                             | Easy       | JavaScript       |
 | 876  | Middle of the Linked List                     | Easy       | JavaScript       |
 | 884  | Uncommon Words from Two Sentences             | Easy       | JavaScript       |
 | 897  | Increasing Order Search Tree                  | Easy       | JavaScript       |
