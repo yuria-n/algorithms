@@ -11,14 +11,29 @@
  * @return {boolean}
  */
 const leafSimilar = function(root1, root2) {
-  const leaves1 = dfs(root1, []);
-  const leaves2 = dfs(root2, []);
-  for (let i = 0; i < Math.max(leaves1.length, leaves2.length); i++) {
-    if (leaves1[i] !== leaves2[i]) {
-      return false;
+  const leaves1 = [];
+  const leaves2 = [];
+  dfs(root1, leaves1);
+  dfs(root2, leaves2);
+  return (
+    leaves1.length === leaves2.length && leaves1.every((leaf, i) => leaf === leaves2[i])
+  );
+
+  function dfs(node, leaves) {
+    if (!node) {
+      return;
     }
+    const { val, left, right } = node;
+    if (!left && !right) {
+      leaves.push(val);
+    }
+    dfs(node.left, leaves);
+    dfs(node.right, leaves);
   }
-  return true;
+};
+
+const leafSimilar = function(root1, root2) {
+  return dfs(root1, '') === dfs(root2, '');
 
   function dfs(node, leaves) {
     if (!node) {
@@ -26,9 +41,9 @@ const leafSimilar = function(root1, root2) {
     }
     const { val, left, right } = node;
     if (!left && !right) {
-      leaves.push(val);
+      leaves += ` ${val}`;
+      return leaves;
     }
-    dfs(node.left, leaves);
-    return dfs(node.right, leaves);
+    return dfs(node.left, leaves) + dfs(node.right, leaves);
   }
 };
