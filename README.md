@@ -145,8 +145,9 @@ https://leetcode.com/
 | 796  | Rotate String                                 | Easy       | JavaScript       |
 | 804  | Unique Morse Code Words                       | Easy       | JavaScript       |
 | 806  | Number of Lines To Write String               | Easy       | JavaScript       |
-| 832  | Flipping an Image                             | Easy       | JavaScript       |
 | 819  | Most Common Word                              | Easy       | Javascript       |
+| 821  | Shortest Distance to a Character              | Easy       | Javascript       |
+| 832  | Flipping an Image                             | Easy       | JavaScript       |
 | 844  | Backspace String Compare                      | Easy       | JavaScript       |
 | 849  | Maximize Distance to Closest Person           | Easy       | JavaScript       |
 | 852  | Peak Index in a Mountain Array                | Easy       | JavaScript       |
@@ -182,6 +183,7 @@ https://leetcode.com/
 | 1261 | Find Elements in a Contaminated Binary Tree   | Medium     | JavaScript       |
 | 1266 | Minimum Time Visiting All Points              | Easy       | JavaScript       |
 | 1267 | Count Servers that Communicate                | Medium     | JavaScript       |
+| 1268 | Search Suggestions System                     | Medium     | JavaScript       |
 
 ## HackerRank
 
