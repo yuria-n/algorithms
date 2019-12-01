@@ -184,6 +184,7 @@ https://leetcode.com/
 | 1266 | Minimum Time Visiting All Points              | Easy       | JavaScript       |
 | 1267 | Count Servers that Communicate                | Medium     | JavaScript       |
 | 1268 | Search Suggestions System                     | Medium     | JavaScript       |
+| 1275 | Find Winner on a Tic Tac Toe Game             | Easy       | JavaScript       |
 
 ## HackerRank
 
