@@ -186,6 +186,7 @@ https://leetcode.com/
 | 1267 | Count Servers that Communicate                | Medium     | JavaScript       |
 | 1268 | Search Suggestions System                     | Medium     | JavaScript       |
 | 1275 | Find Winner on a Tic Tac Toe Game             | Easy       | JavaScript       |
+| 1283 | Find the Smallest Divisor Given a Threshold   | Medium     | JavaScript       |
 
 ## HackerRank
 
