@@ -187,6 +187,7 @@ https://leetcode.com/
 | 1268 | Search Suggestions System                            | Medium     | JavaScript       |
 | 1275 | Find Winner on a Tic Tac Toe Game                    | Easy       | JavaScript       |
 | 1281 | Subtract the Product and Sum of Digits of an Integer | Easy       | JavaScript       |
+| 1282 | Group the People Given the Group Size They Belong To | Medium     | JavaScript       |
 | 1283 | Find the Smallest Divisor Given a Threshold          | Medium     | JavaScript       |
 
 ## HackerRank
