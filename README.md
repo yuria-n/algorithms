@@ -55,7 +55,7 @@ https://leetcode.com/
 | 88   | Merge Sorted Array                                   | Easy       | JavaScript, Java |
 | 89   | Gray Code                                            | Medium     | JavaScript       |
 | 94   | Binary Tree Inorder Traversal                        | Medium     | JavaScript       |
-| 100  | Same Tree                                            | Easy       | Java             |
+| 100  | Same Tree                                            | Easy       | JavaScript, Java |
 | 101  | Symmetric Tree                                       | Easy       | Java             |
 | 102  | Binary Tree Level Order Traversal                    | Medium     | JavaScript       |
 | 104  | Maximum Depth of Binary Tree                         | Easy       | JavaScript, Java |
