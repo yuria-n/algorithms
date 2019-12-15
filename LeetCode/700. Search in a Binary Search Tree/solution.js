@@ -11,29 +11,31 @@
  * @return {TreeNode}
  */
 const searchBST = function(root, val) {
-  if (!root) {
-    return null;
+  while (root && root.val !== val) {
+    root = root.val < val ? root.right : root.left;
   }
-
-  if (root.val < val) {
-    return searchBST(root.right, val);
-  }
-
-  if (root.val > val) {
-    return searchBST(root.left, val);
-  }
-
   return root;
 };
 
-const searchBST2 = function(root, val) {
-  while (root) {
-    if (root.val === val) {
-      return root;
-    }
-
-    root = root.val < val ? root.right : root.left;
+const searchBST1 = function(root, val) {
+  if (!root) {
+    return null;
   }
+  if (root.val === val) {
+    return root;
+  }
+  return searchBST(root.left, root.target) || searchBST(root.right, root.target);
+};
 
-  return null;
+const searchBST2 = function(root, val) {
+  if (!root) {
+    return null;
+  }
+  if (root.val < val) {
+    return searchBST(root.right, val);
+  }
+  if (root.val > val) {
+    return searchBST(root.left, val);
+  }
+  return root;
 };
