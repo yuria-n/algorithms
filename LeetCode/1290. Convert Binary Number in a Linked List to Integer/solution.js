@@ -10,10 +10,11 @@
  * @return {number}
  */
 const getDecimalValue = function(head) {
-  let binary = '';
+  let binary;
   while (head) {
-    binary += head.val;
+    binary <<= 1;
+    binary |= head.val;
     head = head.next;
   }
-  return parseInt(binary, 2);
+  return binary;
 };
