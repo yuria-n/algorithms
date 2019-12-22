@@ -190,6 +190,7 @@ https://leetcode.com/
 | 1281 | Subtract the Product and Sum of Digits of an Integer | Easy       | JavaScript       |
 | 1282 | Group the People Given the Group Size They Belong To | Medium     | JavaScript       |
 | 1283 | Find the Smallest Divisor Given a Threshold          | Medium     | JavaScript       |
+| 1287 | Element Appearing More Than 25% In Sorted Array      | Easy       | JavaScript       |
 | 1290 | Convert Binary Number in a Linked List to Integer    | Easy       | JavaScript       |
 
 ## HackerRank
