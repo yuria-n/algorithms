@@ -97,6 +97,7 @@ https://leetcode.com/
 | 268  | Missing Number                                       | Easy       | JavaScript       |
 | 278  | First Bad Version                                    | Easy       | JavaScript       |
 | 283  | Move Zeroes                                          | Easy       | JavaScript       |
+| 289  | Game of Life                                         | Medium     | JavaScript       |
 | 344  | Reverse String                                       | Easy       | JavaScript, Java |
 | 342  | Power of Four                                        | Easy       | JavaScript       |
 | 345  | Reverse Vowels of a String                           | Easy       | JavaScript       |
