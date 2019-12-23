@@ -12,6 +12,20 @@
  * @return {number}
  */
 const rangeSumBST = function(root, L, R) {
+  if (!root) {
+    return 0;
+  }
+  const { val, right, left } = root;
+  if (val < L) {
+    return rangeSumBST(right, L, R);
+  }
+  if (val > R) {
+    return rangeSumBST(left, L, R);
+  }
+  return val + rangeSumBST(left, L, R) + rangeSumBST(right, L, R);
+};
+
+const rangeSumBST1 = function(root, L, R) {
   let result = 0;
   calc(root);
   return result;
@@ -20,11 +34,19 @@ const rangeSumBST = function(root, L, R) {
     if (!node) {
       return;
     }
-    calc(node.left);
-    const { val } = node;
+    const { val, left, right } = node;
+    calc(left);
     if (val >= L && val <= R) {
       result += val;
     }
-    calc(node.right);
+    calc(right);
   }
+};
+
+const rangeSumBST2 = function(root, L, R) {
+  if (!root) {
+    return 0;
+  }
+  const val = root.val >= L && root.val <= R ? root.val : 0;
+  return val + rangeSumBST(root.left, L, R) + rangeSumBST(root.right, L, R);
 };
