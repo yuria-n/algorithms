@@ -193,6 +193,7 @@ https://leetcode.com/
 | 1283 | Find the Smallest Divisor Given a Threshold          | Medium     | JavaScript       |
 | 1287 | Element Appearing More Than 25% In Sorted Array      | Easy       | JavaScript       |
 | 1290 | Convert Binary Number in a Linked List to Integer    | Easy       | JavaScript       |
+| 1295 | Find Numbers with Even Number of Digits              | Easy       | JavaScript       |
 
 ## HackerRank
 
