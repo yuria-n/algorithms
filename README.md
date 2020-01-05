@@ -195,6 +195,7 @@ https://leetcode.com/
 | 1290 | Convert Binary Number in a Linked List to Integer    | Easy       | JavaScript       |
 | 1295 | Find Numbers with Even Number of Digits              | Easy       | JavaScript       |
 | 1296 | Divide Array in Sets of K Consecutive Numbers        | Medium     | JavaScript       |
+| 1304 | Find N Unique Integers Sum up to Zero                | Easy       | JavaScript       |
 
 ## HackerRank
 
