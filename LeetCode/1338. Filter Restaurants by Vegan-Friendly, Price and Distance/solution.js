@@ -6,20 +6,11 @@
  * @return {number[]}
  */
 const filterRestaurants = function(restaurants, veganFriendly, maxPrice, maxDistance) {
-  const map = new Map();
-  for (const restaurant of restaurants) {
-    const [id, rating, vegan, price, distance] = restaurant;
-    if (vegan === veganFriendly && price <= maxPrice && distance <= maxDistance) {
-      const list = map.get(rating) || [];
-      list.push(id);
-      map.set(rating, list);
-    }
-  }
-  const result = [];
-  Array.from(map.keys())
-    .sort((n1, n2) => n2 - n1)
-    .forEach(rating => {
-      result.push(...map.get(rating).sort((n1, n2) => n2 - n1));
-    });
-  return result;
+  return restaurants
+    .filter(
+      ([, , vegan, price, distance]) =>
+        vegan >= veganFriendly && price <= maxPrice && distance <= maxDistance,
+    )
+    .sort(([id1, rating1], [id2, rating2]) => rating2 - rating1 || id2 - id1)
+    .map(([id]) => id);
 };
