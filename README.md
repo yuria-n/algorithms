@@ -199,6 +199,7 @@ https://leetcode.com/
 | 1304 | Find N Unique Integers Sum up to Zero                    | Easy       | JavaScript       |
 | 1337 | Remove Palindromic Subsequences                          | Easy       | JavaScript       |
 | 1338 | Filter Restaurants by Vegan-Friendly, Price and Distance | Medium     | JavaScript       |
+| 1346 | Check If N and Its Double Exist                          | Easy       | JavaScript       |
 
 ## HackerRank
 
