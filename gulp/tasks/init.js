@@ -13,6 +13,8 @@ Aigle.promisifyAll(prompt);
 
 gulp.task('init', init);
 
+const BASE_URL = 'https://leetcode.com/problems/';
+
 async function init() {
   // create a new directory
   prompt.start();
@@ -20,20 +22,28 @@ async function init() {
   const { mode, name } = await prompt.getAsync(['mode', 'name']);
   const directory = (() => {
     switch (+mode) {
-      case 0:
-        return '../../LeetCode';
       case 1:
         return '../../HackerRank';
-      default:
+      case 2:
         return '../../Others';
+      default:
+        return '../../LeetCode';
     }
   })();
+
   const dirname = path.resolve(__dirname, directory, name);
   fs.mkdirSync(dirname);
+
   // create files in the directory
   const readmepath = path.resolve(dirname, 'README.md');
-  const readme = `# ${name}`;
-  fs.writeFileSync(readmepath, readme, 'utf8');
+  const slug = name
+    .split(/^[0-9]*\.\s/)[1]
+    .replace(/\s/g, '-')
+    .toLowerCase();
+  const url = `${BASE_URL}${slug}/`;
+  const content = `# ${name}\n\n${url}\n\n`;
+  fs.writeFileSync(readmepath, content, 'utf8');
+
   const jspath = path.resolve(dirname, 'solution.js');
   fs.writeFileSync(jspath, '', 'utf8');
 }
