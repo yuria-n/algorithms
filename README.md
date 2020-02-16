@@ -202,6 +202,7 @@ https://leetcode.com/
 | 1346 | Check If N and Its Double Exist                          | Easy       | JavaScript       |
 | 1347 | Minimum Number of Steps to Make Two Strings Anagram      | Medium     | JavaScript       |
 | 1348 | Tweet Counts Per Frequency                               | Medium     | JavaScript       |
+| 1351 | Count Negative Numbers in a Sorted Matrix Frequency      | Easy       | JavaScript       |
 
 ## HackerRank
 
