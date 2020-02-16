@@ -5,9 +5,10 @@
 const countNegatives = function(grid) {
   let count = 0;
   for (const row of grid) {
-    for (const col of row) {
-      if (col < 0) {
-        count++;
+    const { length } = row;
+    for (let i = 0; i < length; i++) {
+      if (row[i] < 0) {
+        count += length - i;
       }
     }
   }
