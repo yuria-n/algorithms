@@ -4,13 +4,16 @@
  */
 const countNegatives = function(grid) {
   let count = 0;
-  for (const row of grid) {
-    const { length } = row;
-    for (let i = 0; i < length; i++) {
-      if (row[i] < 0) {
-        count += length - i;
-      }
+  let row = grid.length - 1;
+  let col = grid[0].length;
+  let cell = 0;
+  while (row >= 0 && cell < col) {
+    if (grid[row][cell] >= 0) {
+      cell++;
+      continue;
     }
+    count += col - cell;
+    row--;
   }
   return count;
 };
