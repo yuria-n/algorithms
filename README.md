@@ -203,6 +203,7 @@ https://leetcode.com/
 | 1347 | Minimum Number of Steps to Make Two Strings Anagram      | Medium     | JavaScript       |
 | 1348 | Tweet Counts Per Frequency                               | Medium     | JavaScript       |
 | 1351 | Count Negative Numbers in a Sorted Matrix Frequency      | Easy       | JavaScript       |
+| 1352 | Product of the Last K Numbers                            | Medium     | JavaScript       |
 
 ## HackerRank
 
