@@ -204,6 +204,7 @@ https://leetcode.com/
 | 1348 | Tweet Counts Per Frequency                               | Medium     | JavaScript       |
 | 1351 | Count Negative Numbers in a Sorted Matrix Frequency      | Easy       | JavaScript       |
 | 1352 | Product of the Last K Numbers                            | Medium     | JavaScript       |
+| 1360 | Number of Days Between Two Dates                         | Easy       | JavaScript       |
 
 ## HackerRank
 
