@@ -205,6 +205,7 @@ https://leetcode.com/
 | 1351 | Count Negative Numbers in a Sorted Matrix Frequency      | Easy       | JavaScript       |
 | 1352 | Product of the Last K Numbers                            | Medium     | JavaScript       |
 | 1360 | Number of Days Between Two Dates                         | Easy       | JavaScript       |
+| 1365 | How Many Numbers Are Smaller Than the Current Number     | Easy       | JavaScript       |
 
 ## HackerRank
 
