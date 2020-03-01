@@ -2,13 +2,8 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-const smallerNumbersThanCurrent = function(nums) {
-  const sorted = Array.from(nums).sort((a, b) => a - b);
-  const map = new Map();
-  for (const [index, num] of sorted.entries()) {
-    if (!map.has(num)) {
-      map.set(num, index);
-    }
-  }
+function smallerNumbersThanCurrent(nums) {
+  const sorted = Array.from(nums).sort((n1, n2) => n2 - n1);
+  const map = new Map(sorted.map((num, index) => [num, nums.length - index - 1]));
   return nums.map(num => map.get(num));
-};
+}
