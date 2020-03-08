@@ -206,6 +206,7 @@ https://leetcode.com/
 | 1352 | Product of the Last K Numbers                            | Medium     | JavaScript       |
 | 1360 | Number of Days Between Two Dates                         | Easy       | JavaScript       |
 | 1365 | How Many Numbers Are Smaller Than the Current Number     | Easy       | JavaScript       |
+| 1374 | Generate a String With Characters That Have Odd Counts   | Easy       | JavaScript       |
 
 ## HackerRank
 
