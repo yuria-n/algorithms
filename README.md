@@ -208,6 +208,7 @@ https://leetcode.com/
 | 1365 | How Many Numbers Are Smaller Than the Current Number     | Easy       | JavaScript       |
 | 1374 | Generate a String With Characters That Have Odd Counts   | Easy       | JavaScript       |
 | 1389 | Create Target Array in the Given Order                   | Easy       | JavaScript       |
+| 1390 | Four Divisors                                            | Medium     | JavaScript       |
 
 ## HackerRank
 
