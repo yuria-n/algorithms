@@ -207,6 +207,7 @@ https://leetcode.com/
 | 1360 | Number of Days Between Two Dates                         | Easy       | JavaScript       |
 | 1365 | How Many Numbers Are Smaller Than the Current Number     | Easy       | JavaScript       |
 | 1374 | Generate a String With Characters That Have Odd Counts   | Easy       | JavaScript       |
+| 1389 | Create Target Array in the Given Order                   | Easy       | JavaScript       |
 
 ## HackerRank
 
