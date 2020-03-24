@@ -1,4 +1,4 @@
-const LENGTH = 8;
+const SIZE = 8;
 const DIRECTIONS = [
   [-1, 0],
   [0, 1],
@@ -13,14 +13,14 @@ const DIRECTIONS = [
 const numRookCaptures = function(board) {
   const rook = findRook();
   let count = 0;
-  for (const [i, j] of DIRECTIONS) {
-    count += findPawn(...rook, i, j);
+  for (const [y, x] of DIRECTIONS) {
+    count += findPawn(...rook, y, x);
   }
   return count;
 
   function findRook() {
-    for (let i = 0; i < LENGTH; i++) {
-      for (let j = 0; j < LENGTH; j++) {
+    for (let i = 0; i < SIZE; i++) {
+      for (let j = 0; j < SIZE; j++) {
         if (board[i][j] === 'R') {
           return [i, j];
         }
@@ -28,13 +28,13 @@ const numRookCaptures = function(board) {
     }
   }
 
-  function findPawn(i, j, x, y) {
-    if (i < 0 || j < 0 || i >= LENGTH || j >= LENGTH || board[i][j] === 'B') {
+  function findPawn(y, x, dy, dx) {
+    if (y < 0 || x < 0 || y >= SIZE || x >= SIZE || board[y][x] === 'B') {
       return 0;
     }
-    if (board[i][j] === 'p') {
+    if (board[y][x] === 'p') {
       return 1;
     }
-    return findPawn(i + x, j + y, x, y);
+    return findPawn(y + dy, x + dx, dy, dx);
   }
 };
