@@ -211,6 +211,7 @@ https://leetcode.com/
 | 1374 | Generate a String With Characters That Have Odd Counts   | Easy       | JavaScript       |
 | 1389 | Create Target Array in the Given Order                   | Easy       | JavaScript       |
 | 1390 | Four Divisors                                            | Medium     | JavaScript       |
+| 1394 | Find Lucky Integer in an Array                           | Easy       | JavaScript       |
 
 ## HackerRank
 
