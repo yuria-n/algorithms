@@ -16,3 +16,17 @@ const findLucky = function(arr) {
   }
   return result;
 };
+
+const MAX = 500;
+const findLucky = function(arr) {
+  const counts = new Array(MAX + 1).fill(0);
+  for (const num of arr) {
+    counts[num]++;
+  }
+  for (let i = MAX; i > 0; i--) {
+    if (counts[i] === i) {
+      return i;
+    }
+  }
+  return -1;
+};
