@@ -212,6 +212,7 @@ https://leetcode.com/
 | 1389 | Create Target Array in the Given Order                   | Easy       | JavaScript       |
 | 1390 | Four Divisors                                            | Medium     | JavaScript       |
 | 1394 | Find Lucky Integer in an Array                           | Easy       | JavaScript       |
+| 1395 | Count Number of Teams                                    | Medium     | JavaScript       |
 
 ## HackerRank
 
