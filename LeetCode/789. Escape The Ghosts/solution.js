@@ -5,12 +5,10 @@
  */
 const escapeGhosts = function(ghosts, target) {
   const [tx, ty] = target;
-  let distance = Math.abs(tx) + Math.abs(ty);
-  for (const [x, y] of ghosts) {
-    const d = Math.abs(tx - x) + Math.abs(ty - y);
-    if (d <= distance) {
-      return false;
-    }
+  const distance = calcDistance(tx, ty);
+  return ghosts.every(([x, y]) => calcDistance(tx - x, ty - y) > distance);
+
+  function calcDistance(dx, dy) {
+    return Math.abs(dx) + Math.abs(dy);
   }
-  return true;
 };
