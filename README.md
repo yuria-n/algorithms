@@ -145,6 +145,7 @@ https://leetcode.com/
 | 760  | Find Anagram Mappings                                    | Easy       | JavaScript       |
 | 771  | Jewels and Stones                                        | Easy       | JavaScript       |
 | 783  | Minimum Distance Between BST Nodes                       | Easy       | JavaScript       |
+| 789  | Escape The Ghosts                                        | Medium     | JavaScript       |
 | 796  | Rotate String                                            | Easy       | JavaScript       |
 | 804  | Unique Morse Code Words                                  | Easy       | JavaScript       |
 | 806  | Number of Lines To Write String                          | Easy       | JavaScript       |
