@@ -10,21 +10,30 @@ const singleNumber = function(nums) {
  * @param {number[]} nums
  * @return {number}
  */
-const singleNumber2 = function(nums) {
-  const map = {};
-
-  nums.forEach((num) => {
-    let val = map[num];
-    map[num] = (val && ++val) || 1;
-  });
-
-  const keys = Object.keys(map);
-
-  for (const key of keys) {
-    if (map[key] === 1) {
-      return key;
+const singleNumber = function(nums) {
+  const map = new Map();
+  for (const num of nums) {
+    const count = map.get(num) || 0;
+    map.set(num, count + 1);
+  }
+  for (const [num, count] of map.entries()) {
+    if (count === 1) {
+      return num;
     }
   }
+};
 
-  return 0;
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+const singleNumber = function(nums) {
+  nums.sort((n1, n2) => n1 - n2);
+  const l = nums.length;
+  for (let i = 0; i < l - 1; i += 2) {
+    if (nums[i] !== nums[i + 1]) {
+      return nums[i];
+    }
+  }
+  return nums[l - 1];
 };
