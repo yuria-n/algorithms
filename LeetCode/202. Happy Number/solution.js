@@ -3,41 +3,15 @@
  * @return {boolean}
  */
 const isHappy = function (n) {
-  const map = {};
-
-  while (!map[n]) {
-    map[n] = true;
-    let sum = 0;
-    while (n > 0) {
-      sum += Math.pow(n % 10, 2);
-      n = Math.floor(n / 10);
+  const set = new Set();
+  while (!set.has(n)) {
+    set.add(n);
+    let cur = 0;
+    while (n) {
+      cur += (n % 10) ** 2;
+      n = ~~(n / 10);
     }
-    if (sum === 1) {
-      return true;
-    }
-    n = sum;
+    n = cur;
   }
-
-  return false;
-};
-
-const isHappy2 = function (n) {
-  const map = {};
-  return check(n);
-
-  function check(n) {
-    if (n === 1) {
-      return true;
-    }
-    if (map[n]) {
-      return false;
-    }
-    map[n] = true;
-    let sum = 0;
-    while (n > 0) {
-      sum += Math.pow(n % 10, 2);
-      n = Math.floor(n / 10);
-    }
-    return check(sum);
-  }
+  return n === 1;
 };
