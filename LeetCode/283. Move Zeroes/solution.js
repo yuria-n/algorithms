@@ -2,27 +2,25 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-const moveZeroes = function(nums) {
-  let p = 0;
-  nums.forEach((n) => {
+const moveZeroes = function (nums) {
+  let i = 0;
+  for (const n of nums) {
     if (n) {
-      nums[p++] = n;
+      nums[i++] = n;
     }
-  });
-
-  while (p < nums.length) {
-    nums[p++] = 0;
+  }
+  while (i < nums.length) {
+    nums[i++] = 0;
   }
 };
 
-const moveZeroes2 = function(nums) {
+const moveZeroes = function (nums) {
   let p = 0;
   for (let i = 0; i < nums.length; i++) {
     const n = nums[i];
-    if (!n) {
-      continue;
+    if (n) {
+      [nums[p], nums[i]] = [n, nums[p]];
+      p++;
     }
-    [nums[p], nums[i]] = [n, nums[p]];
-    p++;
   }
 };
