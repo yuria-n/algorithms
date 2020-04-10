@@ -3,23 +3,61 @@
  * @param {string} T
  * @return {boolean}
  */
-const backspaceCompare = function(S, T) {
-  return generateWord(S) === generateWord(T);
+const backspaceCompare = function (S, T) {
+  let is = S.length - 1;
+  let it = T.length - 1;
+  let ds = 0;
+  let dt = 0;
+  while (is >= 0 || it >= 0) {
+    const cs = S[is] || '';
+    const ct = T[it] || '';
+    if (cs === '#') {
+      ds++;
+      is--;
+      continue;
+    }
+    if (ct === '#') {
+      dt++;
+      it--;
+      continue;
+    }
+    if (ds) {
+      ds--;
+      is--;
+      continue;
+    }
+    if (dt) {
+      dt--;
+      it--;
+      continue;
+    }
+    if (cs !== ct) {
+      return false;
+    }
+    is--;
+    it--;
+  }
+  return true;
+};
 
-  function generateWord(str) {
+const backspaceCompare = function (S, T) {
+  return format(S) === format(T);
+
+  function format(str) {
     let word = '';
-    let count = 0;
-    for (let i = str.length - 1; i >= 0; i--) {
-      const w = str[i];
-      if (w === '#') {
-        count++;
+    let i = str.length;
+    let d = 0;
+    while (--i >= 0) {
+      const c = str[i];
+      if (c === '#') {
+        d++;
         continue;
       }
-      if (count > 0) {
-        count--;
+      if (d > 0) {
+        d--;
         continue;
       }
-      word = w + word;
+      word = c + word;
     }
     return word;
   }
