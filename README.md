@@ -43,6 +43,7 @@ https://leetcode.com/
 | 27   | Remove Element                                           | Easy       | JavaScript       |
 | 28   | Implement strStr()                                       | Easy       | JavaScript, Java |
 | 33   | Search in Rotated Sorted Array                           | Medium     | JavaScript       |
+| 34   | Find First and Last Position of Element in Sorted Array  | Medium     | JavaScript       |
 | 35   | Search Insert Position                                   | Easy       | JavaScript, Java |
 | 49   | Group Anagrams                                           | Medium     | JavaScript       |
 | 53   | Maximum Subarray                                         | Easy       | JavaScript, Java |
