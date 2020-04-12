@@ -121,6 +121,7 @@ https://leetcode.com/
 | 504  | Base 7                                                   | Easy       | JavaScript, Java |
 | 507  | Perfect Number                                           | Easy       | Java             |
 | 532  | K-diff Pairs in an Array                                 | Easy       | Java             |
+| 543  | Diameter of Binary Tree                                  | Easy       | Java             |
 | 556  | Reshape The Matrix                                       | Easy       | Java             |
 | 557  | Reverse Words in a String III                            | Easy       | JavaScript       |
 | 559  | Maximum Depth of N-ary Tree                              | Easy       | JavaScript       |
