@@ -120,6 +120,7 @@ https://leetcode.com/
 | 500  | Keyboard Row                                             | Easy       | Java             |
 | 504  | Base 7                                                   | Easy       | JavaScript, Java |
 | 507  | Perfect Number                                           | Easy       | Java             |
+| 525  | Contiguous Array                                         | Medium     | JavaScript       |
 | 532  | K-diff Pairs in an Array                                 | Easy       | Java             |
 | 543  | Diameter of Binary Tree                                  | Easy       | Java             |
 | 556  | Reshape The Matrix                                       | Easy       | Java             |
