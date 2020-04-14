@@ -4,10 +4,7 @@
  * @return {string}
  */
 const stringShift = function (s, shift) {
-  let count = 0;
-  for (const [d, i] of shift) {
-    count += d ? i : -i;
-  }
-  const i = (s.length - count) % s.length;
+  let c = shift.reduce((sum, [d, i]) => (sum += d ? i : -i), 0);
+  const i = (s.length - c) % s.length;
   return s.slice(i) + s.slice(0, i);
 };
