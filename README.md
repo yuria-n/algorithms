@@ -137,6 +137,7 @@ https://leetcode.com/
 | 645  | Set Mismatch                                             | Easy       | JavaScript       |
 | 658  | Find K Closest Elements                                  | Medium     | JavaScript       |
 | 660  | Remove 9                                                 | Hard       | Java             |
+| 678  | Valid Parenthesis String                                 | Medium     | JavaScript       |
 | 680  | Valid Palindrome II                                      | Easy       | Java             |
 | 669  | Trim a Binary Search Tree                                | Easy       | JavaScript       |
 | 695  | Max Area of Island                                       | Medium     | JavaScript       |
