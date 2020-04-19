@@ -11,7 +11,7 @@ Choose a mode
 
 | N   | Directory   |
 | :-- | :---------- |
-| 0   | Leetcode    |
+| 0   | LeetCode    |
 | 1   | Hacker Rank |
 | 2   | Others      |
 
@@ -23,7 +23,7 @@ prompt: mode:  0
 enter the question title (directory name)
 
 ```
-prompt: name: [Qurestion title]
+prompt: name: [Question title]
 ```
 
 ## LeetCode
@@ -222,6 +222,7 @@ https://leetcode.com/
 | 1394 | Find Lucky Integer in an Array                           | Easy       | JavaScript       |
 | 1395 | Count Number of Teams                                    | Medium     | JavaScript       |
 | 1396 | Design Underground System                                | Medium     | JavaScript       |
+| 1418 | Display Table of Food Orders in a Restaurant             | Medium     | JavaScript       |
 
 ## HackerRank
 
