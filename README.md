@@ -49,6 +49,7 @@ https://leetcode.com/
 | 53   | Maximum Subarray                                         | Easy       | JavaScript, Java |
 | 58   | Length of Last Word                                      | Easy       | JavaScript, Java |
 | 62   | Unique Paths                                             | Medium     | JavaScript       |
+| 64   | Minimum Path Sum                                         | Medium     | JavaScript       |
 | 66   | Plus One                                                 | Easy       | JavaScript, Java |
 | 67   | Add Binary                                               | Easy       | JavaScript, Java |
 | 69   | Sqrt(x)                                                  | Easy       | JavaScript, Java |
@@ -63,7 +64,7 @@ https://leetcode.com/
 | 104  | Maximum Depth of Binary Tree                             | Easy       | JavaScript, Java |
 | 107  | Binary Tree Level Order Traversal II                     | Easy       | JavaScript       |
 | 108  | Convert Sorted Array to Binary Search Tree               | Easy       | JavaScript       |
-| 110  | Balanced Binary Tree                                     | Easy       | Javascrpt        |
+| 110  | Balanced Binary Tree                                     | Easy       | Javascript       |
 | 111  | Minimum Depth of Binary Tree                             | Easy       | JavaScript       |
 | 112  | Path Sum                                                 | Easy       | JavaScript       |
 | 118  | Pascal's Triangle                                        | Easy       | JavaScript       |
