@@ -223,6 +223,7 @@ https://leetcode.com/
 | 1395 | Count Number of Teams                                    | Medium     | JavaScript       |
 | 1396 | Design Underground System                                | Medium     | JavaScript       |
 | 1418 | Display Table of Food Orders in a Restaurant             | Medium     | JavaScript       |
+| 1419 | Minimum Number of Frogs Croaking                         | Medium     | JavaScript       |
 
 ## HackerRank
 
