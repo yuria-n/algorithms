@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number}
  */
-const subarraySum = function(nums, k) {
+const subarraySum = function (nums, k) {
   let result = 0;
   let sum = 0;
   const map = { 0: 1 };
@@ -17,15 +17,15 @@ const subarraySum = function(nums, k) {
   return result;
 };
 
-const subarraySum = function(nums, k) {
+const subarraySum = function (nums, k) {
   let result = 0;
   let sum = 0;
-  const map = { 0: 1 };
+  const map = new Map([[0, 1]]);
   for (let i = 0; i < nums.length; i++) {
     sum += nums[i];
-    const diff = map[sum - k];
+    const diff = map.get(sum - k);
     result += !diff ? 0 : diff;
-    map[sum] = ++map[sum] || 1;
+    map.set(sum, (map.get(sum) || 0) + 1);
   }
   return result;
 };
