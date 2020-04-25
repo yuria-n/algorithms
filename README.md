@@ -47,6 +47,7 @@ https://leetcode.com/
 | 35   | Search Insert Position                                   | Easy       | JavaScript, Java |
 | 49   | Group Anagrams                                           | Medium     | JavaScript       |
 | 53   | Maximum Subarray                                         | Easy       | JavaScript, Java |
+| 55   | Jump Game                                                | Medium     | JavaScript       |
 | 58   | Length of Last Word                                      | Easy       | JavaScript, Java |
 | 62   | Unique Paths                                             | Medium     | JavaScript       |
 | 64   | Minimum Path Sum                                         | Medium     | JavaScript       |
