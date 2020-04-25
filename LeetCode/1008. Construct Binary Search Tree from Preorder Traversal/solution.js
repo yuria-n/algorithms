@@ -35,3 +35,5 @@ function find(target, arr) {
   }
   return left;
 }
+
+// TODO use index instead of array.slice

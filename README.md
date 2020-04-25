@@ -75,6 +75,7 @@ https://leetcode.com/
 | 136  | Single Number                                            | Easy       | JavaScript       |
 | 141  | Linked List Cycle                                        | Easy       | JavaScript       |
 | 142  | Linked List Cycle II                                     | Medium     | JavaScript       |
+| 146  | LRU Cache                                                | Medium     | JavaScript       |
 | 153  | Find Minimum in Rotated Sorted Array                     | Medium     | JavaScript       |
 | 155  | Min Stack                                                | Easy       | JavaScript       |
 | 160  | Intersection of Two Linked Lists                         | Easy       | JavaScript       |
