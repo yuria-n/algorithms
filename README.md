@@ -185,6 +185,7 @@ https://leetcode.com/
 | 1037 | Valid Boomerang                                          | Easy       | JavaScript       |
 | 1046 | Last Stone Weight                                        | Easy       | JavaScript       |
 | 1078 | Occurrences After Bigram                                 | Easy       | JavaScript       |
+| 1143 | Longest Common Subsequence                               | Medium     | JavaScript       |
 | 1184 | Distance Between Bus Stops                               | Easy       | JavaScript       |
 | 1201 | Ugly Number III                                          | Medium     | JavaScript       |
 | 1207 | Unique Number of Occurrences                             | Easy       | JavaScript       |
