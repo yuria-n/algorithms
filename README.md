@@ -93,6 +93,7 @@ https://leetcode.com/
 | 201  | Bitwise AND of Numbers Range                             | Medium     | JavaScript       |
 | 206  | Reverse Linked List                                      | Easy       | JavaScript       |
 | 217  | Contains Duplicate                                       | Easy       | JavaScript       |
+| 221  | Maximal Square                                           | Medium     | JavaScript       |
 | 222  | Count Complete Tree Nodes                                | Medium     | JavaScript       |
 | 232  | Implement Queue using Stacks                             | Easy       | JavaScript       |
 | 234  | Palindrome Linked List                                   | Easy       | JavaScript       |
