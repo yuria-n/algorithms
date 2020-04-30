@@ -71,6 +71,7 @@ https://leetcode.com/
 | 118  | Pascal's Triangle                                        | Easy       | JavaScript       |
 | 121  | Best Time to Buy and Sell Stock                          | Easy       | JavaScript, Java |
 | 122  | Best Time to Buy and Sell Stock II                       | Easy       | JavaScript       |
+| 124  | Binary Tree Maximum Path Sum                             | Hard       | JavaScript       |
 | 125  | Valid Palindrome                                         | Easy       | JavaScript       |
 | 129  | Sum Root to Leaf Numbers                                 | Medium     | JavaScript       |
 | 136  | Single Number                                            | Easy       | JavaScript       |
