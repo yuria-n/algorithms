@@ -2,24 +2,30 @@
  * @param {number[]} nums
  * @return {number}
  */
-const majorityElement = function(nums) {
-  const map = new Map();
-  const half = nums.length / 2;
-
-  for (let i = 0; i < nums.length; i++) {
-    const val = nums[i];
-    const count = ++map[val] || 1;
-    if (count > half) {
-      return val;
+const majorityElement = function (nums) {
+  let count = 0;
+  let result;
+  for (const n of nums) {
+    if (!count) {
+      result = n;
     }
-    map[val] = count;
+    count += result === n ? 1 : -1;
   }
+  return result;
 };
 
-/**
- * @param {number[]} nums
- * @return {number}
- */
-const majorityElement = function(nums) {
+const majorityElement = function (nums) {
   return nums.sort((a, b) => a - b)[Math.floor(nums.length / 2)];
+};
+
+const majorityElement = function (nums) {
+  const half = nums.length / 2;
+  const map = new Map();
+  for (const n of nums) {
+    const count = (map.get(n) || 0) + 1;
+    if (count > half) {
+      return n;
+    }
+    map.set(n, count);
+  }
 };
