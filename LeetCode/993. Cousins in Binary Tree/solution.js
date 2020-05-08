@@ -11,14 +11,14 @@
  * @param {number} y
  * @return {boolean}
  */
-const isCousins = function(root, x, y) {
+const isCousins = function (root, x, y) {
   const [xParent, xDepth] = dfs(root, root.val, x, 0);
   const [yParent, yDepth] = dfs(root, root.val, y, 0);
   return xDepth === yDepth && xParent !== yParent;
 
   function dfs(node, parent, target, depth) {
     if (!node) {
-      return NaN;
+      return null;
     }
     if (node.val === target) {
       return [parent, depth + 1];
