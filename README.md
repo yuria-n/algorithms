@@ -112,6 +112,7 @@ https://leetcode.com/
 | 345  | Reverse Vowels of a String                               | Easy       | JavaScript       |
 | 349  | Intersection of Two Arrays                               | Easy       | JavaScript       |
 | 350  | Intersection of Two Arrays II                            | Easy       | Java             |
+| 367  | Valid Perfect Square                                     | Easy       | JavaScript       |
 | 373  | Find K Pairs with Smallest Sums                          | Medium     | JavaScript       |
 | 383  | Ransom Note                                              | Easy       | JavaScript       |
 | 387  | First Unique Character in a String                       | Easy       | JavaScript       |
