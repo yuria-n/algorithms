@@ -182,6 +182,7 @@ https://leetcode.com/
 | 965  | Univalued Binary Tree                                    | Easy       | JavaScript       |
 | 983  | Minimum Cost For Tickets                                 | Medium     | JavaScript       |
 | 993  | Cousins in Binary Tree                                   | Easy       | JavaScript       |
+| 997  | Find the Town Judge                                      | Easy       | JavaScript       |
 | 999  | Available Captures for Rook                              | Easy       | JavaScript       |
 | 1005 | Maximize Sum Of Array After K Negations                  | Easy       | JavaScript       |
 | 1005 | Construct Binary Search Tree from Preorder Traversal     | Medium     | JavaScript       |
