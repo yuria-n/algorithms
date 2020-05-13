@@ -130,6 +130,7 @@ https://leetcode.com/
 | 507  | Perfect Number                                           | Easy       | Java             |
 | 525  | Contiguous Array                                         | Medium     | JavaScript       |
 | 532  | K-diff Pairs in an Array                                 | Easy       | Java             |
+| 540  | Single Element in a Sorted Array                         | Medium     | JavaScript       |
 | 543  | Diameter of Binary Tree                                  | Easy       | Java             |
 | 556  | Reshape The Matrix                                       | Easy       | Java             |
 | 557  | Reverse Words in a String III                            | Easy       | JavaScript       |
