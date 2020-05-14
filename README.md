@@ -93,6 +93,7 @@ https://leetcode.com/
 | 200  | Number of Islands                                        | Medium     | JavaScript       |
 | 201  | Bitwise AND of Numbers Range                             | Medium     | JavaScript       |
 | 206  | Reverse Linked List                                      | Easy       | JavaScript       |
+| 208  | Implement Trie (Prefix Tree)                             | Medium     | JavaScript       |
 | 217  | Contains Duplicate                                       | Easy       | JavaScript       |
 | 221  | Maximal Square                                           | Medium     | JavaScript       |
 | 222  | Count Complete Tree Nodes                                | Medium     | JavaScript       |
