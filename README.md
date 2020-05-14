@@ -118,6 +118,7 @@ https://leetcode.com/
 | 387  | First Unique Character in a String                       | Easy       | JavaScript       |
 | 389  | Find the Difference                                      | Easy       | JavaScript       |
 | 392  | Is Subsequence                                           | Easy       | JavaScript       |
+| 402  | Remove K Digits                                          | Medium     | JavaScript       |
 | 404  | Sum of Left Leaves                                       | Easy       | JavaScript       |
 | 409  | Longest Palindrome                                       | Easy       | JavaScript       |
 | 412  | Fizz Buzz                                                | Easy       | JavaScript, Java |
