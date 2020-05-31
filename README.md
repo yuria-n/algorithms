@@ -183,6 +183,7 @@ https://leetcode.com/
 | 941  | Valid Mountain Array                                     | Easy       | JavaScript       |
 | 949  | Largest Time for Given Digits                            | Easy       | JavaScript       |
 | 965  | Univalued Binary Tree                                    | Easy       | JavaScript       |
+| 973  | K Closest Points to Origin                               | Medium     | JavaScript       |
 | 983  | Minimum Cost For Tickets                                 | Medium     | JavaScript       |
 | 993  | Cousins in Binary Tree                                   | Easy       | JavaScript       |
 | 997  | Find the Town Judge                                      | Easy       | JavaScript       |
