@@ -190,6 +190,7 @@ https://leetcode.com/
 | 999  | Available Captures for Rook                              | Easy       | JavaScript       |
 | 1005 | Maximize Sum Of Array After K Negations                  | Easy       | JavaScript       |
 | 1008 | Construct Binary Search Tree from Preorder Traversal     | Medium     | JavaScript       |
+| 1029 | Two City Scheduling                                      | Easy       | JavaScript       |
 | 1035 | Uncrossed Lines                                          | Medium     | JavaScript       |
 | 1037 | Valid Boomerang                                          | Easy       | JavaScript       |
 | 1046 | Last Stone Weight                                        | Easy       | JavaScript       |
