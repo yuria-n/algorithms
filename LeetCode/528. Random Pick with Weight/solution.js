@@ -3,22 +3,30 @@
  */
 class Solution {
   constructor(w) {
-    this.weights = w;
-    this.total = w.reduce((n, total) => total + n);
+    this.weights = [];
+    this.total = 0;
+    for (const n of w) {
+      this.total += n;
+      this.weights.push(this.total);
+    }
   }
 
   /**
    * @return {number}
    */
   pickIndex = () => {
-    const n = Math.floor(Math.random() * this.total);
-    let cur = 0;
-    for (const [i, weight] of this.weights.entries()) {
-      cur += weight;
-      if (cur > n) {
-        return i;
+    const n = ~~(Math.random() * this.total);
+    let left = 0;
+    let right = this.weights.length - 1;
+    while (left < right) {
+      const mid = left + ~~((right - left) / 2);
+      if (this.weights[mid] <= n) {
+        left = mid + 1;
+      } else {
+        right = mid;
       }
     }
+    return left;
   };
 }
 
