@@ -131,6 +131,7 @@ https://leetcode.com/
 | 504  | Base 7                                                   | Easy       | JavaScript, Java |
 | 507  | Perfect Number                                           | Easy       | Java             |
 | 525  | Contiguous Array                                         | Medium     | JavaScript       |
+| 528  | Random Pick with Weight                                  | Medium     | JavaScript       |
 | 532  | K-diff Pairs in an Array                                 | Easy       | Java             |
 | 540  | Single Element in a Sorted Array                         | Medium     | JavaScript       |
 | 543  | Diameter of Binary Tree                                  | Easy       | Java             |
