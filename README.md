@@ -115,6 +115,7 @@ https://leetcode.com/
 | 350  | Intersection of Two Arrays II                            | Easy       | Java             |
 | 367  | Valid Perfect Square                                     | Easy       | JavaScript       |
 | 373  | Find K Pairs with Smallest Sums                          | Medium     | JavaScript       |
+| 380  | Insert Delete GetRandom O(1)                             | Medium     | JavaScript       |
 | 383  | Ransom Note                                              | Easy       | JavaScript       |
 | 387  | First Unique Character in a String                       | Easy       | JavaScript       |
 | 389  | Find the Difference                                      | Easy       | JavaScript       |
