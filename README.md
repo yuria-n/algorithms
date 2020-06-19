@@ -105,6 +105,7 @@ https://leetcode.com/
 | 257  | Binary Tree Paths                                        | Easy       | JavaScript       |
 | 266  | Invert Binary Tree                                       | Easy       | JavaScript       |
 | 268  | Missing Number                                           | Easy       | JavaScript       |
+| 274  | H-Index                                                  | Medium     | JavaScript       |
 | 278  | First Bad Version                                        | Easy       | JavaScript       |
 | 283  | Move Zeroes                                              | Easy       | JavaScript       |
 | 289  | Game of Life                                             | Medium     | JavaScript       |
