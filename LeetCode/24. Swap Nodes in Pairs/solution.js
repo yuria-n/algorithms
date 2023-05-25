@@ -10,22 +10,23 @@
  * @return {ListNode}
  */
 function swapPairs(head) {
-    const result = head?.next ?? head;
-    let pair = null;
+  const result = head?.next ?? head;
+  let pair = null;
 
-    while (head) {
-        if (pair === null) {
-            pair = head;
-            head = head.next;
-            continue;
-        }
-
-        const next = head.next;
-        head.next = pair;
-        pair.next = next?.next ?? next;
-        head = next;
-        pair = null;
+  while (head) {
+    if (pair === null) {
+      pair = head;
+      head = head.next;
+      continue;
     }
 
-    return result;
+    [head.next, pair.next, head] = [
+      pair,
+      head.next?.next ?? head.next,
+      head.next,
+    ];
+    pair = null;
+  }
+
+  return result;
 }
