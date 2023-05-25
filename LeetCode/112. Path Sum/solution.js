@@ -6,40 +6,70 @@
  * }
  */
 /**
- * @param {TreeNode} root
+ * @param {TreeNode} node
  * @param {number} sum
  * @return {boolean}
  */
-const hasPathSum = function(root, sum) {
-  return dfs(root, 0);
 
-  function dfs(node, count) {
-    if (!node) {
-      return false;
-    }
-    count += node.val;
-    if (!node.left && !node.right) {
-      return count === sum;
-    }
-    return dfs(node.left, count) || dfs(node.right, count);
-  }
-};
-
-const hasPathSum2 = function(root, sum) {
-  if (!root) {
+function hasPathSum(node, sum) {
+  if (node === null) {
     return false;
   }
-  sum -= root.val;
-  if (!root.left && !root.right) {
-    return !sum;
-  }
-  return hasPathSum2(root.left, sum) || hasPathSum2(root.right, sum);
-};
-
-const hasPathSum3 = function(root, sum) {
-  if (!root) return false;
-  const { val, left, right } = root;
+  const { val, left, right } = node;
   sum -= val;
-  if (!left && !right && !sum) return true;
+  if (left === null && right === null) {
+    return sum === 0;
+  }
   return hasPathSum(left, sum) || hasPathSum(right, sum);
-};
+}
+
+// DFS (stack) - LILO
+function hasPathSum2(root, targetSum) {
+  const stack = [];
+  stack.push([root, targetSum]);
+
+  while (stack.length > 0) {
+    let [node, sum] = stack.pop();
+    if (node === null) {
+      continue;
+    }
+
+    const { val, left, right } = node;
+    sum -= val;
+    if (right === null && left === null) {
+      if (sum === 0) {
+        return true;
+      }
+      continue;
+    }
+    stack.push([right, sum], [left, sum]);
+  }
+
+  return false;
+}
+
+// BFS (queue) - FIFO
+function hasPathSum3(root, targetSum) {
+  const queue = [];
+  queue.push([root, targetSum]);
+
+  while (queue.length > 0) {
+    let [node, sum] = queue.shift();
+    if (node === null) {
+      continue;
+    }
+
+    const { val, left, right } = node;
+    sum -= val;
+    // left === right === null
+    if (left === right) {
+      if (sum === 0) {
+        return true;
+      }
+      continue;
+    }
+    queue.push([left, sum], [right, sum]);
+  }
+
+  return false;
+}
