@@ -1,9 +1,13 @@
 # Algorithms
 
-To make a new directory, enter
+A collection of my daily algorithm challenges.
+
+## Usage
+
+To make a new directory, run the following command on your CLI:
 
 ```
-$ gulp init
+$ yarn start
 ```
 
 **mode:**

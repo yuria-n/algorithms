@@ -1,24 +1,27 @@
 {
   "name": "algorithms",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
+    "start": "gulp init",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Julia0709@github.com/Julia0709/Algorithms.git"
+    "url": "git@github.com:yuria-n/algorithms.git"
   },
-  "author": "",
+  "author": "Yuria N",
   "bugs": {
-    "url": "https://github.com/Julia0709/Algorithms/issues"
+    "url": "https://github.com/yuria-n/algorithms/issues"
   },
-  "homepage": "https://github.com/Julia0709/Algorithms#readme",
+  "homepage": "https://github.com/yuria-n/algorithms#readme",
   "devDependencies": {
-    "aigle": "^1.14.0",
-    "eslint": "^6.8.0",
-    "gulp": "^4.0.2",
-    "prompt": "^1.0.0",
-    "require-dir": "^1.2.0"
+    "aigle": "~1.14.1",
+    "eslint": "~8.41.0",
+    "gulp": "~4.0.2",
+    "prettier": "^2.8.8",
+    "prompt": "~1.3.0",
+    "require-dir": "~1.2.0"
   }
 }

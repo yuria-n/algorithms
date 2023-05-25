@@ -2,6 +2,7 @@ LeetCode/_contest/
 
 # Settings
 .vscode/
+.idea/
 
 # Logs
 logs
