@@ -43,6 +43,7 @@ https://leetcode.com/
 | 14   | Longest Common Prefix                                    | Easy       | JavaScript, Java |
 | 20   | Valid Parentheses                                        | Easy       | JavaScript, Java |
 | 21   | Merge Two Sorted Lists                                   | Easy       | JavaScript       |
+| 24   | Swap Nodes in Pairs                                      | Medium     | JavaScript       |
 | 26   | Remove Duplicates from Sorted Array                      | Easy       | JavaScript       |
 | 27   | Remove Element                                           | Easy       | JavaScript       |
 | 28   | Implement strStr()                                       | Easy       | JavaScript, Java |
