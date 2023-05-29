@@ -9,7 +9,7 @@
  * @param {number[]} nums
  * @return {TreeNode}
  */
-const sortedArrayToBST = function(nums) {
+function sortedArrayToBST(nums) {
   return bst(nums, 0, nums.length - 1);
 
   function bst(nums, start, end) {
@@ -23,4 +23,28 @@ const sortedArrayToBST = function(nums) {
 
     return node;
   }
-};
+}
+
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {number[]} nums
+ * @return {TreeNode}
+ */
+function sortedArrayToBST2(nums) {
+  return createNode(0, nums.length);
+
+  function createNode(il, ir) {
+    if (il >= ir) {
+      return null;
+    }
+    const im = Math.floor((il + ir) / 2);
+    return new TreeNode(nums[im], createNode(il, im), createNode(im + 1, ir));
+  }
+}
