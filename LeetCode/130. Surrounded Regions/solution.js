@@ -1,3 +1,9 @@
+const cellMap = {
+  stable: "X",
+  fluid: "O",
+  pending: " ",
+};
+
 /**
  * @param {character[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -5,10 +11,10 @@
 function solve(board) {
   for (let y = 0; y < board.length; y++) {
     for (let x = 0; x < board[y].length; x++) {
-      if (board[y][x] === "X") {
+      if (board[y][x] === cellMap.stable) {
         continue;
       }
-      update(x, y, isValid(x, y) ? "X" : "O");
+      update(x, y, isValid(x, y) ? cellMap.stable : cellMap.fluid);
     }
   }
 
@@ -16,10 +22,10 @@ function solve(board) {
     if (y < 0 || y >= board.length || x < 0 || x >= board[y].length) {
       return false;
     }
-    if (board[y][x] !== "O") {
+    if (board[y][x] !== cellMap.fluid) {
       return true;
     }
-    board[y][x] = "I";
+    board[y][x] = cellMap.pending;
     return (
       isValid(x - 1, y) &&
       isValid(x + 1, y) &&
@@ -34,8 +40,7 @@ function solve(board) {
       y >= board.length ||
       x < 0 ||
       x >= board[y].length ||
-      board[y][x] === "X" ||
-      board[y][x] === b
+      board[y][x] !== cellMap.pending
     ) {
       return;
     }
