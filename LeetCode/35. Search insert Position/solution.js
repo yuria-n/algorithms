@@ -46,3 +46,23 @@ function searchInsert3(nums, target) {
     return n > target ? findIndex(left, mid) : findIndex(mid + 1, right);
   }
 }
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+function searchInsert4(nums, target) {
+  let left = 0;
+  let right = nums.length;
+  while (left < right) {
+    const mid = Math.floor((left + right) / 2);
+    const n = nums[mid];
+    if (n === target) {
+      return mid;
+    }
+    left = n > target ? left : mid + 1;
+    right = n > target ? mid : right;
+  }
+  return left;
+}
