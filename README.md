@@ -73,6 +73,7 @@ https://leetcode.com/
 | 110  | Balanced Binary Tree                                     | Easy       | Javascript       |
 | 111  | Minimum Depth of Binary Tree                             | Easy       | JavaScript       |
 | 112  | Path Sum                                                 | Easy       | JavaScript       |
+| 116  | Populating Next Right Pointers in Each Node              | Medium     | JavaScript       |
 | 118  | Pascal's Triangle                                        | Easy       | JavaScript       |
 | 121  | Best Time to Buy and Sell Stock                          | Easy       | JavaScript, Java |
 | 122  | Best Time to Buy and Sell Stock II                       | Easy       | JavaScript       |
