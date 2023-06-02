@@ -29,3 +29,25 @@ function connect(root) {
     dfs(node.right, depth + 1);
   }
 }
+
+// BFS (queue) - O(1) memory complexity
+function connect2(root) {
+  let depth = -1;
+  let node = root;
+  const queue = [];
+  queue.push([0, root]);
+  while (queue.length > 0) {
+    const [d, n] = queue.shift();
+    if (n === null) {
+      continue;
+    }
+    if (d === depth) {
+      node.next = n;
+    } else {
+      depth++;
+    }
+    node = n;
+    queue.push([d + 1, n.left], [d + 1, n.right]);
+  }
+  return root;
+}
