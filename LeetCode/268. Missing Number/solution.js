@@ -2,9 +2,9 @@
  * @param {number[]} nums
  * @return {number}
  */
-const missingNumber = function(nums) {
+function missingNumber(nums) {
   const map = {};
-  nums.forEach(n => {
+  nums.forEach((n) => {
     map[n] = true;
   });
 
@@ -13,4 +13,13 @@ const missingNumber = function(nums) {
       return i;
     }
   }
-};
+}
+
+function missingNumber2(nums) {
+  const sortedNums = nums.sort((n1, n2) => n1 - n2);
+  for (let i = 0; i < sortedNums.length + 1; i++) {
+    if (nums[i] !== i) {
+      return i;
+    }
+  }
+}
