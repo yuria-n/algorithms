@@ -9,7 +9,7 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-const levelOrder = function(root) {
+const levelOrder = function (root) {
   const result = [];
   dfs(root, 0);
   return result;
@@ -26,3 +26,21 @@ const levelOrder = function(root) {
     dfs(node.right, depth + 1);
   }
 };
+
+function levelOrder2(root) {
+  const result = [];
+  dfs(root, 0);
+  return result;
+
+  function dfs(node, depth) {
+    if (!node) {
+      return;
+    }
+    if (result[depth] === undefined) {
+      result.push([]);
+    }
+    result[depth].push(node.val);
+    dfs(node.left, depth + 1);
+    dfs(node.right, depth + 1);
+  }
+}
