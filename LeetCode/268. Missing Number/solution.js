@@ -7,7 +7,6 @@ function missingNumber(nums) {
   nums.forEach((n) => {
     map[n] = true;
   });
-
   for (let i = 0; i <= nums.length; i++) {
     if (!map[i]) {
       return i;
@@ -22,4 +21,10 @@ function missingNumber2(nums) {
       return i;
     }
   }
+}
+
+function missingNumber3(nums) {
+  const actualSum = nums.reduce((num, acc) => acc + num, 0);
+  const expectedSum = ((1 + nums.length) / 2) * nums.length;
+  return actualSum === expectedSum ? 0 : expectedSum - actualSum;
 }
