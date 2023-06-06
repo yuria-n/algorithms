@@ -37,6 +37,7 @@ https://leetcode.com/
 | #    | Title                                                    | Difficulty | Language         |
 | :--- | :------------------------------------------------------- | ---------- | :--------------- |
 | 1    | Two Sum                                                  | Easy       | JavaScript, Java |
+| 3    | Longest Substring Without Repeating Characters           | Medium     | JavaScript       |
 | 7    | Reverse Integer                                          | Easy       | JavaScript, Java |
 | 9    | Palindrome Number                                        | Easy       | JavaScript, Java |
 | 13   | Roman to Integer                                         | Easy       | JavaScript, Java |
