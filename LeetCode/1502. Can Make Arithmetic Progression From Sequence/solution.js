@@ -13,3 +13,19 @@ function canMakeArithmeticProgression(arr) {
   }
   return true;
 }
+
+/**
+ * @param {number[]} arr
+ * @return {boolean}
+ */
+function canMakeArithmeticProgression2(arr) {
+  const min = Math.min(...arr);
+  const diff = (Math.max(...arr) - min) / (arr.length - 1);
+  const set = new Set(arr);
+  for (let i = 0; i < arr.length; i++) {
+    if (!set.has(min + diff * i)) {
+      return false;
+    }
+  }
+  return true;
+}
