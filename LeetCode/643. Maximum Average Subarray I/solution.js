@@ -4,15 +4,11 @@
  * @return {number}
  */
 function findMaxAverage(nums, k) {
-  let left = 0;
-  let right = k;
-  let curSum = nums.slice(left, right).reduce((n, acc) => acc + n, 0);
+  let curSum = nums.slice(0, k).reduce((acc, num) => num + acc);
   let result = curSum;
-  while (right < nums.length) {
-    curSum = curSum - nums[left] + nums[right];
+  for (let i = k; i < nums.length; i++) {
+    curSum += nums[i] - nums[i - k];
     result = Math.max(result, curSum);
-    left++;
-    right++;
   }
   return result / k;
 }
