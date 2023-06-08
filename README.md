@@ -156,6 +156,7 @@ https://leetcode.com/
 | 617  | Merge Two Binary Trees                                   | Easy       | JavaScript       |
 | 633  | Sum of Square Numbers                                    | Easy       | JavaScript       |
 | 637  | Average of Levels in Binary Tree                         | Easy       | JavaScript       |
+| 643  | Maximum Average Subarray I                               | Easy       | JavaScript       |
 | 645  | Set Mismatch                                             | Easy       | JavaScript       |
 | 658  | Find K Closest Elements                                  | Medium     | JavaScript       |
 | 660  | Remove 9                                                 | Hard       | Java             |
