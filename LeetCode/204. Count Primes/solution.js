@@ -17,7 +17,7 @@ function countPrimes(n) {
   return count;
 }
 
-const countPrimes2 = function(n) {
+const countPrimes2 = function (n) {
   const nonPrimeMap = {};
   let count = 0;
   for (let i = 2; i < n; i++) {
@@ -29,6 +29,24 @@ const countPrimes2 = function(n) {
       nonPrimeMap[j] = true;
     }
   }
-
   return count;
 };
+
+/**
+ * @param {number} n
+ * @return {number}
+ */
+function countPrimes3(n) {
+  const cache = new Array(n).fill(false);
+  let result = 0;
+  for (let i = 2; i < n; i++) {
+    if (cache[i]) {
+      continue;
+    }
+    result++;
+    for (let j = i; j < n; j += i) {
+      cache[j] = true;
+    }
+  }
+  return result;
+}
