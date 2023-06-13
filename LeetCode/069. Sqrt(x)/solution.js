@@ -2,11 +2,11 @@
  * @param {number} x
  * @return {number}
  */
-const mySqrt = function(x) {
+function mySqrt(x) {
   return Math.floor(Math.sqrt(x));
-};
+}
 
-const mySqrt = function(x) {
+function mySqrt2(x) {
   if (x <= 1) {
     return x;
   }
@@ -28,4 +28,23 @@ const mySqrt = function(x) {
     }
   }
   return mid - (power < x ? 0 : 1);
-};
+}
+
+function mySqrt3(x) {
+  let left = 0;
+  let right = x + 1;
+  let result = 0;
+  while (left < right) {
+    result = Math.floor((right - left) / 2) + left;
+    const sqrt = result ** 2;
+    if (sqrt === x) {
+      return result;
+    }
+    if (sqrt < x) {
+      left = result + 1;
+    } else {
+      right = result;
+    }
+  }
+  return result - (result ** 2 > x ? 1 : 0);
+}
