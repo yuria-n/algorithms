@@ -11,7 +11,7 @@
  */
 
 // Iteratively
-const reverseList = function(head) {
+function reverseList(head) {
   let result = null;
 
   while (head) {
@@ -22,10 +22,10 @@ const reverseList = function(head) {
   }
 
   return result;
-};
+}
 
 // Recursively
-const reverseList2 = function(head) {
+function reverseList2(head) {
   return helper(head, null);
 
   function helper(node, result) {
@@ -36,4 +36,13 @@ const reverseList2 = function(head) {
     node.next = result;
     return helper(next, node);
   }
-};
+}
+
+function reverseList3(node) {
+  let current = null;
+  while (node !== null) {
+    current = new ListNode(node.val, current);
+    node = node.next;
+  }
+  return current;
+}
