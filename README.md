@@ -255,6 +255,7 @@ https://leetcode.com/
 | 1419 | Minimum Number of Frogs Croaking                         | Medium     | JavaScript       |
 | 1436 | Destination City                                         | Easy       | JavaScript       |
 | 1502 | Can Make Arithmetic Progression From Sequence            | Easy       | JavaScript       |
+| 2331 | Evaluate Boolean Binary Tree                             | Easy       | JavaScript       |
 
 ## HackerRank
 
