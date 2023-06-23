@@ -94,6 +94,7 @@ https://leetcode.com/
 | 169  | Majority Element                                         | Easy       | JavaScript, Java |
 | 171  | Excel Sheet Column Number                                | Easy       | JavaScript       |
 | 172  | Factorial Trailing Zeroes                                | Easy       | JavaScript       |
+| 173  | Binary Search Tree Iterator                              | Medium     | JavaScript       |
 | 189  | Rotate Array                                             | Easy       | JavaScript, Java |
 | 190  | Reverse Bits                                             | Easy       | Java             |
 | 191  | Number of 1 Bits                                         | Easy       | Java             |
