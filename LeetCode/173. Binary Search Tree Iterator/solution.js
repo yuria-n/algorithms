@@ -12,6 +12,9 @@ class BSTIterator {
    */
   constructor(root) {
     const queue = [];
+    dfs(root);
+    this.queue = queue;
+
     function dfs(node) {
       if (node === null) {
         return;
@@ -20,8 +23,6 @@ class BSTIterator {
       queue.push(node);
       dfs(node.right);
     }
-    dfs(root);
-    this.queue = queue;
   }
 
   /**
