@@ -1,12 +1,16 @@
 // _.pull
 
 function pull<T>(arr: T[], ...vals: T[]): T[] {
-  const set = new Set<T>(...vals);
-  const output: T[] = [];
-  for (const val of arr) {
-    if (!set.has(val)) {
-      output.push(val);
+  const set = new Set<T>(vals);
+  let left = 0;
+  for (let right = 0; right < arr.length; right++) {
+    if (set.has(arr[right])) {
+      continue;
     }
+    if (left < right) {
+      arr[left] = arr[right];
+    }
+    left++;
   }
-  return output;
+  return arr.splice(0, left);
 }
