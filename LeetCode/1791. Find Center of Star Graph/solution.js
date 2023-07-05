@@ -32,11 +32,23 @@ function findCenter(edges) {
  * @return {number}
  */
 function findCenter2(edges) {
-  const arr = Array.from({ length: edges.length * 2 }).fill(0);
+  const arr = Array.from({ length: edges.length }).fill(0);
   for (const [u, v] of edges) {
     arr[u]++;
     arr[v]++;
   }
   const max = Math.max(...arr);
   return arr.findIndex((n) => n === max);
+}
+
+/**
+ * @param {number[][]} edges
+ * @return {number}
+ */
+function findCenter3(edges) {
+  const [[u0, v0], [u1, v1]] = edges;
+  if (u0 === u1 || u0 === v1) {
+    return u0;
+  }
+  return v0;
 }
