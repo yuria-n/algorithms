@@ -257,6 +257,7 @@ https://leetcode.com/
 | 1436 | Destination City                                         | Easy       | JavaScript       |
 | 1448 | Count Good Nodes in Binary Tree                          | Medium     | JavaScript       |
 | 1502 | Can Make Arithmetic Progression From Sequence            | Easy       | JavaScript       |
+| 1971 | Find if Path Exists in Graph                             | Easy       | JavaScript       |
 | 2331 | Evaluate Boolean Binary Tree                             | Easy       | JavaScript       |
 | 2685 | Count the Number of Complete Components                  | Medium     | JavaScript       |
 
