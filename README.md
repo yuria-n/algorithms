@@ -148,6 +148,7 @@ https://leetcode.com/
 | 532  | K-diff Pairs in an Array                                 | Easy       | Java             |
 | 540  | Single Element in a Sorted Array                         | Medium     | JavaScript       |
 | 543  | Diameter of Binary Tree                                  | Easy       | Java             |
+| 547  | Number of Provinces                                      | Medium     | JavaScript       |
 | 556  | Reshape The Matrix                                       | Easy       | Java             |
 | 557  | Reverse Words in a String III                            | Easy       | JavaScript       |
 | 559  | Maximum Depth of N-ary Tree                              | Easy       | JavaScript       |
