@@ -180,6 +180,7 @@ https://leetcode.com/
 | 783  | Minimum Distance Between BST Nodes                       | Easy       | JavaScript       |
 | 789  | Escape The Ghosts                                        | Medium     | JavaScript       |
 | 796  | Rotate String                                            | Easy       | JavaScript       |
+| 802  | Find Eventual Safe States                                | Medium     | JavaScript       |
 | 804  | Unique Morse Code Words                                  | Easy       | JavaScript       |
 | 806  | Number of Lines To Write String                          | Easy       | JavaScript       |
 | 819  | Most Common Word                                         | Easy       | Javascript       |
