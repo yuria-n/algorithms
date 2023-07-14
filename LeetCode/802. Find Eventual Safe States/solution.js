@@ -3,38 +3,21 @@
  * @return {number[]}
  */
 function eventualSafeNodes(graph) {
-  const visitedNodes = Array.from({ length: graph.length });
-  for (let i = 0; i < graph.length; i++) {
-    if (visitedNodes[i] !== undefined) {
-      continue;
-    }
-    visitedNodes[i] = validate(i, new Set());
-  }
-
+  const visited = Array.from({ length: graph.length });
   const result = [];
-  for (let i = 0; i < visitedNodes.length; i++) {
-    if (visitedNodes[i]) {
+  for (let i = 0; i < graph.length; i++) {
+    if (validate(i)) {
       result.push(i);
     }
   }
-
   return result;
 
-  function validate(node, visited) {
-    if (visitedNodes[node] !== undefined) {
-      return visitedNodes[node];
+  function validate(node) {
+    if (visited[node] !== undefined) {
+      return visited[node];
     }
-
-    if (visited.has(node)) {
-      return false;
-    }
-
-    if (graph[node].length === 0) {
-      return true;
-    }
-
-    visited.add(node);
-    visitedNodes[node] = graph[node].every((n) => validate(n, visited));
-    return visitedNodes[node];
+    visited[node] = false;
+    visited[node] = graph[node].every(validate);
+    return visited[node];
   }
 }
