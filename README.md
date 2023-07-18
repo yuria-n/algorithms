@@ -240,6 +240,7 @@ https://leetcode.com/
 | 1295 | Find Numbers with Even Number of Digits                  | Easy       | JavaScript       |
 | 1296 | Divide Array in Sets of K Consecutive Numbers            | Medium     | JavaScript       |
 | 1304 | Find N Unique Integers Sum up to Zero                    | Easy       | JavaScript       |
+| 1315 | Sum of Nodes with Even-Valued Grandparent                | Medium     | JavaScript       |
 | 1337 | Remove Palindromic Subsequences                          | Easy       | JavaScript       |
 | 1338 | Filter Restaurants by Vegan-Friendly, Price and Distance | Medium     | JavaScript       |
 | 1346 | Check If N and Its Double Exist                          | Easy       | JavaScript       |
