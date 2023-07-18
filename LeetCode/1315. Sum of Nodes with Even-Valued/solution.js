@@ -11,19 +11,17 @@
  * @return {number}
  */
 function sumEvenGrandparent(root) {
-  let result = 0;
-  dfs(root, null, null);
-  return result;
+  return dfs(root, null, null);
 
   function dfs(node, pNode, gNode) {
     if (node === null) {
-      return;
+      return 0;
     }
     // console.log(node.val, gNode?.val);
-    if (gNode?.val % 2 === 0) {
-      result += node.val;
-    }
-    dfs(node.left, node, pNode);
-    dfs(node.right, node, pNode);
+    return (
+      (gNode?.val % 2 === 0 ? node.val : 0) +
+      dfs(node.left, node, pNode) +
+      dfs(node.right, node, pNode)
+    );
   }
 }
