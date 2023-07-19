@@ -12,17 +12,17 @@
  */
 function averageOfSubtree(root) {
   let result = 0;
-  dfs(root, 0, 0);
+  dfs(root);
   return result;
 
-  function dfs(node, sum, num) {
+  function dfs(node) {
     if (node === null) {
-      return [sum, num];
+      return [0, 0];
     }
-    const [sumL, numL] = dfs(node.left, 0, 0);
-    const [sumR, numR] = dfs(node.right, 0, 0);
-    sum = sumL + sumR - node.val;
-    num = numL + numR - 1;
+    const [sumL, numL] = dfs(node.left);
+    const [sumR, numR] = dfs(node.right);
+    const sum = sumL + sumR - node.val;
+    const num = numL + numR - 1;
     if (Math.floor(sum / num) === node.val) {
       result++;
     }
