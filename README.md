@@ -264,6 +264,7 @@ https://leetcode.com/
 | 1557 | Minimum Number of Vertices to Reach All Nodes            | Medium     | JavaScript       |
 | 1791 | Find Center of Star Graph                                | Easy       | JavaScript       |
 | 1971 | Find if Path Exists in Graph                             | Easy       | JavaScript       |
+| 2236 | Root Equals Sum of Children                              | Easy       | JavaScript       |
 | 2265 | Count Nodes Equal to Average of Subtree                  | Medium     | JavaScript       |
 | 2331 | Evaluate Boolean Binary Tree                             | Easy       | JavaScript       |
 | 2685 | Count the Number of Complete Components                  | Medium     | JavaScript       |
