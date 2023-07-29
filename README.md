@@ -211,6 +211,7 @@ https://leetcode.com/
 | 1029 | Two City Scheduling                                      | Easy       | JavaScript       |
 | 1035 | Uncrossed Lines                                          | Medium     | JavaScript       |
 | 1037 | Valid Boomerang                                          | Easy       | JavaScript       |
+| 1038 | Binary Search Tree to Greater Sum Tree                   | Medium     | JavaScript       |
 | 1046 | Last Stone Weight                                        | Easy       | JavaScript       |
 | 1078 | Occurrences After Bigram                                 | Easy       | JavaScript       |
 | 1143 | Longest Common Subsequence                               | Medium     | JavaScript       |
