@@ -11,19 +11,14 @@
  * @return {TreeNode}
  */
 function bstToGst(root) {
-  dfs(root, []);
+  dfs(root, 0);
   return root;
 }
 
-function dfs(node, visited) {
+function dfs(node, sum) {
   if (node === null) {
-    return;
+    return sum;
   }
-  const { val, left, right } = node;
-  dfs(left, visited);
-  for (const n of visited) {
-    n.val += val;
-  }
-  visited.push(node);
-  dfs(right, visited);
+  node.val += dfs(node.right, sum);
+  return dfs(node.left, node.val);
 }
