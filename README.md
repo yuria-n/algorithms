@@ -86,6 +86,7 @@ https://leetcode.com/
 | 141  | Linked List Cycle                                        | Easy       | JavaScript       |
 | 142  | Linked List Cycle II                                     | Medium     | JavaScript       |
 | 144  | Binary Tree Preorder Traversal                           | Easy       | JavaScript       |
+| 145  | Binary Tree Postorder Traversal                          | Easy       | JavaScript       |
 | 146  | LRU Cache                                                | Medium     | JavaScript       |
 | 153  | Find Minimum in Rotated Sorted Array                     | Medium     | JavaScript       |
 | 155  | Min Stack                                                | Easy       | JavaScript       |
