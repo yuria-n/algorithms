@@ -3,6 +3,15 @@
  * @return {number}
  */
 function minimumSum(num) {
+  const digits = `${num}`.split("").sort();
+  return Number(digits[0] + digits[2]) + Number(digits[1] + digits[3]);
+}
+
+/**
+ * @param {number} num
+ * @return {number}
+ */
+function minimumSum2(num) {
   const digits = [];
   while (num > 0) {
     digits.push(num % 10);
