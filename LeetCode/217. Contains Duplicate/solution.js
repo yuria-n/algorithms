@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-const containsDuplicate = function(nums) {
+function containsDuplicate(nums) {
   const map = {};
   for (let i = 0; i < nums.length; i++) {
     const n = nums[i];
@@ -12,13 +12,13 @@ const containsDuplicate = function(nums) {
     map[n] = true;
   }
   return false;
-};
+}
 
 /**
  * @param {number[]} nums
  * @return {boolean}
  */
-const containsDuplicate2 = function(nums) {
+function containsDuplicate2(nums) {
   const set = new Set();
   for (const n of nums) {
     if (set.has(n)) {
@@ -26,14 +26,13 @@ const containsDuplicate2 = function(nums) {
     }
     set.add(n);
   }
-
   return false;
-};
+}
 
 /**
  * @param {number[]} nums
  * @return {boolean}
  */
-const containsDuplicate3 = function(nums) {
+function containsDuplicate3(nums) {
   return new Set(nums).size !== nums.length;
-};
+}
