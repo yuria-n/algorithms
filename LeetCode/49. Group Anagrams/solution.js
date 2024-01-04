@@ -45,3 +45,28 @@ function groupAnagrams3(strs) {
   }
   return Array.from(map.values());
 }
+
+/**
+ * @param {string[]} strs
+ * @return {string[][]}
+ */
+function groupAnagrams4(strs) {
+  const primes = [
+    2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71,
+    73, 79, 83, 89, 97, 101, 107,
+  ];
+  const map = new Map();
+
+  for (const str of strs) {
+    let key = 1;
+    for (const char of str) {
+      key *= primes[char.charCodeAt() - 97];
+    }
+    if (!map.has(key)) {
+      map.set(key, []);
+    }
+    map.get(key).push(str);
+  }
+
+  return Array.from(map.values());
+}
