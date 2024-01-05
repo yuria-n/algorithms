@@ -126,6 +126,7 @@ https://leetcode.com/
 | 344  | Reverse String                                           | Easy       | JavaScript, Java |
 | 342  | Power of Four                                            | Easy       | JavaScript       |
 | 345  | Reverse Vowels of a String                               | Easy       | JavaScript       |
+| 347  | Top K Frequent Elements                                  | Medium     | JavaScript       |
 | 349  | Intersection of Two Arrays                               | Easy       | JavaScript       |
 | 350  | Intersection of Two Arrays II                            | Easy       | Java             |
 | 367  | Valid Perfect Square                                     | Easy       | JavaScript       |
