@@ -51,6 +51,7 @@ https://leetcode.com/
 | 33   | Search in Rotated Sorted Array                           | Medium     | JavaScript       |
 | 34   | Find First and Last Position of Element in Sorted Array  | Medium     | JavaScript       |
 | 35   | Search Insert Position                                   | Easy       | JavaScript, Java |
+| 36   | Valid Sudoku                                             | Medium     | JavaScript       |
 | 49   | Group Anagrams                                           | Medium     | JavaScript       |
 | 53   | Maximum Subarray                                         | Easy       | JavaScript, Java |
 | 55   | Jump Game                                                | Medium     | JavaScript       |
