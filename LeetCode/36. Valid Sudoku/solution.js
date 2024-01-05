@@ -3,31 +3,24 @@
  * @return {boolean}
  */
 function isValidSudoku(board) {
-  const l = 9;
   const s = 3;
 
-  for (const row of board) {
-    if (!validate(row)) {
-      return false;
-    }
-  }
-  for (let i = 0; i < l; i++) {
-    if (!validate(board.map((row) => row[i]))) {
-      return false;
-    }
-  }
   for (let i = 0; i < s; i++) {
     for (let j = 0; j < s; j++) {
+      const index = i * s + j;
+      const row = board[index];
+      const column = board.map((row) => row[index]);
       const y = i * s;
       const x = j * s;
-      const cells = [
+      const box = [
         ...board[y].slice(x, x + s),
         ...board[y + 1].slice(x, x + s),
         ...board[y + 2].slice(x, x + s),
       ];
-      if (!validate(cells)) {
-        return false;
+      if (validate(row) && validate(column) && validate(box)) {
+        continue;
       }
+      return false;
     }
   }
   return true;
