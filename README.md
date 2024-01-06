@@ -81,6 +81,7 @@ https://leetcode.com/
 | 122  | Best Time to Buy and Sell Stock II                       | Easy       | JavaScript       |
 | 124  | Binary Tree Maximum Path Sum                             | Hard       | JavaScript       |
 | 125  | Valid Palindrome                                         | Easy       | JavaScript       |
+| 128  | Longest Consecutive Sequence                             | Medium     | JavaScript       |
 | 129  | Sum Root to Leaf Numbers                                 | Medium     | JavaScript       |
 | 130  | Surrounded Regions                                       | Medium     | JavaScript       |
 | 136  | Single Number                                            | Easy       | JavaScript       |
