@@ -93,7 +93,7 @@ https://leetcode.com/
 | 153  | Find Minimum in Rotated Sorted Array                     | Medium     | JavaScript       |
 | 155  | Min Stack                                                | Easy       | JavaScript       |
 | 160  | Intersection of Two Linked Lists                         | Easy       | JavaScript       |
-| 167  | Two Sum II                                               | Easy       | Java             |
+| 167  | Two Sum II                                               | Easy       | JavaScript, Java |
 | 168  | Excel Sheet Column Title                                 | Easy       | JavaScript, Java |
 | 169  | Majority Element                                         | Easy       | JavaScript, Java |
 | 171  | Excel Sheet Column Number                                | Easy       | JavaScript       |
