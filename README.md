@@ -42,6 +42,7 @@ https://leetcode.com/
 | 9    | Palindrome Number                                        | Easy       | JavaScript, Java |
 | 13   | Roman to Integer                                         | Easy       | JavaScript, Java |
 | 14   | Longest Common Prefix                                    | Easy       | JavaScript, Java |
+| 15   | 3Sum                                                     | Medium     | JavaScript       |
 | 20   | Valid Parentheses                                        | Easy       | JavaScript, Java |
 | 21   | Merge Two Sorted Lists                                   | Easy       | JavaScript       |
 | 24   | Swap Nodes in Pairs                                      | Medium     | JavaScript       |
