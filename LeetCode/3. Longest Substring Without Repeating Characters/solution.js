@@ -37,3 +37,22 @@ function lengthOfLongestSubstring2(s) {
   }
   return result;
 }
+
+// Two pointers
+function lengthOfLongestSubstring3(s) {
+  const set = new Set();
+  let max = 0;
+  let left = 0;
+  let right = left;
+  while (right < s.length) {
+    if (set.has(s[right])) {
+      set.delete(s[left]);
+      left++;
+      continue;
+    }
+    set.add(s[right]);
+    right++;
+    max = Math.max(max, right - left);
+  }
+  return max;
+}
