@@ -4,7 +4,7 @@
  */
 
 // Bottom up DP
-const maxProfit = function(prices) {
+function maxProfit(prices) {
   let min = Infinity;
   let profit = 0;
 
@@ -14,10 +14,10 @@ const maxProfit = function(prices) {
   }
 
   return profit;
-};
+}
 
 // Top down DP
-const maxProfit = function(prices) {
+function maxProfit2(prices) {
   const min = getMinPrice(prices.length - 1);
   return getMaxProfit(prices.length - 1);
 
@@ -26,8 +26,23 @@ const maxProfit = function(prices) {
   }
 
   function getMaxProfit(i) {
-    const cur = Math.max(prices[i] - min, i <= 0 ? 0 : getMaxProfit(i - 1));
-    console.log(i, cur);
-    return cur;
+    return Math.max(prices[i] - min, i <= 0 ? 0 : getMaxProfit(i - 1));
   }
-};
+}
+
+// Two pointers
+function maxProfit3(prices) {
+  let max = 0;
+  let left = 0;
+  let right = left + 1;
+  while (right < prices.length) {
+    const pl = prices[left];
+    const pr = prices[right];
+    max = Math.max(max, pr - pl);
+    if (pl > pr) {
+      left = right;
+    }
+    right++;
+  }
+  return max;
+}
