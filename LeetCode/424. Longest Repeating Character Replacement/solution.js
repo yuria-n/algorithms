@@ -28,3 +28,20 @@ function calcMax(s, k, c) {
   }
   return max;
 }
+
+function characterReplacement2(s, k) {
+  const offset = "A".charCodeAt(0);
+  const counts = new Array(26).fill(0);
+  let maxCount = 0;
+  let maxRange = 0;
+  let left = 0;
+  for (let right = 0; right < s.length; right++) {
+    maxCount = Math.max(maxCount, ++counts[s.charCodeAt(right) - offset]);
+    while (right - left + 1 - maxCount > k) {
+      counts[s.charCodeAt(left) - offset]--;
+      left++;
+    }
+    maxRange = Math.max(maxRange, right - left + 1);
+  }
+  return maxRange;
+}
