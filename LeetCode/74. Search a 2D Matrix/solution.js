@@ -29,26 +29,46 @@ function searchMatrix(matrix, target) {
  * @return {boolean}
  */
 function searchMatrix(matrix, target) {
-  // まずmatrixの右端と左端の値でバイナリーサーチ
-  // targetが存在するrow x を見つけたら、そのrowに対してバイナリーサーチ
-  const lx = matrix.length;
-  const ly = matrix[0].length;
+  const y = searchRow(matrix, target);
+  return y === -1 ? false : searchNum(matrix[y], target);
+}
+
+function searchRow(matrix, target) {
   let left = 0;
-  let right = lx * ly - 1;
-  while (left <= right) {
-    const mid = Math.floor((right + left) / 2);
-    const x = Math.floor(mid / lx);
-    const y = mid % ly;
-    const num = matrix[y][x];
-    console.log(left, right, mid, { y, x });
-    if (num === target) {
-      return true;
+  let right = matrix.length;
+  while (left < right) {
+    const mid = Math.floor((left + right) / 2);
+    const row = matrix[mid];
+    const numF = row[0];
+    const numL = row[row.length - 1];
+    if (numL < target) {
+      left = mid + 1;
+      continue;
     }
+    if (numF > target) {
+      right = mid;
+      continue;
+    }
+    return mid;
+  }
+  return -1;
+}
+
+function searchNum(nums, target) {
+  let left = 0;
+  let right = nums.length;
+  while (left < right) {
+    const mid = Math.floor((left + right) / 2);
+    const num = nums[mid];
     if (num < target) {
       left = mid + 1;
       continue;
     }
-    right = mid - 1;
+    if (num > target) {
+      right = mid;
+      continue;
+    }
+    break;
   }
-  return false;
+  return left < right;
 }
