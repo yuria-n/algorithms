@@ -203,6 +203,7 @@ https://leetcode.com/
 | 860  | Lemonade Change                                          | Easy       | JavaScript       |
 | 872  | eaf-Similar Trees                                        | Easy       | JavaScript       |
 | 876  | Middle of the Linked List                                | Easy       | JavaScript       |
+| 875  | Koko Eating Bananas                                      | Medium     | JavaScript       |
 | 884  | Uncommon Words from Two Sentences                        | Easy       | JavaScript       |
 | 897  | Increasing Order Search Tree                             | Easy       | JavaScript       |
 | 905  | Sort Array By Parity                                     | Easy       | JavaScript       |
