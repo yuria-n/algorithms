@@ -9,38 +9,7 @@
  * @param {number} target
  * @return {number}
  */
-const search = function(nums, target) {
-  const first = nums[0];
-  let left = 0;
-  let right = nums.length - 1;
-  let mid;
-  while (left <= right) {
-    mid = Math.floor(left + (right - left) / 2);
-    const current = nums[mid];
-    const n =
-      current < first === target < first
-        ? current
-        : target < first
-        ? -Infinity
-        : Infinity;
-    if (n === target) {
-      return mid;
-    }
-    if (n < target) {
-      left = mid + 1;
-    } else {
-      right = mid - 1;
-    }
-  }
-  return -1;
-};
-
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number}
- */
-const search = function(nums, target) {
+function search(nums, target) {
   let left = 0;
   let right = nums.length - 1;
   while (left <= right) {
@@ -63,4 +32,38 @@ const search = function(nums, target) {
     }
     return target < first ? -Infinity : Infinity;
   }
-};
+}
+
+// Binary search
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+function search(nums, target) {
+  let l = 0;
+  let r = nums.length - 1;
+  while (l <= r) {
+    const mid = Math.ceil((l + r) / 2);
+    const num = nums[mid];
+    const numL = nums[l];
+    const numR = nums[r];
+
+    if (num === target) {
+      return mid;
+    }
+
+    if (numL <= num && (num < target || numL > target)) {
+      l = mid + 1;
+      continue;
+    }
+
+    if (numL <= num || num > target || numR < target) {
+      r = mid - 1;
+      continue;
+    }
+
+    l = mid + 1;
+  }
+  return -1;
+}
