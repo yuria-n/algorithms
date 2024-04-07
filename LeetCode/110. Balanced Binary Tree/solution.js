@@ -9,7 +9,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-const isBalanced = function(root) {
+function isBalanced(root) {
   if (!root) {
     return true;
   }
@@ -26,4 +26,29 @@ const isBalanced = function(root) {
     }
     return Math.max(dfs(node.left, level), dfs(node.right, level));
   }
-};
+}
+
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+function isBalanced2(root) {
+  return dfs(root) !== Infinity;
+
+  function dfs(node) {
+    if (node === null) {
+      return 0;
+    }
+    const left = dfs(node.left) + 1;
+    const right = dfs(node.right) + 1;
+    return Math.abs(left - right) > 1 ? Infinity : Math.max(left, right);
+  }
+}
