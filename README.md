@@ -165,6 +165,7 @@ https://leetcode.com/
 | 559  | Maximum Depth of N-ary Tree                              | Easy       | JavaScript       |
 | 560  | Subarray Sum Equals K                                    | Medium     | JavaScript       |
 | 567  | Permutation in String                                    | Medium     | JavaScript       |
+| 572  | Subtree of Another Tree                                  | Easy       | JavaScript       |
 | 581  | Shortest Unsorted Continuous Subarray                    | Easy       | JavaScript       |
 | 599  | Minimum Index Sum of Two Lists                           | Easy       | JavaScript       |
 | 605  | Can Place Flowers                                        | Easy       | JavaScript       |
