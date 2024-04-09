@@ -13,8 +13,8 @@ $ yarn start
 **mode:**
 Choose a mode
 
-| N   | Directory   |
-| :-- | :---------- |
+| #   | Directory   |
+|:----|:------------|
 | 0   | LeetCode    |
 | 1   | Hacker Rank |
 | 2   | Others      |
@@ -35,7 +35,7 @@ prompt: name: [Question title]
 https://leetcode.com/
 
 | #    | Title                                                    | Difficulty | Language         |
-| :--- | :------------------------------------------------------- | ---------- | :--------------- |
+|:-----|:---------------------------------------------------------|------------|:-----------------|
 | 1    | Two Sum                                                  | Easy       | JavaScript, Java |
 | 3    | Longest Substring Without Repeating Characters           | Medium     | JavaScript       |
 | 7    | Reverse Integer                                          | Easy       | JavaScript, Java |
@@ -291,7 +291,7 @@ https://www.hackerrank.com/
 ### 001.Warmup
 
 | Title                 | Language                 |
-| :-------------------- | :----------------------- |
+|:----------------------|:-------------------------|
 | A Very Big Sum        | JavaScript, Java         |
 | Birthday Cake Candles | JavaScript, Java         |
 | Compare the Triplets  | JavaScript, Java         |
@@ -306,7 +306,7 @@ https://www.hackerrank.com/
 ### 002.Implementation
 
 | Title            | Language         |
-| :--------------- | :--------------- |
+|:-----------------|:-----------------|
 | Apple and Orange | JavaScript       |
 | Grading Students | JavaScript, Java |
 | Kangaroo         | JavaScript       |
@@ -314,21 +314,21 @@ https://www.hackerrank.com/
 ### 003.Strings
 
 | Title                | Language         |
-| :------------------- | :--------------- |
+|:---------------------|:-----------------|
 | Camel Case           | Java             |
 | Super Reduced String | JavaScript, Java |
 
 ### 004.Sorting
 
 | Title                        | Language   |
-| :--------------------------- | :--------- |
+|:-----------------------------|:-----------|
 | Counting Sort 1              | Java       |
 | Intro to Tutorial Challenges | JavaScript |
 
 ### 005.Search
 
 | Title            | Language   |
-| :--------------- | :--------- |
+|:-----------------|:-----------|
 | Ice Cream Parlor | JavaScript |
 
 ### Tutorials
@@ -336,7 +336,7 @@ https://www.hackerrank.com/
 **10 Days of JavaScript**
 
 | Title                                  | Language            |
-| :------------------------------------- | :------------------ |
+|:---------------------------------------|:--------------------|
 | Day 0: Data Types                      | JavaScript          |
 | Day 0: Hello, World!                   | JavaScript          |
 | Day 1: Arithmetic Operators            | JavaScript          |
@@ -365,7 +365,7 @@ https://www.hackerrank.com/
 **Cracking the Coding Interview**
 
 | Category        | Title                    | Language   |
-| :-------------- | :----------------------- | :--------- |
+|:----------------|:-------------------------|:-----------|
 | DATA STRUCTURES | Arrays: Left Rotation    | JavaScript |
 |                 | Strings: Making Anagrams | JavaScript |
 |                 | Hash Tables: Ransom Note | JavaScript |
@@ -376,7 +376,7 @@ https://www.hackerrank.com/
 https://dmoj.ca/
 
 | #   | Title             | Language |
-| :-- | :---------------- | :------- |
+|:----|:------------------|:---------|
 | J4  | Big Bang Secrets  | Java     |
 | S1  | Computer Purchase | Java     |
 | S2  | Huffman Encoding  | Java     |
@@ -384,7 +384,7 @@ https://dmoj.ca/
 ## Others
 
 | #   | Title                        | Language            |
-| :-- | :--------------------------- | :------------------ |
+|:----|:-----------------------------|:--------------------|
 | 1   | Regular Expressions          | (JavaScript)        |
 | 2   | Web Development Fundamentals | HTML+CSS+JavaScript |
 | 4   | String Permutation           | Java                |
