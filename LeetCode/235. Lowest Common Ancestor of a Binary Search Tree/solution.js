@@ -22,3 +22,19 @@ function lowestCommonAncestor(root, p, q) {
   }
   return root;
 }
+
+function lowestCommonAncestor2(root, p, q) {
+  while (root) {
+    const { val, left, right } = root;
+    if (val > p.val && val > q.val) {
+      root = left;
+      continue;
+    }
+    if (val < p.val && val < q.val) {
+      root = right;
+      continue;
+    }
+    break;
+  }
+  return root;
+}
