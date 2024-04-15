@@ -9,25 +9,7 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-const levelOrder = function (root) {
-  const result = [];
-  dfs(root, 0);
-  return result;
-
-  function dfs(node, depth) {
-    if (!node) {
-      return;
-    }
-
-    const arr = result[depth];
-    result[depth] = !arr ? [node.val] : [...arr, node.val];
-
-    dfs(node.left, depth + 1);
-    dfs(node.right, depth + 1);
-  }
-};
-
-function levelOrder2(root) {
+function levelOrder(root) {
   const result = [];
   dfs(root, 0);
   return result;
@@ -43,4 +25,23 @@ function levelOrder2(root) {
     dfs(node.left, depth + 1);
     dfs(node.right, depth + 1);
   }
+}
+
+// BFS
+function levelOrder2(root) {
+  const result = [];
+  const stack = [[root, 0]];
+  while (stack.length > 0) {
+    const [node, i] = stack.pop();
+    if (node === null) {
+      continue;
+    }
+    const { val, left, right } = node;
+    if (result.length === i) {
+      result.push([]);
+    }
+    result[i].push(val);
+    stack.push([right, i + 1], [left, i + 1]);
+  }
+  return result;
 }
