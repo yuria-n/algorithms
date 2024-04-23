@@ -22,8 +22,7 @@ function kthSmallest(root, k) {
     }
     const { val, left, right } = node;
     dfs(left);
-    k -= 1;
-    if (k === 0) {
+    if (--k === 0) {
       res = val;
       return;
     }
