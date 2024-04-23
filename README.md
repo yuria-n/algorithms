@@ -118,6 +118,7 @@ https://leetcode.com/
 | 217  | Contains Duplicate                                       | Easy       | JavaScript       |
 | 221  | Maximal Square                                           | Medium     | JavaScript       |
 | 222  | Count Complete Tree Nodes                                | Medium     | JavaScript       |
+| 230  | Kth Smallest Element in a BST                            | Medium     | JavaScript       |
 | 232  | Implement Queue using Stacks                             | Easy       | JavaScript       |
 | 234  | Palindrome Linked List                                   | Easy       | JavaScript       |
 | 235  | Lowest Common Ancestor of a Binary Search Tree           | Medium     | JavaScript       |
