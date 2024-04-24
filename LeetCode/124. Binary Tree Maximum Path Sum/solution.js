@@ -10,7 +10,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const maxPathSum = function (root) {
+function maxPathSum(root) {
   let max = -Infinity;
   dfs(root);
   return max;
@@ -25,4 +25,20 @@ const maxPathSum = function (root) {
     max = Math.max(max, next, node.val + left + right);
     return next;
   }
-};
+}
+
+function maxPathSum2(root) {
+  let max = -Infinity;
+  dfs(root);
+  return max;
+
+  function dfs(node) {
+    if (node === null) {
+      return 0;
+    }
+    const left = Math.max(dfs(node.left), 0);
+    const right = Math.max(dfs(node.right), 0);
+    max = Math.max(max, node.val + left + right);
+    return node.val + Math.max(left, right);
+  }
+}
