@@ -66,6 +66,7 @@ https://leetcode.com/
 | 69   | Sqrt(x)                                                   | Easy       | JavaScript, Java |
 | 70   | ClimbingStairs                                            | Easy       | JavaScript, Java |
 | 74   | Search a 2D Matrix                                        | Medium     | JavaScript       |
+| 78   | Subsets                                                   | Medium     | JavaScript       |
 | 83   | Remove Duplicates from Sorted List                        | Easy       | JavaScript       |
 | 88   | Merge Sorted Array                                        | Easy       | JavaScript, Java |
 | 89   | Gray Code                                                 | Medium     | JavaScript       |
