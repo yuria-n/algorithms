@@ -54,6 +54,7 @@ https://leetcode.com/
 | 34   | Find First and Last Position of Element in Sorted Array   | Medium     | JavaScript       |
 | 35   | Search Insert Position                                    | Easy       | JavaScript, Java |
 | 36   | Valid Sudoku                                              | Medium     | JavaScript       |
+| 39   | Combination Sum                                           | Medium     | JavaScript       |
 | 42   | Trapping Rain Water                                       | Hard       | JavaScript       |
 | 49   | Group Anagrams                                            | Medium     | JavaScript       |
 | 53   | Maximum Subarray                                          | Easy       | JavaScript, Java |
