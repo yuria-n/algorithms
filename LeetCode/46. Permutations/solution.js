@@ -3,21 +3,20 @@
  * @return {number[][]}
  */
 function permute(nums) {
-  const result = new Set();
-  build([], 0);
-  return Array.from(result).map((nums) => nums.split(","));
+  const result = [];
+  backtrack(0);
+  return result;
 
-  function build(subset, index) {
+  function backtrack(index) {
     if (index === nums.length) {
-      result.add([...subset].join(","));
+      result.push([...nums]);
       return;
     }
 
-    for (let i = 0; i <= nums.length; i++) {
-      build(
-        [...subset.slice(0, i), nums[index], ...subset.slice(i)],
-        index + 1,
-      );
+    for (let i = index; i < nums.length; i++) {
+      [nums[index], nums[i]] = [nums[i], nums[index]];
+      backtrack(index + 1);
+      [nums[index], nums[i]] = [nums[i], nums[index]];
     }
   }
 }
