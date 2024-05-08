@@ -56,6 +56,7 @@ https://leetcode.com/
 | 36   | Valid Sudoku                                              | Medium     | JavaScript       |
 | 39   | Combination Sum                                           | Medium     | JavaScript       |
 | 42   | Trapping Rain Water                                       | Hard       | JavaScript       |
+| 46   | Permutations                                              | Medium     | JavaScript       |
 | 49   | Group Anagrams                                            | Medium     | JavaScript       |
 | 53   | Maximum Subarray                                          | Easy       | JavaScript, Java |
 | 55   | Jump Game                                                 | Medium     | JavaScript       |
