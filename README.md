@@ -55,6 +55,7 @@ https://leetcode.com/
 | 35   | Search Insert Position                                    | Easy       | JavaScript, Java |
 | 36   | Valid Sudoku                                              | Medium     | JavaScript       |
 | 39   | Combination Sum                                           | Medium     | JavaScript       |
+| 40   | Combination Sum II                                        | Medium     | JavaScript       |
 | 42   | Trapping Rain Water                                       | Hard       | JavaScript       |
 | 46   | Permutations                                              | Medium     | JavaScript       |
 | 49   | Group Anagrams                                            | Medium     | JavaScript       |
