@@ -10,46 +10,37 @@ function exist(board, word) {
     [-1, 0],
     [0, -1],
   ];
-  word = word.split("").reverse().join("");
+  const lr = board.length;
+  const lc = board[0].length;
 
-  for (let y = 0; y < board.length; y++) {
-    for (let x = 0; x < board[0].length; x++) {
-      if (board[y][x] !== word[0]) {
-        continue;
-      }
-      if (backtrack(new Set(), "", x, y)) {
+  for (let y = 0; y < lr; y++) {
+    for (let x = 0; x < lc; x++) {
+      if (backtrack(x, y, 0)) {
         return true;
       }
     }
   }
   return false;
 
-  function backtrack(visited, subset, x, y) {
-    if (subset === word) {
+  function backtrack(x, y, index) {
+    if (index === word.length) {
       return true;
     }
 
-    if (
-      x < 0 ||
-      x >= board[0].length ||
-      y < 0 ||
-      y >= board.length ||
-      visited.has(`${x}-${y}`) ||
-      subset.length === word.length ||
-      subset !== word.substring(0, subset.length)
-    ) {
+    if (y < 0 || y >= lr || x < 0 || x >= lc || board[y][x] !== word[index]) {
       return false;
     }
 
-    subset += board[y][x];
-    visited.add(`${x}-${y}`);
+    const char = board[y][x];
+    board[y][x] = "";
 
     for (const [m, n] of directions) {
-      if (backtrack(visited, subset, x + m, y + n)) {
+      if (backtrack(x + m, y + n, index + 1)) {
         return true;
       }
     }
-    visited.delete(`${x}-${y}`);
+
+    board[y][x] = char;
     return false;
   }
 }
