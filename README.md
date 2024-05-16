@@ -294,6 +294,7 @@ https://leetcode.com/
 | 2236 | Root Equals Sum of Children                               | Easy       | JavaScript       |
 | 2265 | Count Nodes Equal to Average of Subtree                   | Medium     | JavaScript       |
 | 2331 | Evaluate Boolean Binary Tree                              | Easy       | JavaScript       |
+| 2375 | Construct Smallest Number From DI String                  | Medium     | JavaScript       |
 | 2685 | Count the Number of Complete Components                   | Medium     | JavaScript       |
 
 ## HackerRank
