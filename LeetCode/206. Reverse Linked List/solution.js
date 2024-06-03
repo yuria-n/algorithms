@@ -1,3 +1,5 @@
+// Iteratively
+// time: O(n), space: O(1)
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -9,40 +11,43 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-
-// Iteratively
 function reverseList(head) {
-  let result = null;
-
-  while (head) {
-    let t = head.next;
-    head.next = result;
-    result = head;
-    head = t;
+  let firstNode = null;
+  while (head !== null) {
+    [head.next, firstNode, head] = [firstNode, head, head.next];
   }
-
-  return result;
+  return firstNode;
 }
 
 // Recursively
-function reverseList2(head) {
-  return helper(head, null);
-
-  function helper(node, result) {
-    if (!node) {
+// time: O(n), space: O(0)
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @param {ListNode|null} result
+ * @return {ListNode}
+ */
+function reverseList2(head, result = null) {
+    if (!head) {
       return result;
     }
-    const next = node.next;
-    node.next = result;
-    return helper(next, node);
-  }
+    const next = head.next;
+    head.next = result;
+    return reverseList2(next, head);
 }
 
+// time: O(n), space: O(n)
 function reverseList3(node) {
-  let current = null;
+  let head = null;
   while (node !== null) {
-    current = new ListNode(node.val, current);
+    head = new ListNode(node.val, head);
     node = node.next;
   }
-  return current;
+  return head;
 }
