@@ -47,6 +47,7 @@ https://leetcode.com/
 | 17   | Letter Combinations of a Phone Number                     | Medium     | JavaScript       |
 | 20   | Valid Parentheses                                         | Easy       | JavaScript, Java |
 | 21   | Merge Two Sorted Lists                                    | Easy       | JavaScript       |
+| 22   | Generate Parentheses                                      | Medium     | JavaScript       |
 | 24   | Swap Nodes in Pairs                                       | Medium     | JavaScript       |
 | 26   | Remove Duplicates from Sorted Array                       | Easy       | JavaScript       |
 | 27   | Remove Element                                            | Easy       | JavaScript       |
