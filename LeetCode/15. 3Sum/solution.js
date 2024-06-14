@@ -3,21 +3,31 @@
  * @return {number[][]}
  */
 function threeSum(nums) {
-  const map = new Map();
-  const sortedNums = nums.sort((num1, num2) => num1 - num2);
+  nums.sort((num1, num2) => num1 - num2);
 
-  for (let i = 0; i < sortedNums.length; i++) {
-    let num = sortedNums[i];
+  const result = [];
+
+  for (let i = 0; i < nums.length; i++) {
+    let num = nums[i];
     let left = i + 1;
-    let right = sortedNums.length - 1;
+    let right = nums.length - 1;
+
+    if (i > 0 && num === nums[i - 1]) {
+      continue;
+    }
 
     while (left < right) {
-      const numL = sortedNums[left];
-      const numR = sortedNums[right];
+      const numL = nums[left];
+      const numR = nums[right];
       const sum = num + numL + numR;
       if (sum === 0) {
-        const values = [num, numL, numR];
-        map.set(`${values}`, values);
+        result.push([num, numL, numR]);
+        while (numL === nums[left + 1]) {
+          left++;
+        }
+        while (numR === nums[right - 1]) {
+          right--;
+        }
       }
       if (sum < 0) {
         left++;
@@ -27,5 +37,5 @@ function threeSum(nums) {
     }
   }
 
-  return Array.from(map.values());
+  return result;
 }
