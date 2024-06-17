@@ -198,6 +198,7 @@ https://leetcode.com/
 | 704  | Binary Search                                             | Easy       | JavaScript       |
 | 720  | Longest Word in Dictionary                                | Easy       | JavaScript       |
 | 733  | Flood Fill                                                | Easy       | JavaScript       |
+| 739  | Daily Temperatures                                        | Medium     | JavaScript       |
 | 744  | Find Smallest Letter Greater Than Target                  | Easy       | JavaScript       |
 | 746  | Min Cost Climbing Stairs                                  | Easy       | JavaScript       |
 | 747  | Largest Number At Least Twice of Others                   | Easy       | JavaScript       |
