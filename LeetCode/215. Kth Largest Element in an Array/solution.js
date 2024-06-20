@@ -4,53 +4,44 @@
  * @return {number}
  */
 function findKthLargest(nums, k) {
-  // solution: min-heap
-  const heap = [-Infinity];
+  return heapify(nums, k)[1];
 
-  for (let i = 0; i < nums.length; i++) {
-    push(nums[i]);
-    pop();
-  }
+  function heapify(heap, k) {
+    heap.push(heap[0]);
 
-  return heap[1];
-
-  function push(val) {
-    if (heap.length === k + 1 && val < heap[1]) {
-      return;
+    // Sort
+    let i = Math.floor(heap.length / 2) + 1;
+    while (--i > 0) {
+      sort(i);
     }
 
-    heap.push(val);
-    let i1 = heap.length - 1;
-    let i0 = Math.floor(i1 / 2);
-    while (i0 >= 1 && heap[i0] > heap[i1]) {
-      [heap[i0], heap[i1]] = [heap[i1], heap[i0]];
-      i1 = i0;
-      i0 = Math.floor(i1 / 2);
+    // Pop
+    while (heap.length > k + 1) {
+      heap[1] = heap.pop();
+      sort(1);
     }
-  }
 
-  function pop() {
-    if (heap.length <= k + 1) {
-      return;
-    }
-    let i = 1;
-    heap[i] = heap.pop();
-    let l = 2 * i;
-    let r = l + 1;
-    let valL = heap[l];
-    let valR = heap[r] ?? Infinity;
-    while (l < heap.length && heap[i] > Math.min(valL, valR)) {
-      if (valL < valR) {
-        [heap[l], heap[i]] = [heap[i], valL];
-        i = l;
-      } else {
-        [heap[r], heap[i]] = [heap[i], valR];
-        i = r;
+    return heap;
+
+    function sort(i) {
+      let j = i;
+      let l = 2 * j;
+      let r = l + 1;
+      let valL = heap[l];
+      let valR = heap[r] ?? Infinity;
+      while (l < heap.length && heap[j] > Math.min(valL, valR)) {
+        if (valL < valR) {
+          [heap[l], heap[j]] = [heap[j], valL];
+          j = l;
+        } else {
+          [heap[r], heap[j]] = [heap[j], valR];
+          j = r;
+        }
+        l = 2 * j;
+        r = l + 1;
+        valL = heap[l];
+        valR = heap[r] ?? Infinity;
       }
-      l = 2 * i;
-      r = l + 1;
-      valL = heap[l];
-      valR = heap[r] ?? Infinity;
     }
   }
 }
