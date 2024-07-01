@@ -3,8 +3,8 @@
  * @return {number}
  */
 
-// Top down DP
-const climbStairs = function(n) {
+// Top down DP (recursion)
+function climbStairs(n) {
   const map = new Map();
   return helper(n);
 
@@ -16,24 +16,25 @@ const climbStairs = function(n) {
     map.set(i, val);
     return val;
   }
-};
+}
 
-// Bottom up DP
-const climbStairs = function(n) {
-  let curr = 1;
+// Bottom up DP (optimized)
+function climbStairs(n) {
   let prev = 1;
-  for (let i = 0; i <= n; i++) {
-    const val = curr + prev;
-    prev = curr;
-    curr = val;
+  let cur = 1;
+  for (let i = 1; i < n; i++) {
+    const next = prev + cur;
+    prev = cur;
+    cur = next;
   }
-  return curr;
-};
+  return cur;
+}
 
-const climbStairs = function(n) {
+// Bottom up DP (fundamental)
+function climbStairs(n) {
   const dp = [];
   for (let i = 0; i <= n; i++) {
     dp[i] = i <= 1 ? 1 : dp[i - 1] + dp[i - 2];
   }
   return dp[n];
-};
+}
