@@ -2,7 +2,7 @@
  * @param {number[]} cost
  * @return {number}
  */
-const minCostClimbingStairs = function(cost) {
+function minCostClimbingStairs(cost) {
   const results = new Array(2).fill(0);
 
   for (let i = cost.length - 1; i >= 0; i--) {
@@ -11,4 +11,18 @@ const minCostClimbingStairs = function(cost) {
   }
 
   return Math.min(...results);
-};
+}
+
+/**
+ * @param {number[]} cost
+ * @return {number}
+ */
+function minCostClimbingStairs2(cost) {
+  const mins = [cost[0], cost[1]];
+
+  for (let i = 2; i < cost.length; i++) {
+    [mins[0], mins[1]] = [mins[1], Math.min(...mins) + cost[i]];
+  }
+
+  return Math.min(...mins);
+}
