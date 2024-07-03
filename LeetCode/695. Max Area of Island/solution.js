@@ -2,29 +2,22 @@
  * @param {number[][]} grid
  * @return {number}
  */
-const maxAreaOfIsland = function(grid) {
+function maxAreaOfIsland(grid) {
   let max = 0;
-  for (let i = 0; i < grid.length; i++) {
-    const row = grid[i];
-    for (let j = 0; j < row.length; j++) {
-      if (!row[j]) {
-        continue;
-      }
-      max = Math.max(max, helper([i, j], 0));
+  const lenY = grid.length;
+  const lenX = grid[0].length;
+  for (let y = 0; y < lenY; y++) {
+    for (let x = 0; x < lenX; x++) {
+      max = Math.max(max, dfs(x, y));
     }
   }
   return max;
 
-  function helper([i, j], area) {
-    if (!grid[i] || !grid[i][j]) {
-      return area;
+  function dfs(x, y) {
+    if (x < 0 || y < 0 || x >= lenX || y >= lenY || grid[y][x] === 0) {
+      return 0;
     }
-    area++;
-    grid[i][j] = 0;
-    area = helper([i - 1, j], area);
-    area = helper([i, j - 1], area);
-    area = helper([i, j + 1], area);
-    area = helper([i + 1, j], area);
-    return area;
+    grid[y][x] = 0;
+    return 1 + dfs(x, y + 1) + dfs(x + 1, y) + dfs(x, y - 1) + dfs(x - 1, y);
   }
-};
+}
