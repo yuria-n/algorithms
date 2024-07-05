@@ -233,6 +233,7 @@ https://leetcode.com/
 | 973  | K Closest Points to Origin                                | Medium     | JavaScript       |
 | 983  | Minimum Cost For Tickets                                  | Medium     | JavaScript       |
 | 993  | Cousins in Binary Tree                                    | Easy       | JavaScript       |
+| 994  | Rotting Oranges                                           | Medium     | JavaScript       |
 | 997  | Find the Town Judge                                       | Easy       | JavaScript       |
 | 999  | Available Captures for Rook                               | Easy       | JavaScript       |
 | 1005 | Maximize Sum Of Array After K Negations                   | Easy       | JavaScript       |
