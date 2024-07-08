@@ -115,7 +115,7 @@ https://leetcode.com/
 | 173  | Binary Search Tree Iterator                               | Medium     | JavaScript       |
 | 189  | Rotate Array                                              | Easy       | JavaScript, Java |
 | 190  | Reverse Bits                                              | Easy       | Java             |
-| 191  | Number of 1 Bits                                          | Easy       | Java             |
+| 191  | Number of 1 Bits                                          | Easy       | JavaScript, Java |
 | 198  | House Robber                                              | Easy       | JavaScript       |
 | 199  | Binary Tree Right Side View                               | Medium     | JavaScript       |
 | 200  | Number of Islands                                         | Medium     | JavaScript       |
