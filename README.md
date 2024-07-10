@@ -152,6 +152,7 @@ https://leetcode.com/
 | 349  | Intersection of Two Arrays                                | Easy       | JavaScript       |
 | 350  | Intersection of Two Arrays II                             | Easy       | Java             |
 | 367  | Valid Perfect Square                                      | Easy       | JavaScript       |
+| 371  | Sum of Two Integers                                       | Medium     | JavaScript       |
 | 373  | Find K Pairs with Smallest Sums                           | Medium     | JavaScript       |
 | 380  | Insert Delete GetRandom O(1)                              | Medium     | JavaScript       |
 | 383  | Ransom Note                                               | Easy       | JavaScript       |
