@@ -1,5 +1,6 @@
 const { MaxPriorityQueue } = require("@datastructures-js/priority-queue");
 
+// Priority Queue
 /**
  * @param {character[]} tasks
  * @param {number} n
@@ -38,4 +39,30 @@ function leastInterval(tasks, n) {
   }
 
   return count;
+}
+
+// Without Priority Queue
+/**
+ * @param {character[]} tasks
+ * @param {number} n
+ * @return {number}
+ */
+function leastInterval(tasks, n) {
+  const charCodeA = "A".charCodeAt(0);
+  const counts = Array(26).fill(0);
+  let count = 0;
+  for (let task of tasks) {
+    const i = task.charCodeAt(0) - charCodeA;
+    counts[i]++;
+    if (counts[i] >= count) {
+      count = counts[i];
+    }
+  }
+  let time = (count - 1) * (n + 1);
+  for (let task of counts) {
+    if (task === count) {
+      time++;
+    }
+  }
+  return Math.max(tasks.length, time);
 }
