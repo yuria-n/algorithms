@@ -187,6 +187,7 @@ https://leetcode.com/
 | 599  | Minimum Index Sum of Two Lists                            | Easy       | JavaScript       |
 | 605  | Can Place Flowers                                         | Easy       | JavaScript       |
 | 617  | Merge Two Binary Trees                                    | Easy       | JavaScript       |
+| 621  | Task Scheduler                                            | Medium     | JavaScript       |
 | 633  | Sum of Square Numbers                                     | Easy       | JavaScript       |
 | 637  | Average of Levels in Binary Tree                          | Easy       | JavaScript       |
 | 643  | Maximum Average Subarray I                                | Easy       | JavaScript       |
