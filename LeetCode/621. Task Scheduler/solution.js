@@ -7,38 +7,36 @@ const { MaxPriorityQueue } = require("@datastructures-js/priority-queue");
  * @return {number}
  */
 function leastInterval(tasks, n) {
-  let counts = new Array(26).fill(0);
   const charCodeA = "A".charCodeAt(0);
-  for (const task of tasks) {
-    counts[task.charCodeAt(0) - charCodeA]++;
-  }
+  let counts = new Array(26).fill(0);
+  tasks.forEach((task) => counts[task.charCodeAt(0) - charCodeA]++);
 
-  let count = 0;
   const pq = new MaxPriorityQueue();
-  counts.filter((val) => val > 0).forEach((val) => pq.enqueue(val));
+  counts.filter((count) => count > 0).forEach((count) => pq.enqueue(count));
+
+  let interval = 0;
 
   while (!pq.isEmpty()) {
     counts = [];
 
-    let i = n;
-    while (i-- >= 0) {
+    let time = n;
+    while (time-- >= 0) {
       if (pq.isEmpty() && counts.length === 0) {
         break;
       }
-      count++;
-      if (!pq.isEmpty()) {
-        const val = pq.dequeue().element;
-        if (val === 1) {
-          continue;
-        }
-        counts.push(val - 1);
+      interval++;
+      if (pq.isEmpty()) {
+        continue;
+      }
+      const count = pq.dequeue().element;
+      if (count > 1) {
+        counts.push(count - 1);
       }
     }
-
-    counts.forEach((val) => pq.enqueue(val));
+    counts.forEach((count) => pq.enqueue(count));
   }
 
-  return count;
+  return interval;
 }
 
 // Without Priority Queue
