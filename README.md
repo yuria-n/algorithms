@@ -74,7 +74,7 @@ https://leetcode.com/
 | 78   | Subsets                                                   | Medium     | JavaScript       |
 | 79   | Word Search                                               | Medium     | JavaScript       |
 | 83   | Remove Duplicates from Sorted List                        | Easy       | JavaScript       |
-| 88   | Merge Sorted Array                                        | Easy       | JavaScript, Java |
+| 88   | Merge Sorted Array ``                                     | Easy       | JavaScript, Java |
 | 89   | Gray Code                                                 | Medium     | JavaScript       |
 | 90   | Subsets II                                                | Medium     | JavaScript       |
 | 94   | Binary Tree Inorder Traversal                             | Medium     | JavaScript       |
@@ -122,6 +122,7 @@ https://leetcode.com/
 | 200  | Number of Islands                                         | Medium     | JavaScript       |
 | 201  | Bitwise AND of Numbers Range                              | Medium     | JavaScript       |
 | 206  | Reverse Linked List                                       | Easy       | JavaScript       |
+| 207  | Course Schedule                                           | Medium     | JavaScript       |
 | 208  | Implement Trie (Prefix Tree)                              | Medium     | JavaScript       |
 | 209  | Minimum Size Subarray Sum                                 | Medium     | JavaScript       |
 | 210  | Course Schedule II                                        | Medium     | JavaScript       |
