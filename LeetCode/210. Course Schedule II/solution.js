@@ -4,21 +4,22 @@
  * @return {number[]}
  */
 function findOrder(numCourses, prerequisites) {
-  const dependents = Array.from({ length: numCourses }, () => new Set());
+  const courseList = Array.from({ length: numCourses }, () => []);
   const counts = Array.from({ length: numCourses }).fill(0);
-  for (const [a, b] of prerequisites) {
-    dependents[b].add(a);
-    counts[a]++;
+  for (const [c, p] of prerequisites) {
+    courseList[p].push(c);
+    counts[c]++;
   }
 
   const result = [];
-  for (let course = 0; course < counts.length; course++) {
-    if (counts[course] === 0) {
-      result.push(course);
+  for (let c = 0; c < numCourses; c++) {
+    if (counts[c] === 0) {
+      result.push(c);
     }
   }
-  for (let course = 0; course < result.length; course++) {
-    for (const c of dependents[result[course]]) {
+
+  for (const course of result) {
+    for (const c of courseList[course]) {
       if (--counts[c] === 0) {
         result.push(c);
       }
