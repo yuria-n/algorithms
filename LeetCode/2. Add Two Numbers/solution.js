@@ -25,3 +25,15 @@ function addTwoNumbers(l1, l2) {
   }
   return result.next;
 }
+
+// Recursion
+function addTwoNumbers(l1, l2, carry = 0) {
+  if (l1 == null && l2 == null && carry === 0) {
+    return null;
+  }
+  const val = carry + (l1?.val ?? 0) + (l2?.val ?? 0);
+  return new ListNode(
+    val % 10,
+    addTwoNumbers(l1?.next, l2?.next, Math.floor(val / 10)),
+  );
+}
