@@ -37,6 +37,7 @@ https://leetcode.com/
 | #    | Title                                                     | Difficulty | Language         |
 | :--- | :-------------------------------------------------------- | ---------- | :--------------- |
 | 1    | Two Sum                                                   | Easy       | JavaScript, Java |
+| 2    | Add Two Numbers                                           | Medium     | JavaScript       |
 | 3    | Longest Substring Without Repeating Characters            | Medium     | JavaScript       |
 | 7    | Reverse Integer                                           | Easy       | JavaScript, Java |
 | 9    | Palindrome Number                                         | Easy       | JavaScript, Java |
@@ -147,8 +148,8 @@ https://leetcode.com/
 | 289  | Game of Life                                              | Medium     | JavaScript       |
 | 297  | Serialize and Deserialize Binary Tree                     | Hard       | JavaScript       |
 | 338  | Counting Bit                                              | Easy       | JavaScript       |
-| 344  | Reverse String                                            | Easy       | JavaScript, Java |
 | 342  | Power of Four                                             | Easy       | JavaScript       |
+| 344  | Reverse String                                            | Easy       | JavaScript, Java |
 | 345  | Reverse Vowels of a String                                | Easy       | JavaScript       |
 | 347  | Top K Frequent Elements                                   | Medium     | JavaScript       |
 | 349  | Intersection of Two Arrays                                | Easy       | JavaScript       |
@@ -196,9 +197,9 @@ https://leetcode.com/
 | 645  | Set Mismatch                                              | Easy       | JavaScript       |
 | 658  | Find K Closest Elements                                   | Medium     | JavaScript       |
 | 660  | Remove 9                                                  | Hard       | Java             |
+| 669  | Trim a Binary Search Tree                                 | Easy       | JavaScript       |
 | 678  | Valid Parenthesis String                                  | Medium     | JavaScript       |
 | 680  | Valid Palindrome II                                       | Easy       | Java             |
-| 669  | Trim a Binary Search Tree                                 | Easy       | JavaScript       |
 | 695  | Max Area of Island                                        | Medium     | JavaScript       |
 | 700  | Search in a Binary Search Tree                            | Easy       | JavaScript       |
 | 704  | Binary Search                                             | Easy       | JavaScript       |
@@ -224,8 +225,8 @@ https://leetcode.com/
 | 852  | Peak Index in a Mountain Array                            | Easy       | JavaScript       |
 | 860  | Lemonade Change                                           | Easy       | JavaScript       |
 | 872  | eaf-Similar Trees                                         | Easy       | JavaScript       |
-| 876  | Middle of the Linked List                                 | Easy       | JavaScript       |
 | 875  | Koko Eating Bananas                                       | Medium     | JavaScript       |
+| 876  | Middle of the Linked List                                 | Easy       | JavaScript       |
 | 884  | Uncommon Words from Two Sentences                         | Easy       | JavaScript       |
 | 897  | Increasing Order Search Tree                              | Easy       | JavaScript       |
 | 905  | Sort Array By Parity                                      | Easy       | JavaScript       |

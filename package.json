@@ -34,7 +34,6 @@
     "@datastructures-js/priority-queue": "5.4.0"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
     "*.{js,md}": "prettier --write"
   }
 }
