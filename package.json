@@ -21,12 +21,12 @@
   "devDependencies": {
     "aigle": "~1.14.1",
     "axios": "^1.7.2",
-    "eslint": "~8.41.0",
+    "eslint": "^9.7.0",
     "gulp": "^5.0.0",
     "husky": ">=6",
     "lint-staged": ">=10",
     "minimist": "^1.2.8",
-    "prettier": "3.2.5",
+    "prettier": "^3.3.3",
     "prompt": "~1.3.0",
     "require-dir": "~1.2.0"
   },
