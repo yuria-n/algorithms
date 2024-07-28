@@ -22,31 +22,16 @@ function invertTree(root) {
 
 // BFS (stack)
 function invertTree(root) {
-  if (root === null) {
-    return root;
-  }
-
-  const head = new TreeNode();
-  const stack = [[root, head]];
+  const stack = [root];
 
   while (stack.length > 0) {
-    const [node, newNode] = stack.pop();
+    const node = stack.pop();
     if (node === null) {
       continue;
     }
-
-    newNode.val = node.val ?? null;
-
-    if (node.left) {
-      newNode.right = new TreeNode(null);
-      stack.push([node.left, newNode.right]);
-    }
-
-    if (node.right) {
-      newNode.left = new TreeNode(null);
-      stack.push([node.right, newNode.left]);
-    }
+    [node.left, node.right] = [node.right, node.left];
+    stack.push(node.left, node.right);
   }
 
-  return head;
+  return root;
 }
