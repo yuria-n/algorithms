@@ -4,13 +4,14 @@
  */
 function findLengthOfLCIS(nums) {
   let max = 1;
-  let start = 0;
-  let end = start;
-  while (++end <= nums.length) {
-    if (nums[end - 1] >= (nums[end] ?? -Infinity)) {
-      max = Math.max(max, end - start);
-      start = end;
+  let left = 0;
+  let right = left;
+  while (++right < nums.length) {
+    if (nums[right - 1] >= nums[right]) {
+      left = right;
+      continue;
     }
+    max = Math.max(max, right - left + 1);
   }
   return max;
 }
