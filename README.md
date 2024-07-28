@@ -198,6 +198,7 @@ https://leetcode.com/
 | 658  | Find K Closest Elements                                   | Medium     | JavaScript       |
 | 660  | Remove 9                                                  | Hard       | Java             |
 | 669  | Trim a Binary Search Tree                                 | Easy       | JavaScript       |
+| 674  | Longest Continuous Increasing Subsequence                 | Easy       | JavaScript       |
 | 678  | Valid Parenthesis String                                  | Medium     | JavaScript       |
 | 680  | Valid Palindrome II                                       | Easy       | Java             |
 | 695  | Max Area of Island                                        | Medium     | JavaScript       |
