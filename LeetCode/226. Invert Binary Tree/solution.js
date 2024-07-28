@@ -9,7 +9,7 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */
-const invertTree = function(root) {
+function invertTree(root) {
   if (root) {
     [root.left, root.right] = [root.right, root.left];
 
@@ -18,4 +18,35 @@ const invertTree = function(root) {
   }
 
   return root;
-};
+}
+
+// BFS (stack)
+function invertTree(root) {
+  if (root === null) {
+    return root;
+  }
+
+  const head = new TreeNode();
+  const stack = [[root, head]];
+
+  while (stack.length > 0) {
+    const [node, newNode] = stack.pop();
+    if (node === null) {
+      continue;
+    }
+
+    newNode.val = node.val ?? null;
+
+    if (node.left) {
+      newNode.right = new TreeNode(null);
+      stack.push([node.left, newNode.right]);
+    }
+
+    if (node.right) {
+      newNode.left = new TreeNode(null);
+      stack.push([node.right, newNode.left]);
+    }
+  }
+
+  return head;
+}
