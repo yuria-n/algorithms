@@ -2,14 +2,12 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-function containsDuplicate(nums) {
-  const map = {};
-  for (let i = 0; i < nums.length; i++) {
-    const n = nums[i];
-    if (map[n]) {
+function containsDuplicate4(nums) {
+  nums.sort((n1, n2) => n1 - n2);
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i - 1] === nums[i]) {
       return true;
     }
-    map[n] = true;
   }
   return false;
 }
