@@ -14,15 +14,16 @@ function cloneGraph(node) {
   if (node === null) {
     return null;
   }
-  const visited = new Map();
+
+  const visited = new Array(100).fill(null);
   return cloneNode(node);
 
   function cloneNode(node) {
-    if (visited.has(node.val)) {
-      return visited.get(node.val);
+    if (visited[node.val]) {
+      return visited[node.val];
     }
     const clone = new _Node(node.val);
-    visited.set(node.val, clone);
+    visited[node.val] = clone;
     clone.neighbors = node.neighbors.map((neighbor) => cloneNode(neighbor));
     return clone;
   }
