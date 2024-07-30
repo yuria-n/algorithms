@@ -2,16 +2,16 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findMin = function(nums) {
+function findMin(nums) {
   return Math.min(...nums);
-};
+}
 
 // O(n + 1)
-const findMin = function(nums) {
+function findMin(nums) {
   return nums.sort((a, b) => b - a)[0];
-};
+}
 
-const findMin = function(nums) {
+function findMin(nums) {
   let left = 0;
   let right = nums.length - 1;
   while (left < right) {
@@ -23,4 +23,4 @@ const findMin = function(nums) {
     }
   }
   return nums[left];
-};
+}
