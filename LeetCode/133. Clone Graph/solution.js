@@ -15,12 +15,13 @@ function cloneGraph(node) {
     return null;
   }
 
-  const visited = new Array(100).fill(null);
+  const visited = new Array(100).fill(undefined);
   return cloneNode(node);
 
   function cloneNode(node) {
-    if (visited[node.val]) {
-      return visited[node.val];
+    const cache = visited[node.val];
+    if (cache !== undefined) {
+      return cache;
     }
     const clone = new _Node(node.val);
     visited[node.val] = clone;
