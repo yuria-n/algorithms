@@ -1,5 +1,5 @@
 const numOfLetters = 26;
-const offset = 97;
+const offset = "a".charCodeAt(0);
 
 /**
  * @param {string} s
@@ -10,11 +10,10 @@ function isAnagram(s, t) {
   if (s.length !== t.length) {
     return false;
   }
-  const arrS = new Array(numOfLetters).fill(0);
-  const arrT = new Array(numOfLetters).fill(0);
+  const counts = new Array(numOfLetters).fill(0);
   for (let i = 0; i < s.length; i++) {
-    arrS[s[i].charCodeAt() - offset]++;
-    arrT[t[i].charCodeAt() - offset]++;
+    counts[s.charCodeAt(i) - offset]++;
+    counts[t.charCodeAt(i) - offset]--;
   }
-  return arrS.every((n, i) => n === arrT[i]);
+  return counts.every((count) => count === 0);
 }
