@@ -3,6 +3,11 @@
  * @return {boolean}
  */
 function isPalindrome(s) {
+  s = s.replace(/[^a-z0-9]/gi, "").toLowerCase();
+  return s === s.split("").reverse().join("");
+}
+
+function isPalindrome(s) {
   s = s.toLowerCase().replace(/\W/g, "");
   const l = s.length;
   for (let i = 0; i < parseInt(l / 2); i++) {
@@ -13,10 +18,6 @@ function isPalindrome(s) {
   return true;
 }
 
-/**
- * @param {string} s
- * @return {boolean}
- */
 function isPalindrome(s) {
   const regex = /[0-9a-z]/;
   let left = 0;
