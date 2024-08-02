@@ -1,7 +1,7 @@
-/**
- * @param {number} capacity
- */
 class LRUCache {
+  /**
+   * @param {number} capacity
+   */
   constructor(capacity) {
     this.capacity = capacity;
     this.cache = new Map();
