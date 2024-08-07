@@ -3,40 +3,20 @@
  * @return {boolean}
  */
 function isValid(s) {
-    let stack = [];
-    for (let i = 0; i < s.length; i++) {
-        const c = s.charAt(i);
-        switch (c) {
-            case '(':
-            case '{':
-            case '[':
-                stack[stack.length] = c;
-                break;
-            case ')':
-                 stack[stack.length - 1] === '(' ? stack.pop() : stack[stack.length] = c;
-                break;
-            case '}':
-                stack[stack.length - 1] === '{' ? stack.pop() : stack[stack.length] = c;
-                break;
-            case ']':
-                stack[stack.length - 1] === '[' ? stack.pop() : stack[stack.length] = c;
-                break;
-        }
+  const map = new Map([
+    ["(", ")"],
+    ["[", "]"],
+    ["{", "}"],
+  ]);
+  const stack = [];
+  for (const c of s) {
+    if (map.has(c)) {
+      stack.push(map.get(c));
+      continue;
     }
-    return stack.length === 0;
-}
-
-function isValid2(s) {
-    const parenMap = new Map([['(', ')'], ['[', ']'], ['{', '}']]);
-    const stack = [];
-    for (const p of s) {
-        if (parenMap.has(p)) {
-            stack.push(parenMap.get(p));
-            continue;
-        }
-        if (p !== stack.pop()) {
-            return false;
-        }
+    if (c !== stack.pop()) {
+      return false;
     }
-    return stack.length === 0;
+  }
+  return stack.length === 0;
 }
