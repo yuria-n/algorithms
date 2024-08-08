@@ -12,30 +12,25 @@
  * @return {ListNode}
  */
 function reverseBetween(head, left, right) {
-  head = new ListNode(null, head);
-  let curNode = find(head, left - 1);
-  const endNode = find(head, right);
-  const tail = endNode.next;
-  endNode.next = null;
-  curNode.next = reverse(curNode.next);
-  while (curNode?.next) {
-    curNode = curNode.next;
-  }
-  curNode.next = tail;
-  return head.next;
-
-  function find(node, count) {
-    if (count <= 0) {
-      return node;
-    }
-    return find(node.next, count - 1);
-  }
-
-  function reverse(node) {
-    let head = null;
-    while (node) {
-      [head, head.next, node] = [node, head, node.next];
-    }
+  if (head === null || left === right) {
     return head;
   }
+
+  head = new ListNode(null, head);
+  let cur = head;
+
+  for (let i = 1; i < left; i++) {
+    cur = cur.next;
+  }
+  let tail = cur.next;
+
+  for (let i = 1; i <= right - left; i++) {
+    [tail.next, cur.next, cur.next.next] = [
+      tail.next.next,
+      tail.next,
+      cur.next,
+    ];
+  }
+
+  return head.next;
 }
