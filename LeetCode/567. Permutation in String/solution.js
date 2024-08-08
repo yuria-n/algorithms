@@ -56,3 +56,45 @@ function checkInclusion2(s1, s2) {
 function charCodeAt(s, i) {
   return s.charCodeAt(i) - 97;
 }
+
+/**
+ * @param {string} s1
+ * @param {string} s2
+ * @return {boolean}
+ */
+function checkInclusion3(s1, s2) {
+  const map = new Map();
+  addToMap(s1);
+
+  let left = 0;
+  let right = left;
+  while (right < s2.length) {
+    const cr = s2[right];
+    if (!map.has(cr)) {
+      if (left === right) {
+        left++;
+        right = left;
+        continue;
+      }
+      addToMap(s2[left]);
+      left++;
+      continue;
+    }
+    if (map.get(cr) === 1) {
+      map.delete(cr);
+    } else {
+      map.set(cr, map.get(cr) - 1);
+    }
+    if (map.size === 0) {
+      return true;
+    }
+    right++;
+  }
+  return false;
+
+  function addToMap(str) {
+    for (const c of str) {
+      map.set(c, (map.has(c) ? map.get(c) : 0) + 1);
+    }
+  }
+}
