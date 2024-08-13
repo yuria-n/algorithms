@@ -4,53 +4,21 @@
  * @return {number[][]}
  */
 function insert(intervals, newInterval) {
-  if (intervals.length === 0) {
-    return [newInterval];
-  }
+  const result = [];
 
-  let startIndex = -1;
   for (let i = 0; i < intervals.length; i++) {
-    if (intervals[i][0] > newInterval[0]) {
-      break;
+    const [newStart, newEnd] = newInterval;
+    const [curStart, curEnd] = intervals[i];
+    if (newEnd < curStart) {
+      result.push(newInterval);
+      return [...result, ...intervals.slice(i)];
     }
-    startIndex = i;
-  }
-
-  let endIndex = -1;
-  for (let i = 0; i < intervals.length; i++) {
-    if (intervals[i][0] > newInterval[1]) {
-      break;
+    if (newStart > curEnd) {
+      result.push(intervals[i]);
+      continue;
     }
-    endIndex = i;
+    newInterval = [Math.min(newStart, curStart), Math.max(newEnd, curEnd)];
   }
-
-  if (startIndex === -1 && endIndex === -1) {
-    intervals.unshift(newInterval);
-    return intervals;
-  }
-
-  if (
-    startIndex === endIndex &&
-    startIndex === intervals.length - 1 &&
-    newInterval[0] > intervals[startIndex][1] &&
-    newInterval[1] > intervals[startIndex][1]
-  ) {
-    intervals.push(newInterval);
-    return intervals;
-  }
-
-  if (
-    intervals[startIndex]?.[1] < newInterval[0] &&
-    intervals[startIndex + 1]?.[0] > newInterval[0]
-  ) {
-    startIndex++;
-  }
-
-  const x = Math.min(intervals[startIndex]?.[0] ?? Infinity, newInterval[0]);
-  const y = Math.max(intervals[endIndex]?.[1] ?? -Infinity, newInterval[1]);
-  return [
-    ...intervals.slice(0, Math.max(startIndex, 0)),
-    [x, y],
-    ...intervals.slice(endIndex + 1),
-  ];
+  result.push(newInterval);
+  return result;
 }
