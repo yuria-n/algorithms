@@ -169,6 +169,7 @@ https://leetcode.com/
 | 409  | Longest Palindrome                                        | Easy       | JavaScript       |
 | 412  | Fizz Buzz                                                 | Easy       | JavaScript, Java |
 | 424  | Longest Repeating Character Replacement                   | Medium     | JavaScript       |
+| 435  | Non-overlapping Intervals                                 | Medium     | JavaScript       |
 | 443  | String Compression                                        | Easy       | JavaScript       |
 | 448  | Find All Numbers Disappeared in an Array                  | Easy       | Java             |
 | 479  | Largest Palindrome Product                                | Hard       | Java             |
