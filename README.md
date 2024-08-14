@@ -149,6 +149,7 @@ https://leetcode.com/
 | 283  | Move Zeroes                                               | Easy       | JavaScript       |
 | 289  | Game of Life                                              | Medium     | JavaScript       |
 | 297  | Serialize and Deserialize Binary Tree                     | Hard       | JavaScript       |
+| 323  | Number of Connected Components in an Undirected Graph     | Medium     | JavaScript       |
 | 338  | Counting Bit                                              | Easy       | JavaScript       |
 | 342  | Power of Four                                             | Easy       | JavaScript       |
 | 344  | Reverse String                                            | Easy       | JavaScript, Java |
