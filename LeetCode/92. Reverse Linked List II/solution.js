@@ -17,18 +17,19 @@ function reverseBetween(head, left, right) {
   }
 
   head = new ListNode(null, head);
-  let cur = head;
+  let node = head;
 
-  for (let i = 1; i < left; i++) {
-    cur = cur.next;
+  for (let i = 0; i < left - 1; i++) {
+    node = node.next;
   }
-  let tail = cur.next;
 
-  for (let i = 1; i <= right - left; i++) {
-    [tail.next, cur.next, cur.next.next] = [
-      tail.next.next,
+  let tail = node.next;
+
+  for (let i = left; i < right; i++) {
+    [node.next, node.next.next, tail.next] = [
       tail.next,
-      cur.next,
+      node.next,
+      tail.next.next,
     ];
   }
 
