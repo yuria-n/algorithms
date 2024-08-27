@@ -17,3 +17,7 @@ function isAnagram(s, t) {
   }
   return counts.every((count) => count === 0);
 }
+
+function isAnagram(s, t) {
+  return s.split("").sort().join("") === t.split("").sort().join("");
+}
