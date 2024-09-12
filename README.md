@@ -205,6 +205,7 @@ https://leetcode.com/
 | 674  | Longest Continuous Increasing Subsequence                 | Easy       | JavaScript       |
 | 678  | Valid Parenthesis String                                  | Medium     | JavaScript       |
 | 680  | Valid Palindrome II                                       | Easy       | Java             |
+| 684  | Redundant Connection                                      | Medium     | JavaScript       |
 | 695  | Max Area of Island                                        | Medium     | JavaScript       |
 | 700  | Search in a Binary Search Tree                            | Easy       | JavaScript       |
 | 704  | Binary Search                                             | Easy       | JavaScript       |
